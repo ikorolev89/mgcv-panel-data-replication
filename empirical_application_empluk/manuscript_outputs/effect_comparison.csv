@@ -1,0 +1,1621 @@
+"model","variable","label","x","estimate"
+"Linear FE","log_wage","Log wages",2.31280165560202,0.190185316275089
+"Linear FE","log_wage","Log wages",2.31995942690189,0.18806034067425
+"Linear FE","log_wage","Log wages",2.32711719820175,0.185935365073411
+"Linear FE","log_wage","Log wages",2.33427496950161,0.183810389472572
+"Linear FE","log_wage","Log wages",2.34143274080147,0.181685413871733
+"Linear FE","log_wage","Log wages",2.34859051210133,0.179560438270894
+"Linear FE","log_wage","Log wages",2.3557482834012,0.177435462670055
+"Linear FE","log_wage","Log wages",2.36290605470106,0.175310487069216
+"Linear FE","log_wage","Log wages",2.37006382600092,0.173185511468377
+"Linear FE","log_wage","Log wages",2.37722159730078,0.171060535867538
+"Linear FE","log_wage","Log wages",2.38437936860064,0.168935560266699
+"Linear FE","log_wage","Log wages",2.39153713990051,0.16681058466586
+"Linear FE","log_wage","Log wages",2.39869491120037,0.164685609065021
+"Linear FE","log_wage","Log wages",2.40585268250023,0.162560633464182
+"Linear FE","log_wage","Log wages",2.41301045380009,0.160435657863343
+"Linear FE","log_wage","Log wages",2.42016822509996,0.158310682262504
+"Linear FE","log_wage","Log wages",2.42732599639982,0.156185706661665
+"Linear FE","log_wage","Log wages",2.43448376769968,0.154060731060826
+"Linear FE","log_wage","Log wages",2.44164153899954,0.151935755459987
+"Linear FE","log_wage","Log wages",2.4487993102994,0.149810779859148
+"Linear FE","log_wage","Log wages",2.45595708159927,0.147685804258309
+"Linear FE","log_wage","Log wages",2.46311485289913,0.14556082865747
+"Linear FE","log_wage","Log wages",2.47027262419899,0.143435853056631
+"Linear FE","log_wage","Log wages",2.47743039549885,0.141310877455792
+"Linear FE","log_wage","Log wages",2.48458816679871,0.139185901854953
+"Linear FE","log_wage","Log wages",2.49174593809858,0.137060926254114
+"Linear FE","log_wage","Log wages",2.49890370939844,0.134935950653275
+"Linear FE","log_wage","Log wages",2.5060614806983,0.132810975052436
+"Linear FE","log_wage","Log wages",2.51321925199816,0.130685999451597
+"Linear FE","log_wage","Log wages",2.52037702329803,0.128561023850758
+"Linear FE","log_wage","Log wages",2.52753479459789,0.126436048249919
+"Linear FE","log_wage","Log wages",2.53469256589775,0.12431107264908
+"Linear FE","log_wage","Log wages",2.54185033719761,0.122186097048241
+"Linear FE","log_wage","Log wages",2.54900810849747,0.120061121447402
+"Linear FE","log_wage","Log wages",2.55616587979734,0.117936145846563
+"Linear FE","log_wage","Log wages",2.5633236510972,0.115811170245724
+"Linear FE","log_wage","Log wages",2.57048142239706,0.113686194644885
+"Linear FE","log_wage","Log wages",2.57763919369692,0.111561219044046
+"Linear FE","log_wage","Log wages",2.58479696499678,0.109436243443207
+"Linear FE","log_wage","Log wages",2.59195473629665,0.107311267842368
+"Linear FE","log_wage","Log wages",2.59911250759651,0.105186292241529
+"Linear FE","log_wage","Log wages",2.60627027889637,0.10306131664069
+"Linear FE","log_wage","Log wages",2.61342805019623,0.100936341039851
+"Linear FE","log_wage","Log wages",2.6205858214961,0.0988113654390124
+"Linear FE","log_wage","Log wages",2.62774359279596,0.0966863898381734
+"Linear FE","log_wage","Log wages",2.63490136409582,0.0945614142373345
+"Linear FE","log_wage","Log wages",2.64205913539568,0.0924364386364955
+"Linear FE","log_wage","Log wages",2.64921690669554,0.0903114630356566
+"Linear FE","log_wage","Log wages",2.65637467799541,0.0881864874348176
+"Linear FE","log_wage","Log wages",2.66353244929527,0.0860615118339787
+"Linear FE","log_wage","Log wages",2.67069022059513,0.0839365362331396
+"Linear FE","log_wage","Log wages",2.67784799189499,0.0818115606323006
+"Linear FE","log_wage","Log wages",2.68500576319485,0.0796865850314617
+"Linear FE","log_wage","Log wages",2.69216353449472,0.0775616094306227
+"Linear FE","log_wage","Log wages",2.69932130579458,0.0754366338297838
+"Linear FE","log_wage","Log wages",2.70647907709444,0.0733116582289447
+"Linear FE","log_wage","Log wages",2.7136368483943,0.0711866826281057
+"Linear FE","log_wage","Log wages",2.72079461969417,0.0690617070272668
+"Linear FE","log_wage","Log wages",2.72795239099403,0.0669367314264278
+"Linear FE","log_wage","Log wages",2.73511016229389,0.0648117558255889
+"Linear FE","log_wage","Log wages",2.74226793359375,0.0626867802247499
+"Linear FE","log_wage","Log wages",2.74942570489361,0.0605618046239108
+"Linear FE","log_wage","Log wages",2.75658347619348,0.0584368290230719
+"Linear FE","log_wage","Log wages",2.76374124749334,0.0563118534222329
+"Linear FE","log_wage","Log wages",2.7708990187932,0.054186877821394
+"Linear FE","log_wage","Log wages",2.77805679009306,0.052061902220555
+"Linear FE","log_wage","Log wages",2.78521456139292,0.049936926619716
+"Linear FE","log_wage","Log wages",2.79237233269279,0.047811951018877
+"Linear FE","log_wage","Log wages",2.79953010399265,0.045686975418038
+"Linear FE","log_wage","Log wages",2.80668787529251,0.043561999817199
+"Linear FE","log_wage","Log wages",2.81384564659237,0.0414370242163601
+"Linear FE","log_wage","Log wages",2.82100341789223,0.0393120486155211
+"Linear FE","log_wage","Log wages",2.8281611891921,0.037187073014682
+"Linear FE","log_wage","Log wages",2.83531896049196,0.0350620974138431
+"Linear FE","log_wage","Log wages",2.84247673179182,0.0329371218130041
+"Linear FE","log_wage","Log wages",2.84963450309168,0.0308121462121652
+"Linear FE","log_wage","Log wages",2.85679227439155,0.0286871706113262
+"Linear FE","log_wage","Log wages",2.86395004569141,0.0265621950104871
+"Linear FE","log_wage","Log wages",2.87110781699127,0.0244372194096483
+"Linear FE","log_wage","Log wages",2.87826558829113,0.0223122438088092
+"Linear FE","log_wage","Log wages",2.88542335959099,0.0201872682079703
+"Linear FE","log_wage","Log wages",2.89258113089086,0.0180622926071313
+"Linear FE","log_wage","Log wages",2.89973890219072,0.0159373170062924
+"Linear FE","log_wage","Log wages",2.90689667349058,0.0138123414054534
+"Linear FE","log_wage","Log wages",2.91405444479044,0.0116873658046143
+"Linear FE","log_wage","Log wages",2.9212122160903,0.00956239020377536
+"Linear FE","log_wage","Log wages",2.92836998739017,0.00743741460293641
+"Linear FE","log_wage","Log wages",2.93552775869003,0.00531243900209745
+"Linear FE","log_wage","Log wages",2.94268552998989,0.0031874634012585
+"Linear FE","log_wage","Log wages",2.94984330128975,0.00106248780041941
+"Linear FE","log_wage","Log wages",2.95700107258962,-0.00106248780041954
+"Linear FE","log_wage","Log wages",2.96415884388948,-0.0031874634012585
+"Linear FE","log_wage","Log wages",2.97131661518934,-0.00531243900209745
+"Linear FE","log_wage","Log wages",2.9784743864892,-0.00743741460293641
+"Linear FE","log_wage","Log wages",2.98563215778906,-0.00956239020377536
+"Linear FE","log_wage","Log wages",2.99278992908893,-0.0116873658046143
+"Linear FE","log_wage","Log wages",2.99994770038879,-0.0138123414054534
+"Linear FE","log_wage","Log wages",3.00710547168865,-0.0159373170062924
+"Linear FE","log_wage","Log wages",3.01426324298851,-0.0180622926071313
+"Linear FE","log_wage","Log wages",3.02142101428837,-0.0201872682079703
+"Linear FE","log_wage","Log wages",3.02857878558824,-0.0223122438088092
+"Linear FE","log_wage","Log wages",3.0357365568881,-0.0244372194096483
+"Linear FE","log_wage","Log wages",3.04289432818796,-0.0265621950104873
+"Linear FE","log_wage","Log wages",3.05005209948782,-0.0286871706113262
+"Linear FE","log_wage","Log wages",3.05720987078769,-0.0308121462121652
+"Linear FE","log_wage","Log wages",3.06436764208755,-0.0329371218130041
+"Linear FE","log_wage","Log wages",3.07152541338741,-0.0350620974138432
+"Linear FE","log_wage","Log wages",3.07868318468727,-0.037187073014682
+"Linear FE","log_wage","Log wages",3.08584095598713,-0.0393120486155211
+"Linear FE","log_wage","Log wages",3.092998727287,-0.0414370242163601
+"Linear FE","log_wage","Log wages",3.10015649858686,-0.043561999817199
+"Linear FE","log_wage","Log wages",3.10731426988672,-0.045686975418038
+"Linear FE","log_wage","Log wages",3.11447204118658,-0.047811951018877
+"Linear FE","log_wage","Log wages",3.12162981248644,-0.049936926619716
+"Linear FE","log_wage","Log wages",3.12878758378631,-0.052061902220555
+"Linear FE","log_wage","Log wages",3.13594535508617,-0.054186877821394
+"Linear FE","log_wage","Log wages",3.14310312638603,-0.0563118534222329
+"Linear FE","log_wage","Log wages",3.15026089768589,-0.0584368290230719
+"Linear FE","log_wage","Log wages",3.15741866898576,-0.060561804623911
+"Linear FE","log_wage","Log wages",3.16457644028562,-0.0626867802247499
+"Linear FE","log_wage","Log wages",3.17173421158548,-0.0648117558255889
+"Linear FE","log_wage","Log wages",3.17889198288534,-0.0669367314264278
+"Linear FE","log_wage","Log wages",3.1860497541852,-0.0690617070272668
+"Linear FE","log_wage","Log wages",3.19320752548507,-0.0711866826281059
+"Linear FE","log_wage","Log wages",3.20036529678493,-0.0733116582289447
+"Linear FE","log_wage","Log wages",3.20752306808479,-0.0754366338297838
+"Linear FE","log_wage","Log wages",3.21468083938465,-0.0775616094306227
+"Linear FE","log_wage","Log wages",3.22183861068451,-0.0796865850314617
+"Linear FE","log_wage","Log wages",3.22899638198438,-0.0818115606323006
+"Linear FE","log_wage","Log wages",3.23615415328424,-0.0839365362331396
+"Linear FE","log_wage","Log wages",3.2433119245841,-0.0860615118339787
+"Linear FE","log_wage","Log wages",3.25046969588396,-0.0881864874348176
+"Linear FE","log_wage","Log wages",3.25762746718383,-0.0903114630356566
+"Linear FE","log_wage","Log wages",3.26478523848369,-0.0924364386364955
+"Linear FE","log_wage","Log wages",3.27194300978355,-0.0945614142373345
+"Linear FE","log_wage","Log wages",3.27910078108341,-0.0966863898381736
+"Linear FE","log_wage","Log wages",3.28625855238327,-0.0988113654390125
+"Linear FE","log_wage","Log wages",3.29341632368314,-0.100936341039851
+"Linear FE","log_wage","Log wages",3.300574094983,-0.10306131664069
+"Linear FE","log_wage","Log wages",3.30773186628286,-0.105186292241529
+"Linear FE","log_wage","Log wages",3.31488963758272,-0.107311267842368
+"Linear FE","log_wage","Log wages",3.32204740888258,-0.109436243443207
+"Linear FE","log_wage","Log wages",3.32920518018245,-0.111561219044046
+"Linear FE","log_wage","Log wages",3.33636295148231,-0.113686194644885
+"Linear FE","log_wage","Log wages",3.34352072278217,-0.115811170245724
+"Linear FE","log_wage","Log wages",3.35067849408203,-0.117936145846563
+"Linear FE","log_wage","Log wages",3.3578362653819,-0.120061121447402
+"Linear FE","log_wage","Log wages",3.36499403668176,-0.122186097048241
+"Linear FE","log_wage","Log wages",3.37215180798162,-0.12431107264908
+"Linear FE","log_wage","Log wages",3.37930957928148,-0.126436048249919
+"Linear FE","log_wage","Log wages",3.38646735058134,-0.128561023850758
+"Linear FE","log_wage","Log wages",3.39362512188121,-0.130685999451597
+"Linear FE","log_wage","Log wages",3.40078289318107,-0.132810975052436
+"Linear FE","log_wage","Log wages",3.40794066448093,-0.134935950653275
+"Linear FE","log_wage","Log wages",3.41509843578079,-0.137060926254114
+"Linear FE","log_wage","Log wages",3.42225620708065,-0.139185901854953
+"Linear FE","log_wage","Log wages",3.42941397838052,-0.141310877455792
+"Linear FE","log_wage","Log wages",3.43657174968038,-0.143435853056631
+"Linear FE","log_wage","Log wages",3.44372952098024,-0.14556082865747
+"Linear FE","log_wage","Log wages",3.4508872922801,-0.147685804258309
+"Linear FE","log_wage","Log wages",3.45804506357997,-0.149810779859148
+"Linear FE","log_wage","Log wages",3.46520283487983,-0.151935755459987
+"Linear FE","log_wage","Log wages",3.47236060617969,-0.154060731060826
+"Linear FE","log_wage","Log wages",3.47951837747955,-0.156185706661665
+"Linear FE","log_wage","Log wages",3.48667614877941,-0.158310682262504
+"Linear FE","log_wage","Log wages",3.49383392007928,-0.160435657863343
+"Linear FE","log_wage","Log wages",3.50099169137914,-0.162560633464182
+"Linear FE","log_wage","Log wages",3.508149462679,-0.164685609065021
+"Linear FE","log_wage","Log wages",3.51530723397886,-0.16681058466586
+"Linear FE","log_wage","Log wages",3.52246500527872,-0.168935560266699
+"Linear FE","log_wage","Log wages",3.52962277657859,-0.171060535867538
+"Linear FE","log_wage","Log wages",3.53678054787845,-0.173185511468377
+"Linear FE","log_wage","Log wages",3.54393831917831,-0.175310487069216
+"Linear FE","log_wage","Log wages",3.55109609047817,-0.177435462670055
+"Linear FE","log_wage","Log wages",3.55825386177803,-0.179560438270894
+"Linear FE","log_wage","Log wages",3.5654116330779,-0.181685413871733
+"Linear FE","log_wage","Log wages",3.57256940437776,-0.183810389472572
+"Linear FE","log_wage","Log wages",3.57972717567762,-0.185935365073411
+"Linear FE","log_wage","Log wages",3.58688494697748,-0.18806034067425
+"Linear FE","log_wage","Log wages",3.59404271827735,-0.190185316275089
+"Partially linear FE","log_wage","Log wages",2.31280165560202,0.218631104464512
+"Partially linear FE","log_wage","Log wages",2.31995942690189,0.216188298828037
+"Partially linear FE","log_wage","Log wages",2.32711719820175,0.213745493191562
+"Partially linear FE","log_wage","Log wages",2.33427496950161,0.211302687555087
+"Partially linear FE","log_wage","Log wages",2.34143274080147,0.208859881918612
+"Partially linear FE","log_wage","Log wages",2.34859051210133,0.206417076282137
+"Partially linear FE","log_wage","Log wages",2.3557482834012,0.203974270645662
+"Partially linear FE","log_wage","Log wages",2.36290605470106,0.201531465009187
+"Partially linear FE","log_wage","Log wages",2.37006382600092,0.199088659372712
+"Partially linear FE","log_wage","Log wages",2.37722159730078,0.196645853736237
+"Partially linear FE","log_wage","Log wages",2.38437936860064,0.194203048099762
+"Partially linear FE","log_wage","Log wages",2.39153713990051,0.191760242463287
+"Partially linear FE","log_wage","Log wages",2.39869491120037,0.189317436826812
+"Partially linear FE","log_wage","Log wages",2.40585268250023,0.186874631190337
+"Partially linear FE","log_wage","Log wages",2.41301045380009,0.184431825553862
+"Partially linear FE","log_wage","Log wages",2.42016822509996,0.181989019917387
+"Partially linear FE","log_wage","Log wages",2.42732599639982,0.179546214280912
+"Partially linear FE","log_wage","Log wages",2.43448376769968,0.177103408644437
+"Partially linear FE","log_wage","Log wages",2.44164153899954,0.174660603007962
+"Partially linear FE","log_wage","Log wages",2.4487993102994,0.172217797371487
+"Partially linear FE","log_wage","Log wages",2.45595708159927,0.169774991735012
+"Partially linear FE","log_wage","Log wages",2.46311485289913,0.167332186098537
+"Partially linear FE","log_wage","Log wages",2.47027262419899,0.164889380462062
+"Partially linear FE","log_wage","Log wages",2.47743039549885,0.162446574825587
+"Partially linear FE","log_wage","Log wages",2.48458816679871,0.160003769189112
+"Partially linear FE","log_wage","Log wages",2.49174593809858,0.157560963552637
+"Partially linear FE","log_wage","Log wages",2.49890370939844,0.155118157916162
+"Partially linear FE","log_wage","Log wages",2.5060614806983,0.152675352279687
+"Partially linear FE","log_wage","Log wages",2.51321925199816,0.150232546643212
+"Partially linear FE","log_wage","Log wages",2.52037702329803,0.147789741006737
+"Partially linear FE","log_wage","Log wages",2.52753479459789,0.145346935370262
+"Partially linear FE","log_wage","Log wages",2.53469256589775,0.142904129733787
+"Partially linear FE","log_wage","Log wages",2.54185033719761,0.140461324097312
+"Partially linear FE","log_wage","Log wages",2.54900810849747,0.138018518460837
+"Partially linear FE","log_wage","Log wages",2.55616587979734,0.135575712824362
+"Partially linear FE","log_wage","Log wages",2.5633236510972,0.133132907187887
+"Partially linear FE","log_wage","Log wages",2.57048142239706,0.130690101551412
+"Partially linear FE","log_wage","Log wages",2.57763919369692,0.128247295914937
+"Partially linear FE","log_wage","Log wages",2.58479696499678,0.125804490278462
+"Partially linear FE","log_wage","Log wages",2.59195473629665,0.123361684641987
+"Partially linear FE","log_wage","Log wages",2.59911250759651,0.120918879005512
+"Partially linear FE","log_wage","Log wages",2.60627027889637,0.118476073369037
+"Partially linear FE","log_wage","Log wages",2.61342805019623,0.116033267732562
+"Partially linear FE","log_wage","Log wages",2.6205858214961,0.113590462096087
+"Partially linear FE","log_wage","Log wages",2.62774359279596,0.111147656459612
+"Partially linear FE","log_wage","Log wages",2.63490136409582,0.108704850823137
+"Partially linear FE","log_wage","Log wages",2.64205913539568,0.106262045186662
+"Partially linear FE","log_wage","Log wages",2.64921690669554,0.103819239550187
+"Partially linear FE","log_wage","Log wages",2.65637467799541,0.101376433913712
+"Partially linear FE","log_wage","Log wages",2.66353244929527,0.0989336282772375
+"Partially linear FE","log_wage","Log wages",2.67069022059513,0.0964908226407624
+"Partially linear FE","log_wage","Log wages",2.67784799189499,0.0940480170042874
+"Partially linear FE","log_wage","Log wages",2.68500576319485,0.0916052113678124
+"Partially linear FE","log_wage","Log wages",2.69216353449472,0.0891624057313374
+"Partially linear FE","log_wage","Log wages",2.69932130579458,0.0867196000948625
+"Partially linear FE","log_wage","Log wages",2.70647907709444,0.0842767944583873
+"Partially linear FE","log_wage","Log wages",2.7136368483943,0.0818339888219124
+"Partially linear FE","log_wage","Log wages",2.72079461969417,0.0793911831854374
+"Partially linear FE","log_wage","Log wages",2.72795239099403,0.0769483775489624
+"Partially linear FE","log_wage","Log wages",2.73511016229389,0.0745055719124875
+"Partially linear FE","log_wage","Log wages",2.74226793359375,0.0720627662760125
+"Partially linear FE","log_wage","Log wages",2.74942570489361,0.0696199606395374
+"Partially linear FE","log_wage","Log wages",2.75658347619348,0.0671771550030624
+"Partially linear FE","log_wage","Log wages",2.76374124749334,0.0647343493665874
+"Partially linear FE","log_wage","Log wages",2.7708990187932,0.0622915437301125
+"Partially linear FE","log_wage","Log wages",2.77805679009306,0.0598487380936375
+"Partially linear FE","log_wage","Log wages",2.78521456139292,0.0574059324571625
+"Partially linear FE","log_wage","Log wages",2.79237233269279,0.0549631268206874
+"Partially linear FE","log_wage","Log wages",2.79953010399265,0.0525203211842124
+"Partially linear FE","log_wage","Log wages",2.80668787529251,0.0500775155477374
+"Partially linear FE","log_wage","Log wages",2.81384564659237,0.0476347099112625
+"Partially linear FE","log_wage","Log wages",2.82100341789223,0.0451919042747875
+"Partially linear FE","log_wage","Log wages",2.8281611891921,0.0427490986383124
+"Partially linear FE","log_wage","Log wages",2.83531896049196,0.0403062930018374
+"Partially linear FE","log_wage","Log wages",2.84247673179182,0.0378634873653624
+"Partially linear FE","log_wage","Log wages",2.84963450309168,0.0354206817288875
+"Partially linear FE","log_wage","Log wages",2.85679227439155,0.0329778760924125
+"Partially linear FE","log_wage","Log wages",2.86395004569141,0.0305350704559374
+"Partially linear FE","log_wage","Log wages",2.87110781699127,0.0280922648194626
+"Partially linear FE","log_wage","Log wages",2.87826558829113,0.0256494591829874
+"Partially linear FE","log_wage","Log wages",2.88542335959099,0.0232066535465125
+"Partially linear FE","log_wage","Log wages",2.89258113089086,0.0207638479100375
+"Partially linear FE","log_wage","Log wages",2.89973890219072,0.0183210422735625
+"Partially linear FE","log_wage","Log wages",2.90689667349058,0.0158782366370875
+"Partially linear FE","log_wage","Log wages",2.91405444479044,0.0134354310006124
+"Partially linear FE","log_wage","Log wages",2.9212122160903,0.0109926253641374
+"Partially linear FE","log_wage","Log wages",2.92836998739017,0.00854981972766248
+"Partially linear FE","log_wage","Log wages",2.93552775869003,0.0061070140911875
+"Partially linear FE","log_wage","Log wages",2.94268552998989,0.00366420845471253
+"Partially linear FE","log_wage","Log wages",2.94984330128975,0.00122140281823741
+"Partially linear FE","log_wage","Log wages",2.95700107258962,-0.00122140281823756
+"Partially linear FE","log_wage","Log wages",2.96415884388948,-0.00366420845471253
+"Partially linear FE","log_wage","Log wages",2.97131661518934,-0.0061070140911875
+"Partially linear FE","log_wage","Log wages",2.9784743864892,-0.00854981972766248
+"Partially linear FE","log_wage","Log wages",2.98563215778906,-0.0109926253641374
+"Partially linear FE","log_wage","Log wages",2.99278992908893,-0.0134354310006124
+"Partially linear FE","log_wage","Log wages",2.99994770038879,-0.0158782366370875
+"Partially linear FE","log_wage","Log wages",3.00710547168865,-0.0183210422735625
+"Partially linear FE","log_wage","Log wages",3.01426324298851,-0.0207638479100375
+"Partially linear FE","log_wage","Log wages",3.02142101428837,-0.0232066535465125
+"Partially linear FE","log_wage","Log wages",3.02857878558824,-0.0256494591829874
+"Partially linear FE","log_wage","Log wages",3.0357365568881,-0.0280922648194626
+"Partially linear FE","log_wage","Log wages",3.04289432818796,-0.0305350704559375
+"Partially linear FE","log_wage","Log wages",3.05005209948782,-0.0329778760924125
+"Partially linear FE","log_wage","Log wages",3.05720987078769,-0.0354206817288875
+"Partially linear FE","log_wage","Log wages",3.06436764208755,-0.0378634873653624
+"Partially linear FE","log_wage","Log wages",3.07152541338741,-0.0403062930018376
+"Partially linear FE","log_wage","Log wages",3.07868318468727,-0.0427490986383124
+"Partially linear FE","log_wage","Log wages",3.08584095598713,-0.0451919042747875
+"Partially linear FE","log_wage","Log wages",3.092998727287,-0.0476347099112625
+"Partially linear FE","log_wage","Log wages",3.10015649858686,-0.0500775155477374
+"Partially linear FE","log_wage","Log wages",3.10731426988672,-0.0525203211842124
+"Partially linear FE","log_wage","Log wages",3.11447204118658,-0.0549631268206874
+"Partially linear FE","log_wage","Log wages",3.12162981248644,-0.0574059324571625
+"Partially linear FE","log_wage","Log wages",3.12878758378631,-0.0598487380936375
+"Partially linear FE","log_wage","Log wages",3.13594535508617,-0.0622915437301125
+"Partially linear FE","log_wage","Log wages",3.14310312638603,-0.0647343493665874
+"Partially linear FE","log_wage","Log wages",3.15026089768589,-0.0671771550030624
+"Partially linear FE","log_wage","Log wages",3.15741866898576,-0.0696199606395375
+"Partially linear FE","log_wage","Log wages",3.16457644028562,-0.0720627662760125
+"Partially linear FE","log_wage","Log wages",3.17173421158548,-0.0745055719124875
+"Partially linear FE","log_wage","Log wages",3.17889198288534,-0.0769483775489624
+"Partially linear FE","log_wage","Log wages",3.1860497541852,-0.0793911831854374
+"Partially linear FE","log_wage","Log wages",3.19320752548507,-0.0818339888219125
+"Partially linear FE","log_wage","Log wages",3.20036529678493,-0.0842767944583873
+"Partially linear FE","log_wage","Log wages",3.20752306808479,-0.0867196000948625
+"Partially linear FE","log_wage","Log wages",3.21468083938465,-0.0891624057313374
+"Partially linear FE","log_wage","Log wages",3.22183861068451,-0.0916052113678124
+"Partially linear FE","log_wage","Log wages",3.22899638198438,-0.0940480170042874
+"Partially linear FE","log_wage","Log wages",3.23615415328424,-0.0964908226407624
+"Partially linear FE","log_wage","Log wages",3.2433119245841,-0.0989336282772375
+"Partially linear FE","log_wage","Log wages",3.25046969588396,-0.101376433913712
+"Partially linear FE","log_wage","Log wages",3.25762746718383,-0.103819239550187
+"Partially linear FE","log_wage","Log wages",3.26478523848369,-0.106262045186662
+"Partially linear FE","log_wage","Log wages",3.27194300978355,-0.108704850823137
+"Partially linear FE","log_wage","Log wages",3.27910078108341,-0.111147656459612
+"Partially linear FE","log_wage","Log wages",3.28625855238327,-0.113590462096087
+"Partially linear FE","log_wage","Log wages",3.29341632368314,-0.116033267732562
+"Partially linear FE","log_wage","Log wages",3.300574094983,-0.118476073369037
+"Partially linear FE","log_wage","Log wages",3.30773186628286,-0.120918879005512
+"Partially linear FE","log_wage","Log wages",3.31488963758272,-0.123361684641988
+"Partially linear FE","log_wage","Log wages",3.32204740888258,-0.125804490278462
+"Partially linear FE","log_wage","Log wages",3.32920518018245,-0.128247295914937
+"Partially linear FE","log_wage","Log wages",3.33636295148231,-0.130690101551412
+"Partially linear FE","log_wage","Log wages",3.34352072278217,-0.133132907187887
+"Partially linear FE","log_wage","Log wages",3.35067849408203,-0.135575712824362
+"Partially linear FE","log_wage","Log wages",3.3578362653819,-0.138018518460837
+"Partially linear FE","log_wage","Log wages",3.36499403668176,-0.140461324097312
+"Partially linear FE","log_wage","Log wages",3.37215180798162,-0.142904129733787
+"Partially linear FE","log_wage","Log wages",3.37930957928148,-0.145346935370262
+"Partially linear FE","log_wage","Log wages",3.38646735058134,-0.147789741006737
+"Partially linear FE","log_wage","Log wages",3.39362512188121,-0.150232546643212
+"Partially linear FE","log_wage","Log wages",3.40078289318107,-0.152675352279687
+"Partially linear FE","log_wage","Log wages",3.40794066448093,-0.155118157916162
+"Partially linear FE","log_wage","Log wages",3.41509843578079,-0.157560963552637
+"Partially linear FE","log_wage","Log wages",3.42225620708065,-0.160003769189112
+"Partially linear FE","log_wage","Log wages",3.42941397838052,-0.162446574825587
+"Partially linear FE","log_wage","Log wages",3.43657174968038,-0.164889380462062
+"Partially linear FE","log_wage","Log wages",3.44372952098024,-0.167332186098537
+"Partially linear FE","log_wage","Log wages",3.4508872922801,-0.169774991735012
+"Partially linear FE","log_wage","Log wages",3.45804506357997,-0.172217797371487
+"Partially linear FE","log_wage","Log wages",3.46520283487983,-0.174660603007962
+"Partially linear FE","log_wage","Log wages",3.47236060617969,-0.177103408644437
+"Partially linear FE","log_wage","Log wages",3.47951837747955,-0.179546214280912
+"Partially linear FE","log_wage","Log wages",3.48667614877941,-0.181989019917387
+"Partially linear FE","log_wage","Log wages",3.49383392007928,-0.184431825553862
+"Partially linear FE","log_wage","Log wages",3.50099169137914,-0.186874631190337
+"Partially linear FE","log_wage","Log wages",3.508149462679,-0.189317436826812
+"Partially linear FE","log_wage","Log wages",3.51530723397886,-0.191760242463287
+"Partially linear FE","log_wage","Log wages",3.52246500527872,-0.194203048099762
+"Partially linear FE","log_wage","Log wages",3.52962277657859,-0.196645853736237
+"Partially linear FE","log_wage","Log wages",3.53678054787845,-0.199088659372712
+"Partially linear FE","log_wage","Log wages",3.54393831917831,-0.201531465009187
+"Partially linear FE","log_wage","Log wages",3.55109609047817,-0.203974270645662
+"Partially linear FE","log_wage","Log wages",3.55825386177803,-0.206417076282137
+"Partially linear FE","log_wage","Log wages",3.5654116330779,-0.208859881918612
+"Partially linear FE","log_wage","Log wages",3.57256940437776,-0.211302687555087
+"Partially linear FE","log_wage","Log wages",3.57972717567762,-0.213745493191562
+"Partially linear FE","log_wage","Log wages",3.58688494697748,-0.216188298828037
+"Partially linear FE","log_wage","Log wages",3.59404271827735,-0.218631104464512
+"Additive GAM FE","log_wage","Log wages",2.31280165560202,0.26183987263891
+"Additive GAM FE","log_wage","Log wages",2.31995942690189,0.259964693235758
+"Additive GAM FE","log_wage","Log wages",2.32711719820175,0.258080550099477
+"Additive GAM FE","log_wage","Log wages",2.33427496950161,0.256187174081464
+"Additive GAM FE","log_wage","Log wages",2.34143274080147,0.254284296033115
+"Additive GAM FE","log_wage","Log wages",2.34859051210133,0.252371646805826
+"Additive GAM FE","log_wage","Log wages",2.3557482834012,0.250448957250994
+"Additive GAM FE","log_wage","Log wages",2.36290605470106,0.248515958220015
+"Additive GAM FE","log_wage","Log wages",2.37006382600092,0.246572380564285
+"Additive GAM FE","log_wage","Log wages",2.37722159730078,0.244617955135201
+"Additive GAM FE","log_wage","Log wages",2.38437936860064,0.242652412784159
+"Additive GAM FE","log_wage","Log wages",2.39153713990051,0.240675484362556
+"Additive GAM FE","log_wage","Log wages",2.39869491120037,0.23868661685217
+"Additive GAM FE","log_wage","Log wages",2.40585268250023,0.236683247019357
+"Additive GAM FE","log_wage","Log wages",2.41301045380009,0.234661943875857
+"Additive GAM FE","log_wage","Log wages",2.42016822509996,0.232619273003956
+"Additive GAM FE","log_wage","Log wages",2.42732599639982,0.230551799985938
+"Additive GAM FE","log_wage","Log wages",2.43448376769968,0.228456090404088
+"Additive GAM FE","log_wage","Log wages",2.44164153899954,0.226328709840692
+"Additive GAM FE","log_wage","Log wages",2.4487993102994,0.224166223878033
+"Additive GAM FE","log_wage","Log wages",2.45595708159927,0.221965198098398
+"Additive GAM FE","log_wage","Log wages",2.46311485289913,0.219722198084069
+"Additive GAM FE","log_wage","Log wages",2.47027262419899,0.217433789417334
+"Additive GAM FE","log_wage","Log wages",2.47743039549885,0.215096537680475
+"Additive GAM FE","log_wage","Log wages",2.48458816679871,0.21270700845578
+"Additive GAM FE","log_wage","Log wages",2.49174593809858,0.210261767325531
+"Additive GAM FE","log_wage","Log wages",2.49890370939844,0.207757379872014
+"Additive GAM FE","log_wage","Log wages",2.5060614806983,0.205190411677514
+"Additive GAM FE","log_wage","Log wages",2.51321925199816,0.202557428324315
+"Additive GAM FE","log_wage","Log wages",2.52037702329803,0.199854995394703
+"Additive GAM FE","log_wage","Log wages",2.52753479459789,0.197079678470963
+"Additive GAM FE","log_wage","Log wages",2.53469256589775,0.194228043135378
+"Additive GAM FE","log_wage","Log wages",2.54185033719761,0.191296654970235
+"Additive GAM FE","log_wage","Log wages",2.54900810849747,0.188282079557818
+"Additive GAM FE","log_wage","Log wages",2.55616587979734,0.185180882480411
+"Additive GAM FE","log_wage","Log wages",2.5633236510972,0.181989629320301
+"Additive GAM FE","log_wage","Log wages",2.57048142239706,0.17870488565977
+"Additive GAM FE","log_wage","Log wages",2.57763919369692,0.175323217081106
+"Additive GAM FE","log_wage","Log wages",2.58479696499678,0.171841189166591
+"Additive GAM FE","log_wage","Log wages",2.59195473629665,0.168255367498511
+"Additive GAM FE","log_wage","Log wages",2.59911250759651,0.164562317659152
+"Additive GAM FE","log_wage","Log wages",2.60627027889637,0.160758605230797
+"Additive GAM FE","log_wage","Log wages",2.61342805019623,0.156840795795732
+"Additive GAM FE","log_wage","Log wages",2.6205858214961,0.152805454936242
+"Additive GAM FE","log_wage","Log wages",2.62774359279596,0.148649148234611
+"Additive GAM FE","log_wage","Log wages",2.63490136409582,0.144368441273124
+"Additive GAM FE","log_wage","Log wages",2.64205913539568,0.139959899634066
+"Additive GAM FE","log_wage","Log wages",2.64921690669554,0.135420088899723
+"Additive GAM FE","log_wage","Log wages",2.65637467799541,0.130745574652378
+"Additive GAM FE","log_wage","Log wages",2.66353244929527,0.125932922474317
+"Additive GAM FE","log_wage","Log wages",2.67069022059513,0.120978697947824
+"Additive GAM FE","log_wage","Log wages",2.67784799189499,0.115879466655184
+"Additive GAM FE","log_wage","Log wages",2.68500576319485,0.110635412558207
+"Additive GAM FE","log_wage","Log wages",2.69216353449472,0.10528992438108
+"Additive GAM FE","log_wage","Log wages",2.69932130579458,0.099914816471741
+"Additive GAM FE","log_wage","Log wages",2.70647907709444,0.0945824023478149
+"Additive GAM FE","log_wage","Log wages",2.7136368483943,0.0893649955269289
+"Additive GAM FE","log_wage","Log wages",2.72079461969417,0.0843349095267087
+"Additive GAM FE","log_wage","Log wages",2.72795239099403,0.0795644578647805
+"Additive GAM FE","log_wage","Log wages",2.73511016229389,0.0751259540587703
+"Additive GAM FE","log_wage","Log wages",2.74226793359375,0.0710917116263044
+"Additive GAM FE","log_wage","Log wages",2.74942570489361,0.0675314927542286
+"Additive GAM FE","log_wage","Log wages",2.75658347619348,0.0644496017139097
+"Additive GAM FE","log_wage","Log wages",2.76374124749334,0.0617808824597487
+"Additive GAM FE","log_wage","Log wages",2.7708990187932,0.0594568262511202
+"Additive GAM FE","log_wage","Log wages",2.77805679009306,0.0574089243473988
+"Additive GAM FE","log_wage","Log wages",2.78521456139292,0.0555686680079594
+"Additive GAM FE","log_wage","Log wages",2.79237233269279,0.0538675484921763
+"Additive GAM FE","log_wage","Log wages",2.79953010399265,0.0522370570594246
+"Additive GAM FE","log_wage","Log wages",2.80668787529251,0.0506086849690789
+"Additive GAM FE","log_wage","Log wages",2.81384564659237,0.0489139234805136
+"Additive GAM FE","log_wage","Log wages",2.82100341789223,0.0470842638531036
+"Additive GAM FE","log_wage","Log wages",2.8281611891921,0.0450511973462235
+"Additive GAM FE","log_wage","Log wages",2.83531896049196,0.0427462257248346
+"Additive GAM FE","log_wage","Log wages",2.84247673179182,0.0401220206427853
+"Additive GAM FE","log_wage","Log wages",2.84963450309168,0.0371968114668827
+"Additive GAM FE","log_wage","Log wages",2.85679227439155,0.0340014792410813
+"Additive GAM FE","log_wage","Log wages",2.86395004569141,0.0305669050093349
+"Additive GAM FE","log_wage","Log wages",2.87110781699127,0.0269239698155986
+"Additive GAM FE","log_wage","Log wages",2.87826558829113,0.0231035547038258
+"Additive GAM FE","log_wage","Log wages",2.88542335959099,0.0191365407179715
+"Additive GAM FE","log_wage","Log wages",2.89258113089086,0.0150538089019897
+"Additive GAM FE","log_wage","Log wages",2.89973890219072,0.0108862402998348
+"Additive GAM FE","log_wage","Log wages",2.90689667349058,0.00666471295058693
+"Additive GAM FE","log_wage","Log wages",2.91405444479044,0.00241627956214743
+"Additive GAM FE","log_wage","Log wages",2.9212122160903,-0.00184332284119916
+"Additive GAM FE","log_wage","Log wages",2.92836998739017,-0.00610043958216355
+"Additive GAM FE","log_wage","Log wages",2.93552775869003,-0.0103414159834561
+"Additive GAM FE","log_wage","Log wages",2.94268552998989,-0.0145525973677873
+"Additive GAM FE","log_wage","Log wages",2.94984330128975,-0.0187203290578677
+"Additive GAM FE","log_wage","Log wages",2.95700107258962,-0.0228309563764073
+"Additive GAM FE","log_wage","Log wages",2.96415884388948,-0.0268708248040906
+"Additive GAM FE","log_wage","Log wages",2.97131661518934,-0.0308266908667288
+"Additive GAM FE","log_wage","Log wages",2.9784743864892,-0.0346866126429308
+"Additive GAM FE","log_wage","Log wages",2.98563215778906,-0.03843890521718
+"Additive GAM FE","log_wage","Log wages",2.99278992908893,-0.0420718836739595
+"Additive GAM FE","log_wage","Log wages",2.99994770038879,-0.0455738630977528
+"Additive GAM FE","log_wage","Log wages",3.00710547168865,-0.0489331585730429
+"Additive GAM FE","log_wage","Log wages",3.01426324298851,-0.0521380851894204
+"Additive GAM FE","log_wage","Log wages",3.02142101428837,-0.0551817312082693
+"Additive GAM FE","log_wage","Log wages",3.02857878558824,-0.0580756948387278
+"Additive GAM FE","log_wage","Log wages",3.0357365568881,-0.060836060511964
+"Additive GAM FE","log_wage","Log wages",3.04289432818796,-0.0634789126591454
+"Additive GAM FE","log_wage","Log wages",3.05005209948782,-0.0660203357114402
+"Additive GAM FE","log_wage","Log wages",3.05720987078769,-0.0684764141000162
+"Additive GAM FE","log_wage","Log wages",3.06436764208755,-0.0708632704973145
+"Additive GAM FE","log_wage","Log wages",3.07152541338741,-0.0732070253879866
+"Additive GAM FE","log_wage","Log wages",3.07868318468727,-0.075557114573228
+"Additive GAM FE","log_wage","Log wages",3.08584095598713,-0.0779662910934311
+"Additive GAM FE","log_wage","Log wages",3.092998727287,-0.0804873079889868
+"Additive GAM FE","log_wage","Log wages",3.10015649858686,-0.0831729183002868
+"Additive GAM FE","log_wage","Log wages",3.10731426988672,-0.0860758750677225
+"Additive GAM FE","log_wage","Log wages",3.11447204118658,-0.0892370070987999
+"Additive GAM FE","log_wage","Log wages",3.12162981248644,-0.0926259059764252
+"Additive GAM FE","log_wage","Log wages",3.12878758378631,-0.0961858223230183
+"Additive GAM FE","log_wage","Log wages",3.13594535508617,-0.0998599644066026
+"Additive GAM FE","log_wage","Log wages",3.14310312638603,-0.103591540495201
+"Additive GAM FE","log_wage","Log wages",3.15026089768589,-0.107323758856838
+"Additive GAM FE","log_wage","Log wages",3.15741866898576,-0.111001604795176
+"Additive GAM FE","log_wage","Log wages",3.16457644028562,-0.114577522113793
+"Additive GAM FE","log_wage","Log wages",3.17173421158548,-0.118005911105049
+"Additive GAM FE","log_wage","Log wages",3.17889198288534,-0.121241172068996
+"Additive GAM FE","log_wage","Log wages",3.1860497541852,-0.124237705305687
+"Additive GAM FE","log_wage","Log wages",3.19320752548507,-0.126949929185742
+"Additive GAM FE","log_wage","Log wages",3.20036529678493,-0.129345146953713
+"Additive GAM FE","log_wage","Log wages",3.20752306808479,-0.131426179466215
+"Additive GAM FE","log_wage","Log wages",3.21468083938465,-0.133201915149836
+"Additive GAM FE","log_wage","Log wages",3.22183861068451,-0.134681242431167
+"Additive GAM FE","log_wage","Log wages",3.22899638198438,-0.135873049736796
+"Additive GAM FE","log_wage","Log wages",3.23615415328424,-0.136786225493312
+"Additive GAM FE","log_wage","Log wages",3.2433119245841,-0.137430402487371
+"Additive GAM FE","log_wage","Log wages",3.25046969588396,-0.13782101294795
+"Additive GAM FE","log_wage","Log wages",3.25762746718383,-0.137976209864392
+"Additive GAM FE","log_wage","Log wages",3.26478523848369,-0.137914161887915
+"Additive GAM FE","log_wage","Log wages",3.27194300978355,-0.137653037669738
+"Additive GAM FE","log_wage","Log wages",3.27910078108341,-0.137211005861082
+"Additive GAM FE","log_wage","Log wages",3.28625855238327,-0.136609234044472
+"Additive GAM FE","log_wage","Log wages",3.29341632368314,-0.135883901923042
+"Additive GAM FE","log_wage","Log wages",3.300574094983,-0.135075876856101
+"Additive GAM FE","log_wage","Log wages",3.30773186628286,-0.134226027769266
+"Additive GAM FE","log_wage","Log wages",3.31488963758272,-0.133375223588155
+"Additive GAM FE","log_wage","Log wages",3.32204740888258,-0.132564333238386
+"Additive GAM FE","log_wage","Log wages",3.32920518018245,-0.131834241907698
+"Additive GAM FE","log_wage","Log wages",3.33636295148231,-0.131226756295768
+"Additive GAM FE","log_wage","Log wages",3.34352072278217,-0.130785081114622
+"Additive GAM FE","log_wage","Log wages",3.35067849408203,-0.130552537858952
+"Additive GAM FE","log_wage","Log wages",3.3578362653819,-0.130572448023452
+"Additive GAM FE","log_wage","Log wages",3.36499403668176,-0.130888133102812
+"Additive GAM FE","log_wage","Log wages",3.37215180798162,-0.13154281248035
+"Additive GAM FE","log_wage","Log wages",3.37930957928148,-0.132566202789036
+"Additive GAM FE","log_wage","Log wages",3.38646735058134,-0.133961155414725
+"Additive GAM FE","log_wage","Log wages",3.39362512188121,-0.135727343730702
+"Additive GAM FE","log_wage","Log wages",3.40078289318107,-0.137864441110252
+"Additive GAM FE","log_wage","Log wages",3.40794066448093,-0.140372120926659
+"Additive GAM FE","log_wage","Log wages",3.41509843578079,-0.143250056553209
+"Additive GAM FE","log_wage","Log wages",3.42225620708065,-0.146500119540181
+"Additive GAM FE","log_wage","Log wages",3.42941397838052,-0.150139917958913
+"Additive GAM FE","log_wage","Log wages",3.43657174968038,-0.154193918530517
+"Additive GAM FE","log_wage","Log wages",3.44372952098024,-0.158686616371955
+"Additive GAM FE","log_wage","Log wages",3.4508872922801,-0.16364250660019
+"Additive GAM FE","log_wage","Log wages",3.45804506357997,-0.169086084332182
+"Additive GAM FE","log_wage","Log wages",3.46520283487983,-0.175041844684895
+"Additive GAM FE","log_wage","Log wages",3.47236060617969,-0.181534282775289
+"Additive GAM FE","log_wage","Log wages",3.47951837747955,-0.188578209735169
+"Additive GAM FE","log_wage","Log wages",3.48667614877941,-0.196096140067124
+"Additive GAM FE","log_wage","Log wages",3.49383392007928,-0.203959441929212
+"Additive GAM FE","log_wage","Log wages",3.50099169137914,-0.212038939781057
+"Additive GAM FE","log_wage","Log wages",3.508149462679,-0.220205458082283
+"Additive GAM FE","log_wage","Log wages",3.51530723397886,-0.228329821292516
+"Additive GAM FE","log_wage","Log wages",3.52246500527872,-0.236282853871379
+"Additive GAM FE","log_wage","Log wages",3.52962277657859,-0.243935380278496
+"Additive GAM FE","log_wage","Log wages",3.53678054787845,-0.251158224973494
+"Additive GAM FE","log_wage","Log wages",3.54393831917831,-0.257824097912767
+"Additive GAM FE","log_wage","Log wages",3.55109609047817,-0.263868741272149
+"Additive GAM FE","log_wage","Log wages",3.55825386177803,-0.269304289560656
+"Additive GAM FE","log_wage","Log wages",3.5654116330779,-0.274147465798982
+"Additive GAM FE","log_wage","Log wages",3.57256940437776,-0.278414993007824
+"Additive GAM FE","log_wage","Log wages",3.57972717567762,-0.282123594207876
+"Additive GAM FE","log_wage","Log wages",3.58688494697748,-0.285289992419834
+"Additive GAM FE","log_wage","Log wages",3.59404271827735,-0.287930910664393
+"Linear FE","log_capital","Log capital",-3.27344892932477,-1.87697773726512
+"Linear FE","log_capital","Log capital",-3.23514842042817,-1.85600591897166
+"Linear FE","log_capital","Log capital",-3.19684791153157,-1.83503410067819
+"Linear FE","log_capital","Log capital",-3.15854740263497,-1.81406228238473
+"Linear FE","log_capital","Log capital",-3.12024689373838,-1.79309046409126
+"Linear FE","log_capital","Log capital",-3.08194638484178,-1.7721186457978
+"Linear FE","log_capital","Log capital",-3.04364587594518,-1.75114682750433
+"Linear FE","log_capital","Log capital",-3.00534536704858,-1.73017500921087
+"Linear FE","log_capital","Log capital",-2.96704485815198,-1.7092031909174
+"Linear FE","log_capital","Log capital",-2.92874434925538,-1.68823137262394
+"Linear FE","log_capital","Log capital",-2.89044384035878,-1.66725955433047
+"Linear FE","log_capital","Log capital",-2.85214333146219,-1.64628773603701
+"Linear FE","log_capital","Log capital",-2.81384282256559,-1.62531591774354
+"Linear FE","log_capital","Log capital",-2.77554231366899,-1.60434409945008
+"Linear FE","log_capital","Log capital",-2.73724180477239,-1.58337228115661
+"Linear FE","log_capital","Log capital",-2.69894129587579,-1.56240046286315
+"Linear FE","log_capital","Log capital",-2.66064078697919,-1.54142864456968
+"Linear FE","log_capital","Log capital",-2.62234027808259,-1.52045682627622
+"Linear FE","log_capital","Log capital",-2.58403976918599,-1.49948500798275
+"Linear FE","log_capital","Log capital",-2.5457392602894,-1.47851318968929
+"Linear FE","log_capital","Log capital",-2.5074387513928,-1.45754137139582
+"Linear FE","log_capital","Log capital",-2.4691382424962,-1.43656955310236
+"Linear FE","log_capital","Log capital",-2.4308377335996,-1.41559773480889
+"Linear FE","log_capital","Log capital",-2.392537224703,-1.39462591651543
+"Linear FE","log_capital","Log capital",-2.3542367158064,-1.37365409822196
+"Linear FE","log_capital","Log capital",-2.3159362069098,-1.3526822799285
+"Linear FE","log_capital","Log capital",-2.27763569801321,-1.33171046163503
+"Linear FE","log_capital","Log capital",-2.23933518911661,-1.31073864334157
+"Linear FE","log_capital","Log capital",-2.20103468022001,-1.2897668250481
+"Linear FE","log_capital","Log capital",-2.16273417132341,-1.26879500675464
+"Linear FE","log_capital","Log capital",-2.12443366242681,-1.24782318846117
+"Linear FE","log_capital","Log capital",-2.08613315353021,-1.22685137016771
+"Linear FE","log_capital","Log capital",-2.04783264463361,-1.20587955187424
+"Linear FE","log_capital","Log capital",-2.00953213573702,-1.18490773358078
+"Linear FE","log_capital","Log capital",-1.97123162684042,-1.16393591528731
+"Linear FE","log_capital","Log capital",-1.93293111794382,-1.14296409699385
+"Linear FE","log_capital","Log capital",-1.89463060904722,-1.12199227870038
+"Linear FE","log_capital","Log capital",-1.85633010015062,-1.10102046040692
+"Linear FE","log_capital","Log capital",-1.81802959125402,-1.08004864211345
+"Linear FE","log_capital","Log capital",-1.77972908235742,-1.05907682381999
+"Linear FE","log_capital","Log capital",-1.74142857346082,-1.03810500552652
+"Linear FE","log_capital","Log capital",-1.70312806456423,-1.01713318723306
+"Linear FE","log_capital","Log capital",-1.66482755566763,-0.996161368939591
+"Linear FE","log_capital","Log capital",-1.62652704677103,-0.975189550646126
+"Linear FE","log_capital","Log capital",-1.58822653787443,-0.954217732352661
+"Linear FE","log_capital","Log capital",-1.54992602897783,-0.933245914059196
+"Linear FE","log_capital","Log capital",-1.51162552008123,-0.912274095765731
+"Linear FE","log_capital","Log capital",-1.47332501118463,-0.891302277472266
+"Linear FE","log_capital","Log capital",-1.43502450228804,-0.870330459178801
+"Linear FE","log_capital","Log capital",-1.39672399339144,-0.849358640885336
+"Linear FE","log_capital","Log capital",-1.35842348449484,-0.82838682259187
+"Linear FE","log_capital","Log capital",-1.32012297559824,-0.807415004298405
+"Linear FE","log_capital","Log capital",-1.28182246670164,-0.78644318600494
+"Linear FE","log_capital","Log capital",-1.24352195780504,-0.765471367711475
+"Linear FE","log_capital","Log capital",-1.20522144890844,-0.74449954941801
+"Linear FE","log_capital","Log capital",-1.16692094001185,-0.723527731124545
+"Linear FE","log_capital","Log capital",-1.12862043111525,-0.70255591283108
+"Linear FE","log_capital","Log capital",-1.09031992221865,-0.681584094537615
+"Linear FE","log_capital","Log capital",-1.05201941332205,-0.66061227624415
+"Linear FE","log_capital","Log capital",-1.01371890442545,-0.639640457950685
+"Linear FE","log_capital","Log capital",-0.975418395528852,-0.61866863965722
+"Linear FE","log_capital","Log capital",-0.937117886632254,-0.597696821363755
+"Linear FE","log_capital","Log capital",-0.898817377735655,-0.57672500307029
+"Linear FE","log_capital","Log capital",-0.860516868839056,-0.555753184776824
+"Linear FE","log_capital","Log capital",-0.822216359942458,-0.534781366483359
+"Linear FE","log_capital","Log capital",-0.783915851045859,-0.513809548189894
+"Linear FE","log_capital","Log capital",-0.74561534214926,-0.492837729896429
+"Linear FE","log_capital","Log capital",-0.707314833252662,-0.471865911602964
+"Linear FE","log_capital","Log capital",-0.669014324356063,-0.450894093309499
+"Linear FE","log_capital","Log capital",-0.630713815459464,-0.429922275016034
+"Linear FE","log_capital","Log capital",-0.592413306562866,-0.408950456722569
+"Linear FE","log_capital","Log capital",-0.554112797666267,-0.387978638429104
+"Linear FE","log_capital","Log capital",-0.515812288769669,-0.367006820135639
+"Linear FE","log_capital","Log capital",-0.47751177987307,-0.346035001842174
+"Linear FE","log_capital","Log capital",-0.439211270976471,-0.325063183548709
+"Linear FE","log_capital","Log capital",-0.400910762079873,-0.304091365255244
+"Linear FE","log_capital","Log capital",-0.362610253183274,-0.283119546961778
+"Linear FE","log_capital","Log capital",-0.324309744286675,-0.262147728668313
+"Linear FE","log_capital","Log capital",-0.286009235390077,-0.241175910374848
+"Linear FE","log_capital","Log capital",-0.247708726493478,-0.220204092081383
+"Linear FE","log_capital","Log capital",-0.209408217596879,-0.199232273787918
+"Linear FE","log_capital","Log capital",-0.171107708700281,-0.178260455494453
+"Linear FE","log_capital","Log capital",-0.132807199803682,-0.157288637200988
+"Linear FE","log_capital","Log capital",-0.0945066909070835,-0.136316818907523
+"Linear FE","log_capital","Log capital",-0.0562061820104849,-0.115345000614058
+"Linear FE","log_capital","Log capital",-0.0179056731138862,-0.0943731823205928
+"Linear FE","log_capital","Log capital",0.0203948357827124,-0.0734013640271277
+"Linear FE","log_capital","Log capital",0.058695344679311,-0.0524295457336627
+"Linear FE","log_capital","Log capital",0.0969958535759097,-0.0314577274401976
+"Linear FE","log_capital","Log capital",0.135296362472508,-0.0104859091467325
+"Linear FE","log_capital","Log capital",0.173596871369107,0.0104859091467326
+"Linear FE","log_capital","Log capital",0.211897380265706,0.0314577274401976
+"Linear FE","log_capital","Log capital",0.250197889162304,0.0524295457336627
+"Linear FE","log_capital","Log capital",0.288498398058903,0.0734013640271278
+"Linear FE","log_capital","Log capital",0.326798906955502,0.0943731823205929
+"Linear FE","log_capital","Log capital",0.3650994158521,0.115345000614058
+"Linear FE","log_capital","Log capital",0.403399924748698,0.136316818907523
+"Linear FE","log_capital","Log capital",0.441700433645297,0.157288637200988
+"Linear FE","log_capital","Log capital",0.480000942541896,0.178260455494453
+"Linear FE","log_capital","Log capital",0.518301451438494,0.199232273787918
+"Linear FE","log_capital","Log capital",0.556601960335093,0.220204092081383
+"Linear FE","log_capital","Log capital",0.594902469231692,0.241175910374848
+"Linear FE","log_capital","Log capital",0.63320297812829,0.262147728668313
+"Linear FE","log_capital","Log capital",0.671503487024889,0.283119546961778
+"Linear FE","log_capital","Log capital",0.709803995921487,0.304091365255243
+"Linear FE","log_capital","Log capital",0.748104504818087,0.325063183548709
+"Linear FE","log_capital","Log capital",0.786405013714685,0.346035001842174
+"Linear FE","log_capital","Log capital",0.824705522611284,0.367006820135639
+"Linear FE","log_capital","Log capital",0.863006031507882,0.387978638429104
+"Linear FE","log_capital","Log capital",0.901306540404481,0.408950456722569
+"Linear FE","log_capital","Log capital",0.939607049301079,0.429922275016034
+"Linear FE","log_capital","Log capital",0.977907558197678,0.450894093309499
+"Linear FE","log_capital","Log capital",1.01620806709428,0.471865911602964
+"Linear FE","log_capital","Log capital",1.05450857599088,0.492837729896429
+"Linear FE","log_capital","Log capital",1.09280908488747,0.513809548189894
+"Linear FE","log_capital","Log capital",1.13110959378407,0.534781366483359
+"Linear FE","log_capital","Log capital",1.16941010268067,0.555753184776824
+"Linear FE","log_capital","Log capital",1.20771061157727,0.57672500307029
+"Linear FE","log_capital","Log capital",1.24601112047387,0.597696821363754
+"Linear FE","log_capital","Log capital",1.28431162937047,0.61866863965722
+"Linear FE","log_capital","Log capital",1.32261213826707,0.639640457950685
+"Linear FE","log_capital","Log capital",1.36091264716366,0.66061227624415
+"Linear FE","log_capital","Log capital",1.39921315606026,0.681584094537615
+"Linear FE","log_capital","Log capital",1.43751366495686,0.70255591283108
+"Linear FE","log_capital","Log capital",1.47581417385346,0.723527731124545
+"Linear FE","log_capital","Log capital",1.51411468275006,0.74449954941801
+"Linear FE","log_capital","Log capital",1.55241519164666,0.765471367711475
+"Linear FE","log_capital","Log capital",1.59071570054326,0.78644318600494
+"Linear FE","log_capital","Log capital",1.62901620943985,0.807415004298405
+"Linear FE","log_capital","Log capital",1.66731671833645,0.82838682259187
+"Linear FE","log_capital","Log capital",1.70561722723305,0.849358640885335
+"Linear FE","log_capital","Log capital",1.74391773612965,0.8703304591788
+"Linear FE","log_capital","Log capital",1.78221824502625,0.891302277472265
+"Linear FE","log_capital","Log capital",1.82051875392285,0.91227409576573
+"Linear FE","log_capital","Log capital",1.85881926281945,0.933245914059196
+"Linear FE","log_capital","Log capital",1.89711977171604,0.95421773235266
+"Linear FE","log_capital","Log capital",1.93542028061264,0.975189550646126
+"Linear FE","log_capital","Log capital",1.97372078950924,0.99616136893959
+"Linear FE","log_capital","Log capital",2.01202129840584,1.01713318723306
+"Linear FE","log_capital","Log capital",2.05032180730244,1.03810500552652
+"Linear FE","log_capital","Log capital",2.08862231619904,1.05907682381999
+"Linear FE","log_capital","Log capital",2.12692282509564,1.08004864211345
+"Linear FE","log_capital","Log capital",2.16522333399224,1.10102046040692
+"Linear FE","log_capital","Log capital",2.20352384288883,1.12199227870038
+"Linear FE","log_capital","Log capital",2.24182435178543,1.14296409699385
+"Linear FE","log_capital","Log capital",2.28012486068203,1.16393591528731
+"Linear FE","log_capital","Log capital",2.31842536957863,1.18490773358078
+"Linear FE","log_capital","Log capital",2.35672587847523,1.20587955187424
+"Linear FE","log_capital","Log capital",2.39502638737183,1.22685137016771
+"Linear FE","log_capital","Log capital",2.43332689626843,1.24782318846117
+"Linear FE","log_capital","Log capital",2.47162740516502,1.26879500675464
+"Linear FE","log_capital","Log capital",2.50992791406162,1.2897668250481
+"Linear FE","log_capital","Log capital",2.54822842295822,1.31073864334157
+"Linear FE","log_capital","Log capital",2.58652893185482,1.33171046163503
+"Linear FE","log_capital","Log capital",2.62482944075142,1.3526822799285
+"Linear FE","log_capital","Log capital",2.66312994964802,1.37365409822196
+"Linear FE","log_capital","Log capital",2.70143045854462,1.39462591651543
+"Linear FE","log_capital","Log capital",2.73973096744121,1.41559773480889
+"Linear FE","log_capital","Log capital",2.77803147633781,1.43656955310236
+"Linear FE","log_capital","Log capital",2.81633198523441,1.45754137139582
+"Linear FE","log_capital","Log capital",2.85463249413101,1.47851318968929
+"Linear FE","log_capital","Log capital",2.89293300302761,1.49948500798275
+"Linear FE","log_capital","Log capital",2.93123351192421,1.52045682627622
+"Linear FE","log_capital","Log capital",2.96953402082081,1.54142864456968
+"Linear FE","log_capital","Log capital",3.00783452971741,1.56240046286315
+"Linear FE","log_capital","Log capital",3.046135038614,1.58337228115661
+"Linear FE","log_capital","Log capital",3.0844355475106,1.60434409945008
+"Linear FE","log_capital","Log capital",3.1227360564072,1.62531591774354
+"Linear FE","log_capital","Log capital",3.1610365653038,1.64628773603701
+"Linear FE","log_capital","Log capital",3.1993370742004,1.66725955433047
+"Linear FE","log_capital","Log capital",3.237637583097,1.68823137262394
+"Linear FE","log_capital","Log capital",3.2759380919936,1.7092031909174
+"Linear FE","log_capital","Log capital",3.3142386008902,1.73017500921087
+"Linear FE","log_capital","Log capital",3.35253910978679,1.75114682750433
+"Linear FE","log_capital","Log capital",3.39083961868339,1.7721186457978
+"Linear FE","log_capital","Log capital",3.42914012757999,1.79309046409126
+"Linear FE","log_capital","Log capital",3.46744063647659,1.81406228238473
+"Linear FE","log_capital","Log capital",3.50574114537319,1.83503410067819
+"Linear FE","log_capital","Log capital",3.54404165426979,1.85600591897166
+"Linear FE","log_capital","Log capital",3.58234216316638,1.87697773726512
+"Partially linear FE","log_capital","Log capital",-3.27344892932477,-1.86703267582904
+"Partially linear FE","log_capital","Log capital",-3.23514842042817,-1.84617197554045
+"Partially linear FE","log_capital","Log capital",-3.19684791153157,-1.82531127525186
+"Partially linear FE","log_capital","Log capital",-3.15854740263497,-1.80445057496326
+"Partially linear FE","log_capital","Log capital",-3.12024689373838,-1.78358987467467
+"Partially linear FE","log_capital","Log capital",-3.08194638484178,-1.76272917438608
+"Partially linear FE","log_capital","Log capital",-3.04364587594518,-1.74186847409749
+"Partially linear FE","log_capital","Log capital",-3.00534536704858,-1.72100777380889
+"Partially linear FE","log_capital","Log capital",-2.96704485815198,-1.7001470735203
+"Partially linear FE","log_capital","Log capital",-2.92874434925538,-1.67928637323171
+"Partially linear FE","log_capital","Log capital",-2.89044384035878,-1.65842567294312
+"Partially linear FE","log_capital","Log capital",-2.85214333146219,-1.63756497265452
+"Partially linear FE","log_capital","Log capital",-2.81384282256559,-1.61670427236593
+"Partially linear FE","log_capital","Log capital",-2.77554231366899,-1.59584357207734
+"Partially linear FE","log_capital","Log capital",-2.73724180477239,-1.57498287178874
+"Partially linear FE","log_capital","Log capital",-2.69894129587579,-1.55412217150015
+"Partially linear FE","log_capital","Log capital",-2.66064078697919,-1.53326147121156
+"Partially linear FE","log_capital","Log capital",-2.62234027808259,-1.51240077092297
+"Partially linear FE","log_capital","Log capital",-2.58403976918599,-1.49154007063437
+"Partially linear FE","log_capital","Log capital",-2.5457392602894,-1.47067937034578
+"Partially linear FE","log_capital","Log capital",-2.5074387513928,-1.44981867005719
+"Partially linear FE","log_capital","Log capital",-2.4691382424962,-1.4289579697686
+"Partially linear FE","log_capital","Log capital",-2.4308377335996,-1.40809726948
+"Partially linear FE","log_capital","Log capital",-2.392537224703,-1.38723656919141
+"Partially linear FE","log_capital","Log capital",-2.3542367158064,-1.36637586890282
+"Partially linear FE","log_capital","Log capital",-2.3159362069098,-1.34551516861423
+"Partially linear FE","log_capital","Log capital",-2.27763569801321,-1.32465446832563
+"Partially linear FE","log_capital","Log capital",-2.23933518911661,-1.30379376803704
+"Partially linear FE","log_capital","Log capital",-2.20103468022001,-1.28293306774845
+"Partially linear FE","log_capital","Log capital",-2.16273417132341,-1.26207236745986
+"Partially linear FE","log_capital","Log capital",-2.12443366242681,-1.24121166717126
+"Partially linear FE","log_capital","Log capital",-2.08613315353021,-1.22035096688267
+"Partially linear FE","log_capital","Log capital",-2.04783264463361,-1.19949026659408
+"Partially linear FE","log_capital","Log capital",-2.00953213573702,-1.17862956630548
+"Partially linear FE","log_capital","Log capital",-1.97123162684042,-1.15776886601689
+"Partially linear FE","log_capital","Log capital",-1.93293111794382,-1.1369081657283
+"Partially linear FE","log_capital","Log capital",-1.89463060904722,-1.11604746543971
+"Partially linear FE","log_capital","Log capital",-1.85633010015062,-1.09518676515111
+"Partially linear FE","log_capital","Log capital",-1.81802959125402,-1.07432606486252
+"Partially linear FE","log_capital","Log capital",-1.77972908235742,-1.05346536457393
+"Partially linear FE","log_capital","Log capital",-1.74142857346082,-1.03260466428534
+"Partially linear FE","log_capital","Log capital",-1.70312806456423,-1.01174396399674
+"Partially linear FE","log_capital","Log capital",-1.66482755566763,-0.990883263708151
+"Partially linear FE","log_capital","Log capital",-1.62652704677103,-0.970022563419558
+"Partially linear FE","log_capital","Log capital",-1.58822653787443,-0.949161863130965
+"Partially linear FE","log_capital","Log capital",-1.54992602897783,-0.928301162842373
+"Partially linear FE","log_capital","Log capital",-1.51162552008123,-0.90744046255378
+"Partially linear FE","log_capital","Log capital",-1.47332501118463,-0.886579762265188
+"Partially linear FE","log_capital","Log capital",-1.43502450228804,-0.865719061976595
+"Partially linear FE","log_capital","Log capital",-1.39672399339144,-0.844858361688002
+"Partially linear FE","log_capital","Log capital",-1.35842348449484,-0.82399766139941
+"Partially linear FE","log_capital","Log capital",-1.32012297559824,-0.803136961110817
+"Partially linear FE","log_capital","Log capital",-1.28182246670164,-0.782276260822224
+"Partially linear FE","log_capital","Log capital",-1.24352195780504,-0.761415560533632
+"Partially linear FE","log_capital","Log capital",-1.20522144890844,-0.740554860245039
+"Partially linear FE","log_capital","Log capital",-1.16692094001185,-0.719694159956446
+"Partially linear FE","log_capital","Log capital",-1.12862043111525,-0.698833459667854
+"Partially linear FE","log_capital","Log capital",-1.09031992221865,-0.677972759379261
+"Partially linear FE","log_capital","Log capital",-1.05201941332205,-0.657112059090668
+"Partially linear FE","log_capital","Log capital",-1.01371890442545,-0.636251358802076
+"Partially linear FE","log_capital","Log capital",-0.975418395528852,-0.615390658513483
+"Partially linear FE","log_capital","Log capital",-0.937117886632254,-0.59452995822489
+"Partially linear FE","log_capital","Log capital",-0.898817377735655,-0.573669257936298
+"Partially linear FE","log_capital","Log capital",-0.860516868839056,-0.552808557647705
+"Partially linear FE","log_capital","Log capital",-0.822216359942458,-0.531947857359113
+"Partially linear FE","log_capital","Log capital",-0.783915851045859,-0.51108715707052
+"Partially linear FE","log_capital","Log capital",-0.74561534214926,-0.490226456781927
+"Partially linear FE","log_capital","Log capital",-0.707314833252662,-0.469365756493335
+"Partially linear FE","log_capital","Log capital",-0.669014324356063,-0.448505056204742
+"Partially linear FE","log_capital","Log capital",-0.630713815459464,-0.427644355916149
+"Partially linear FE","log_capital","Log capital",-0.592413306562866,-0.406783655627557
+"Partially linear FE","log_capital","Log capital",-0.554112797666267,-0.385922955338964
+"Partially linear FE","log_capital","Log capital",-0.515812288769669,-0.365062255050371
+"Partially linear FE","log_capital","Log capital",-0.47751177987307,-0.344201554761779
+"Partially linear FE","log_capital","Log capital",-0.439211270976471,-0.323340854473186
+"Partially linear FE","log_capital","Log capital",-0.400910762079873,-0.302480154184593
+"Partially linear FE","log_capital","Log capital",-0.362610253183274,-0.281619453896001
+"Partially linear FE","log_capital","Log capital",-0.324309744286675,-0.260758753607408
+"Partially linear FE","log_capital","Log capital",-0.286009235390077,-0.239898053318815
+"Partially linear FE","log_capital","Log capital",-0.247708726493478,-0.219037353030223
+"Partially linear FE","log_capital","Log capital",-0.209408217596879,-0.19817665274163
+"Partially linear FE","log_capital","Log capital",-0.171107708700281,-0.177315952453038
+"Partially linear FE","log_capital","Log capital",-0.132807199803682,-0.156455252164445
+"Partially linear FE","log_capital","Log capital",-0.0945066909070835,-0.135594551875852
+"Partially linear FE","log_capital","Log capital",-0.0562061820104849,-0.11473385158726
+"Partially linear FE","log_capital","Log capital",-0.0179056731138862,-0.0938731512986669
+"Partially linear FE","log_capital","Log capital",0.0203948357827124,-0.0730124510100743
+"Partially linear FE","log_capital","Log capital",0.058695344679311,-0.0521517507214816
+"Partially linear FE","log_capital","Log capital",0.0969958535759097,-0.031291050432889
+"Partially linear FE","log_capital","Log capital",0.135296362472508,-0.0104303501442963
+"Partially linear FE","log_capital","Log capital",0.173596871369107,0.0104303501442963
+"Partially linear FE","log_capital","Log capital",0.211897380265706,0.031291050432889
+"Partially linear FE","log_capital","Log capital",0.250197889162304,0.0521517507214816
+"Partially linear FE","log_capital","Log capital",0.288498398058903,0.0730124510100743
+"Partially linear FE","log_capital","Log capital",0.326798906955502,0.0938731512986669
+"Partially linear FE","log_capital","Log capital",0.3650994158521,0.11473385158726
+"Partially linear FE","log_capital","Log capital",0.403399924748698,0.135594551875852
+"Partially linear FE","log_capital","Log capital",0.441700433645297,0.156455252164445
+"Partially linear FE","log_capital","Log capital",0.480000942541896,0.177315952453037
+"Partially linear FE","log_capital","Log capital",0.518301451438494,0.19817665274163
+"Partially linear FE","log_capital","Log capital",0.556601960335093,0.219037353030223
+"Partially linear FE","log_capital","Log capital",0.594902469231692,0.239898053318815
+"Partially linear FE","log_capital","Log capital",0.63320297812829,0.260758753607408
+"Partially linear FE","log_capital","Log capital",0.671503487024889,0.281619453896
+"Partially linear FE","log_capital","Log capital",0.709803995921487,0.302480154184593
+"Partially linear FE","log_capital","Log capital",0.748104504818087,0.323340854473186
+"Partially linear FE","log_capital","Log capital",0.786405013714685,0.344201554761778
+"Partially linear FE","log_capital","Log capital",0.824705522611284,0.365062255050371
+"Partially linear FE","log_capital","Log capital",0.863006031507882,0.385922955338964
+"Partially linear FE","log_capital","Log capital",0.901306540404481,0.406783655627557
+"Partially linear FE","log_capital","Log capital",0.939607049301079,0.427644355916149
+"Partially linear FE","log_capital","Log capital",0.977907558197678,0.448505056204742
+"Partially linear FE","log_capital","Log capital",1.01620806709428,0.469365756493334
+"Partially linear FE","log_capital","Log capital",1.05450857599088,0.490226456781927
+"Partially linear FE","log_capital","Log capital",1.09280908488747,0.51108715707052
+"Partially linear FE","log_capital","Log capital",1.13110959378407,0.531947857359113
+"Partially linear FE","log_capital","Log capital",1.16941010268067,0.552808557647705
+"Partially linear FE","log_capital","Log capital",1.20771061157727,0.573669257936298
+"Partially linear FE","log_capital","Log capital",1.24601112047387,0.59452995822489
+"Partially linear FE","log_capital","Log capital",1.28431162937047,0.615390658513483
+"Partially linear FE","log_capital","Log capital",1.32261213826707,0.636251358802076
+"Partially linear FE","log_capital","Log capital",1.36091264716366,0.657112059090668
+"Partially linear FE","log_capital","Log capital",1.39921315606026,0.677972759379261
+"Partially linear FE","log_capital","Log capital",1.43751366495686,0.698833459667854
+"Partially linear FE","log_capital","Log capital",1.47581417385346,0.719694159956446
+"Partially linear FE","log_capital","Log capital",1.51411468275006,0.740554860245039
+"Partially linear FE","log_capital","Log capital",1.55241519164666,0.761415560533631
+"Partially linear FE","log_capital","Log capital",1.59071570054326,0.782276260822224
+"Partially linear FE","log_capital","Log capital",1.62901620943985,0.803136961110817
+"Partially linear FE","log_capital","Log capital",1.66731671833645,0.823997661399409
+"Partially linear FE","log_capital","Log capital",1.70561722723305,0.844858361688002
+"Partially linear FE","log_capital","Log capital",1.74391773612965,0.865719061976594
+"Partially linear FE","log_capital","Log capital",1.78221824502625,0.886579762265187
+"Partially linear FE","log_capital","Log capital",1.82051875392285,0.90744046255378
+"Partially linear FE","log_capital","Log capital",1.85881926281945,0.928301162842373
+"Partially linear FE","log_capital","Log capital",1.89711977171604,0.949161863130965
+"Partially linear FE","log_capital","Log capital",1.93542028061264,0.970022563419558
+"Partially linear FE","log_capital","Log capital",1.97372078950924,0.99088326370815
+"Partially linear FE","log_capital","Log capital",2.01202129840584,1.01174396399674
+"Partially linear FE","log_capital","Log capital",2.05032180730244,1.03260466428534
+"Partially linear FE","log_capital","Log capital",2.08862231619904,1.05346536457393
+"Partially linear FE","log_capital","Log capital",2.12692282509564,1.07432606486252
+"Partially linear FE","log_capital","Log capital",2.16522333399224,1.09518676515111
+"Partially linear FE","log_capital","Log capital",2.20352384288883,1.11604746543971
+"Partially linear FE","log_capital","Log capital",2.24182435178543,1.1369081657283
+"Partially linear FE","log_capital","Log capital",2.28012486068203,1.15776886601689
+"Partially linear FE","log_capital","Log capital",2.31842536957863,1.17862956630548
+"Partially linear FE","log_capital","Log capital",2.35672587847523,1.19949026659408
+"Partially linear FE","log_capital","Log capital",2.39502638737183,1.22035096688267
+"Partially linear FE","log_capital","Log capital",2.43332689626843,1.24121166717126
+"Partially linear FE","log_capital","Log capital",2.47162740516502,1.26207236745986
+"Partially linear FE","log_capital","Log capital",2.50992791406162,1.28293306774845
+"Partially linear FE","log_capital","Log capital",2.54822842295822,1.30379376803704
+"Partially linear FE","log_capital","Log capital",2.58652893185482,1.32465446832563
+"Partially linear FE","log_capital","Log capital",2.62482944075142,1.34551516861423
+"Partially linear FE","log_capital","Log capital",2.66312994964802,1.36637586890282
+"Partially linear FE","log_capital","Log capital",2.70143045854462,1.38723656919141
+"Partially linear FE","log_capital","Log capital",2.73973096744121,1.40809726948
+"Partially linear FE","log_capital","Log capital",2.77803147633781,1.4289579697686
+"Partially linear FE","log_capital","Log capital",2.81633198523441,1.44981867005719
+"Partially linear FE","log_capital","Log capital",2.85463249413101,1.47067937034578
+"Partially linear FE","log_capital","Log capital",2.89293300302761,1.49154007063437
+"Partially linear FE","log_capital","Log capital",2.93123351192421,1.51240077092297
+"Partially linear FE","log_capital","Log capital",2.96953402082081,1.53326147121156
+"Partially linear FE","log_capital","Log capital",3.00783452971741,1.55412217150015
+"Partially linear FE","log_capital","Log capital",3.046135038614,1.57498287178874
+"Partially linear FE","log_capital","Log capital",3.0844355475106,1.59584357207734
+"Partially linear FE","log_capital","Log capital",3.1227360564072,1.61670427236593
+"Partially linear FE","log_capital","Log capital",3.1610365653038,1.63756497265452
+"Partially linear FE","log_capital","Log capital",3.1993370742004,1.65842567294312
+"Partially linear FE","log_capital","Log capital",3.237637583097,1.67928637323171
+"Partially linear FE","log_capital","Log capital",3.2759380919936,1.7001470735203
+"Partially linear FE","log_capital","Log capital",3.3142386008902,1.72100777380889
+"Partially linear FE","log_capital","Log capital",3.35253910978679,1.74186847409749
+"Partially linear FE","log_capital","Log capital",3.39083961868339,1.76272917438608
+"Partially linear FE","log_capital","Log capital",3.42914012757999,1.78358987467467
+"Partially linear FE","log_capital","Log capital",3.46744063647659,1.80445057496326
+"Partially linear FE","log_capital","Log capital",3.50574114537319,1.82531127525186
+"Partially linear FE","log_capital","Log capital",3.54404165426979,1.84617197554045
+"Partially linear FE","log_capital","Log capital",3.58234216316638,1.86703267582904
+"Additive GAM FE","log_capital","Log capital",-3.27344892932477,-1.83619980662914
+"Additive GAM FE","log_capital","Log capital",-3.23514842042817,-1.8185094649496
+"Additive GAM FE","log_capital","Log capital",-3.19684791153157,-1.80105491306929
+"Additive GAM FE","log_capital","Log capital",-3.15854740263497,-1.78384370145008
+"Additive GAM FE","log_capital","Log capital",-3.12024689373838,-1.76688338055386
+"Additive GAM FE","log_capital","Log capital",-3.08194638484178,-1.75018150084251
+"Additive GAM FE","log_capital","Log capital",-3.04364587594518,-1.73374561277791
+"Additive GAM FE","log_capital","Log capital",-3.00534536704858,-1.71758326682194
+"Additive GAM FE","log_capital","Log capital",-2.96704485815198,-1.70170201343648
+"Additive GAM FE","log_capital","Log capital",-2.92874434925538,-1.68610940308341
+"Additive GAM FE","log_capital","Log capital",-2.89044384035878,-1.67081298622462
+"Additive GAM FE","log_capital","Log capital",-2.85214333146219,-1.65582029020744
+"Additive GAM FE","log_capital","Log capital",-2.81384282256559,-1.6411025769992
+"Additive GAM FE","log_capital","Log capital",-2.77554231366899,-1.62652146403864
+"Additive GAM FE","log_capital","Log capital",-2.73724180477239,-1.61191792769088
+"Additive GAM FE","log_capital","Log capital",-2.69894129587579,-1.59713294432107
+"Additive GAM FE","log_capital","Log capital",-2.66064078697919,-1.58200749029432
+"Additive GAM FE","log_capital","Log capital",-2.62234027808259,-1.56638254197577
+"Additive GAM FE","log_capital","Log capital",-2.58403976918599,-1.55009907573053
+"Additive GAM FE","log_capital","Log capital",-2.5457392602894,-1.53299806792375
+"Additive GAM FE","log_capital","Log capital",-2.5074387513928,-1.51492049492055
+"Additive GAM FE","log_capital","Log capital",-2.4691382424962,-1.49570733308604
+"Additive GAM FE","log_capital","Log capital",-2.4308377335996,-1.47519955878538
+"Additive GAM FE","log_capital","Log capital",-2.392537224703,-1.45323814838367
+"Additive GAM FE","log_capital","Log capital",-2.3542367158064,-1.42966407824605
+"Additive GAM FE","log_capital","Log capital",-2.3159362069098,-1.404390365662
+"Additive GAM FE","log_capital","Log capital",-2.27763569801321,-1.3777345549121
+"Additive GAM FE","log_capital","Log capital",-2.23933518911661,-1.3501552882375
+"Additive GAM FE","log_capital","Log capital",-2.20103468022001,-1.32211135350704
+"Additive GAM FE","log_capital","Log capital",-2.16273417132341,-1.29406153858961
+"Additive GAM FE","log_capital","Log capital",-2.12443366242681,-1.26646463135405
+"Additive GAM FE","log_capital","Log capital",-2.08613315353021,-1.23977941966926
+"Additive GAM FE","log_capital","Log capital",-2.04783264463361,-1.21446469140408
+"Additive GAM FE","log_capital","Log capital",-2.00953213573702,-1.19093637250398
+"Additive GAM FE","log_capital","Log capital",-1.97123162684042,-1.16910147378791
+"Additive GAM FE","log_capital","Log capital",-1.93293111794382,-1.14853354722872
+"Additive GAM FE","log_capital","Log capital",-1.89463060904722,-1.12880035222411
+"Additive GAM FE","log_capital","Log capital",-1.85633010015062,-1.1094696481718
+"Additive GAM FE","log_capital","Log capital",-1.81802959125402,-1.09010919446952
+"Additive GAM FE","log_capital","Log capital",-1.77972908235742,-1.07028675051497
+"Additive GAM FE","log_capital","Log capital",-1.74142857346082,-1.04957311465038
+"Additive GAM FE","log_capital","Log capital",-1.70312806456423,-1.02777428613001
+"Additive GAM FE","log_capital","Log capital",-1.66482755566763,-1.00509498941456
+"Additive GAM FE","log_capital","Log capital",-1.62652704677103,-0.98177857704111
+"Additive GAM FE","log_capital","Log capital",-1.58822653787443,-0.958068401546745
+"Additive GAM FE","log_capital","Log capital",-1.54992602897783,-0.934207815468552
+"Additive GAM FE","log_capital","Log capital",-1.51162552008123,-0.910440170757521
+"Additive GAM FE","log_capital","Log capital",-1.47332501118463,-0.886946334635482
+"Additive GAM FE","log_capital","Log capital",-1.43502450228804,-0.863672869952829
+"Additive GAM FE","log_capital","Log capital",-1.39672399339144,-0.840511430480077
+"Additive GAM FE","log_capital","Log capital",-1.35842348449484,-0.817353669987741
+"Additive GAM FE","log_capital","Log capital",-1.32012297559824,-0.794091242246335
+"Additive GAM FE","log_capital","Log capital",-1.28182246670164,-0.770615801026374
+"Additive GAM FE","log_capital","Log capital",-1.24352195780504,-0.746822649030923
+"Additive GAM FE","log_capital","Log capital",-1.20522144890844,-0.72268138266888
+"Additive GAM FE","log_capital","Log capital",-1.16692094001185,-0.698230905077869
+"Additive GAM FE","log_capital","Log capital",-1.12862043111525,-0.67351276942284
+"Additive GAM FE","log_capital","Log capital",-1.09031992221865,-0.648568528868742
+"Additive GAM FE","log_capital","Log capital",-1.05201941332205,-0.623439736580525
+"Additive GAM FE","log_capital","Log capital",-1.01371890442545,-0.598168058373488
+"Additive GAM FE","log_capital","Log capital",-0.975418395528852,-0.57280903533355
+"Additive GAM FE","log_capital","Log capital",-0.937117886632254,-0.547445288944948
+"Additive GAM FE","log_capital","Log capital",-0.898817377735655,-0.522162570637226
+"Additive GAM FE","log_capital","Log capital",-0.860516868839056,-0.497046631839928
+"Additive GAM FE","log_capital","Log capital",-0.822216359942458,-0.472183223982598
+"Additive GAM FE","log_capital","Log capital",-0.783915851045859,-0.447658222600736
+"Additive GAM FE","log_capital","Log capital",-0.74561534214926,-0.423562249204814
+"Additive GAM FE","log_capital","Log capital",-0.707314833252662,-0.399992045379743
+"Additive GAM FE","log_capital","Log capital",-0.669014324356063,-0.377044757218506
+"Additive GAM FE","log_capital","Log capital",-0.630713815459464,-0.354817530814084
+"Additive GAM FE","log_capital","Log capital",-0.592413306562866,-0.333407512259459
+"Additive GAM FE","log_capital","Log capital",-0.554112797666267,-0.312911762866975
+"Additive GAM FE","log_capital","Log capital",-0.515812288769669,-0.293365047069395
+"Additive GAM FE","log_capital","Log capital",-0.47751177987307,-0.274629706536727
+"Additive GAM FE","log_capital","Log capital",-0.439211270976471,-0.256538499886828
+"Additive GAM FE","log_capital","Log capital",-0.400910762079873,-0.238924185737558
+"Additive GAM FE","log_capital","Log capital",-0.362610253183274,-0.221619522706776
+"Additive GAM FE","log_capital","Log capital",-0.324309744286675,-0.204457269412341
+"Additive GAM FE","log_capital","Log capital",-0.286009235390077,-0.187270184472112
+"Additive GAM FE","log_capital","Log capital",-0.247708726493478,-0.169897757840589
+"Additive GAM FE","log_capital","Log capital",-0.209408217596879,-0.152304835188615
+"Additive GAM FE","log_capital","Log capital",-0.171107708700281,-0.134567151109282
+"Additive GAM FE","log_capital","Log capital",-0.132807199803682,-0.116764264527789
+"Additive GAM FE","log_capital","Log capital",-0.0945066909070835,-0.0989757343693341
+"Additive GAM FE","log_capital","Log capital",-0.0562061820104849,-0.0812811195591143
+"Additive GAM FE","log_capital","Log capital",-0.0179056731138862,-0.0637599790223277
+"Additive GAM FE","log_capital","Log capital",0.0203948357827124,-0.0464922856111883
+"Additive GAM FE","log_capital","Log capital",0.058695344679311,-0.0295738617113283
+"Additive GAM FE","log_capital","Log capital",0.0969958535759097,-0.0131209799646458
+"Additive GAM FE","log_capital","Log capital",0.135296362472508,0.00274873413989208
+"Additive GAM FE","log_capital","Log capital",0.173596871369107,0.0179176551133196
+"Additive GAM FE","log_capital","Log capital",0.211897380265706,0.0322681574666705
+"Additive GAM FE","log_capital","Log capital",0.250197889162304,0.0456826157109781
+"Additive GAM FE","log_capital","Log capital",0.288498398058903,0.0580434043572766
+"Additive GAM FE","log_capital","Log capital",0.326798906955502,0.0692769223510126
+"Additive GAM FE","log_capital","Log capital",0.3650994158521,0.0796098696217694
+"Additive GAM FE","log_capital","Log capital",0.403399924748698,0.0893943228407648
+"Additive GAM FE","log_capital","Log capital",0.441700433645297,0.0989827773584155
+"Additive GAM FE","log_capital","Log capital",0.480000942541896,0.108727728525139
+"Additive GAM FE","log_capital","Log capital",0.518301451438494,0.118981671691351
+"Additive GAM FE","log_capital","Log capital",0.556601960335093,0.130097102207468
+"Additive GAM FE","log_capital","Log capital",0.594902469231692,0.142420005386984
+"Additive GAM FE","log_capital","Log capital",0.63320297812829,0.156118170777485
+"Additive GAM FE","log_capital","Log capital",0.671503487024889,0.171163778144005
+"Additive GAM FE","log_capital","Log capital",0.709803995921487,0.187519004917094
+"Additive GAM FE","log_capital","Log capital",0.748104504818087,0.205146028527305
+"Additive GAM FE","log_capital","Log capital",0.786405013714685,0.224007026405189
+"Additive GAM FE","log_capital","Log capital",0.824705522611284,0.244064141203765
+"Additive GAM FE","log_capital","Log capital",0.863006031507882,0.265270620920636
+"Additive GAM FE","log_capital","Log capital",0.901306540404481,0.287559063209184
+"Additive GAM FE","log_capital","Log capital",0.939607049301079,0.310859142388839
+"Additive GAM FE","log_capital","Log capital",0.977907558197678,0.335100532779037
+"Additive GAM FE","log_capital","Log capital",1.01620806709428,0.360212908699208
+"Additive GAM FE","log_capital","Log capital",1.05450857599088,0.386125944468787
+"Additive GAM FE","log_capital","Log capital",1.09280908488747,0.412769314407204
+"Additive GAM FE","log_capital","Log capital",1.13110959378407,0.440072692833896
+"Additive GAM FE","log_capital","Log capital",1.16941010268067,0.467965754068291
+"Additive GAM FE","log_capital","Log capital",1.20771061157727,0.496378172429827
+"Additive GAM FE","log_capital","Log capital",1.24601112047387,0.525239622237932
+"Additive GAM FE","log_capital","Log capital",1.28431162937047,0.554479777812042
+"Additive GAM FE","log_capital","Log capital",1.32261213826707,0.584028313471588
+"Additive GAM FE","log_capital","Log capital",1.36091264716366,0.613814903536004
+"Additive GAM FE","log_capital","Log capital",1.39921315606026,0.643769222324722
+"Additive GAM FE","log_capital","Log capital",1.43751366495686,0.673820944157176
+"Additive GAM FE","log_capital","Log capital",1.47581417385346,0.703899743352797
+"Additive GAM FE","log_capital","Log capital",1.51411468275006,0.733932969815714
+"Additive GAM FE","log_capital","Log capital",1.55241519164666,0.763819206221952
+"Additive GAM FE","log_capital","Log capital",1.59071570054326,0.793437611614084
+"Additive GAM FE","log_capital","Log capital",1.62901620943985,0.82266698017243
+"Additive GAM FE","log_capital","Log capital",1.66731671833645,0.85138610607731
+"Additive GAM FE","log_capital","Log capital",1.70561722723305,0.879473783509045
+"Additive GAM FE","log_capital","Log capital",1.74391773612965,0.906808806647955
+"Additive GAM FE","log_capital","Log capital",1.78221824502625,0.933269969674362
+"Additive GAM FE","log_capital","Log capital",1.82051875392285,0.958736066768583
+"Additive GAM FE","log_capital","Log capital",1.85881926281945,0.983087802149905
+"Additive GAM FE","log_capital","Log capital",1.89711977171604,1.00631500398101
+"Additive GAM FE","log_capital","Log capital",1.93542028061264,1.02857356548108
+"Additive GAM FE","log_capital","Log capital",1.97372078950924,1.05003331135414
+"Additive GAM FE","log_capital","Log capital",2.01202129840584,1.07086406630424
+"Additive GAM FE","log_capital","Log capital",2.05032180730244,1.09123565503541
+"Additive GAM FE","log_capital","Log capital",2.08862231619904,1.11131790225169
+"Additive GAM FE","log_capital","Log capital",2.12692282509564,1.13128063265711
+"Additive GAM FE","log_capital","Log capital",2.16522333399224,1.15129367095571
+"Additive GAM FE","log_capital","Log capital",2.20352384288883,1.17152684185153
+"Additive GAM FE","log_capital","Log capital",2.24182435178543,1.19214997004859
+"Additive GAM FE","log_capital","Log capital",2.28012486068203,1.21329709075333
+"Additive GAM FE","log_capital","Log capital",2.31842536957863,1.23493504913278
+"Additive GAM FE","log_capital","Log capital",2.35672587847523,1.25698190925087
+"Additive GAM FE","log_capital","Log capital",2.39502638737183,1.27935572939056
+"Additive GAM FE","log_capital","Log capital",2.43332689626843,1.30197456783479
+"Additive GAM FE","log_capital","Log capital",2.47162740516502,1.32475648286653
+"Additive GAM FE","log_capital","Log capital",2.50992791406162,1.34761953276872
+"Additive GAM FE","log_capital","Log capital",2.54822842295822,1.37048177582433
+"Additive GAM FE","log_capital","Log capital",2.58652893185482,1.3932612703163
+"Additive GAM FE","log_capital","Log capital",2.62482944075142,1.41587607452759
+"Additive GAM FE","log_capital","Log capital",2.66312994964802,1.43824424674116
+"Additive GAM FE","log_capital","Log capital",2.70143045854462,1.46028384523995
+"Additive GAM FE","log_capital","Log capital",2.73973096744121,1.48191292830693
+"Additive GAM FE","log_capital","Log capital",2.77803147633781,1.50304955422504
+"Additive GAM FE","log_capital","Log capital",2.81633198523441,1.52361178127724
+"Additive GAM FE","log_capital","Log capital",2.85463249413101,1.54351766774649
+"Additive GAM FE","log_capital","Log capital",2.89293300302761,1.56268527191574
+"Additive GAM FE","log_capital","Log capital",2.93123351192421,1.58103265206794
+"Additive GAM FE","log_capital","Log capital",2.96953402082081,1.59847786648606
+"Additive GAM FE","log_capital","Log capital",3.00783452971741,1.61493897345303
+"Additive GAM FE","log_capital","Log capital",3.046135038614,1.63033403125182
+"Additive GAM FE","log_capital","Log capital",3.0844355475106,1.64458109816538
+"Additive GAM FE","log_capital","Log capital",3.1227360564072,1.65760022275303
+"Additive GAM FE","log_capital","Log capital",3.1610365653038,1.66937575577848
+"Additive GAM FE","log_capital","Log capital",3.1993370742004,1.679968718158
+"Additive GAM FE","log_capital","Log capital",3.237637583097,1.68944461869556
+"Additive GAM FE","log_capital","Log capital",3.2759380919936,1.69786896619516
+"Additive GAM FE","log_capital","Log capital",3.3142386008902,1.7053072694608
+"Additive GAM FE","log_capital","Log capital",3.35253910978679,1.71182503729648
+"Additive GAM FE","log_capital","Log capital",3.39083961868339,1.71748777850618
+"Additive GAM FE","log_capital","Log capital",3.42914012757999,1.72236100189391
+"Additive GAM FE","log_capital","Log capital",3.46744063647659,1.72651021626366
+"Additive GAM FE","log_capital","Log capital",3.50574114537319,1.73000093041942
+"Additive GAM FE","log_capital","Log capital",3.54404165426979,1.73289865316518
+"Additive GAM FE","log_capital","Log capital",3.58234216316638,1.73526889330495
+"Linear FE","log_output","Log output",4.48863636973214,-0.047481800350138
+"Linear FE","log_output","Log output",4.49063966686812,-0.0469512774411979
+"Linear FE","log_output","Log output",4.4926429640041,-0.0464207545322577
+"Linear FE","log_output","Log output",4.49464626114008,-0.0458902316233177
+"Linear FE","log_output","Log output",4.49664955827606,-0.0453597087143776
+"Linear FE","log_output","Log output",4.49865285541204,-0.0448291858054376
+"Linear FE","log_output","Log output",4.50065615254802,-0.0442986628964974
+"Linear FE","log_output","Log output",4.502659449684,-0.0437681399875573
+"Linear FE","log_output","Log output",4.50466274681997,-0.0432376170786173
+"Linear FE","log_output","Log output",4.50666604395595,-0.042707094169677
+"Linear FE","log_output","Log output",4.50866934109193,-0.042176571260737
+"Linear FE","log_output","Log output",4.51067263822791,-0.041646048351797
+"Linear FE","log_output","Log output",4.51267593536389,-0.041115525442857
+"Linear FE","log_output","Log output",4.51467923249987,-0.0405850025339167
+"Linear FE","log_output","Log output",4.51668252963585,-0.0400544796249767
+"Linear FE","log_output","Log output",4.51868582677183,-0.0395239567160367
+"Linear FE","log_output","Log output",4.52068912390781,-0.0389934338070964
+"Linear FE","log_output","Log output",4.52269242104379,-0.0384629108981564
+"Linear FE","log_output","Log output",4.52469571817977,-0.0379323879892164
+"Linear FE","log_output","Log output",4.52669901531575,-0.0374018650802761
+"Linear FE","log_output","Log output",4.52870231245173,-0.0368713421713361
+"Linear FE","log_output","Log output",4.53070560958771,-0.0363408192623961
+"Linear FE","log_output","Log output",4.53270890672369,-0.0358102963534561
+"Linear FE","log_output","Log output",4.53471220385967,-0.0352797734445158
+"Linear FE","log_output","Log output",4.53671550099565,-0.0347492505355758
+"Linear FE","log_output","Log output",4.53871879813162,-0.0342187276266358
+"Linear FE","log_output","Log output",4.5407220952676,-0.0336882047176955
+"Linear FE","log_output","Log output",4.54272539240358,-0.0331576818087555
+"Linear FE","log_output","Log output",4.54472868953956,-0.0326271588998155
+"Linear FE","log_output","Log output",4.54673198667554,-0.0320966359908754
+"Linear FE","log_output","Log output",4.54873528381152,-0.0315661130819352
+"Linear FE","log_output","Log output",4.5507385809475,-0.0310355901729952
+"Linear FE","log_output","Log output",4.55274187808348,-0.0305050672640551
+"Linear FE","log_output","Log output",4.55474517521946,-0.0299745443551149
+"Linear FE","log_output","Log output",4.55674847235544,-0.0294440214461749
+"Linear FE","log_output","Log output",4.55875176949142,-0.0289134985372348
+"Linear FE","log_output","Log output",4.5607550666274,-0.0283829756282948
+"Linear FE","log_output","Log output",4.56275836376338,-0.0278524527193546
+"Linear FE","log_output","Log output",4.56476166089936,-0.0273219298104145
+"Linear FE","log_output","Log output",4.56676495803534,-0.0267914069014745
+"Linear FE","log_output","Log output",4.56876825517132,-0.0262608839925343
+"Linear FE","log_output","Log output",4.5707715523073,-0.0257303610835942
+"Linear FE","log_output","Log output",4.57277484944327,-0.0251998381746542
+"Linear FE","log_output","Log output",4.57477814657925,-0.024669315265714
+"Linear FE","log_output","Log output",4.57678144371523,-0.0241387923567739
+"Linear FE","log_output","Log output",4.57878474085121,-0.0236082694478339
+"Linear FE","log_output","Log output",4.58078803798719,-0.0230777465388939
+"Linear FE","log_output","Log output",4.58279133512317,-0.0225472236299536
+"Linear FE","log_output","Log output",4.58479463225915,-0.0220167007210136
+"Linear FE","log_output","Log output",4.58679792939513,-0.0214861778120736
+"Linear FE","log_output","Log output",4.58880122653111,-0.0209556549031333
+"Linear FE","log_output","Log output",4.59080452366709,-0.0204251319941933
+"Linear FE","log_output","Log output",4.59280782080307,-0.0198946090852533
+"Linear FE","log_output","Log output",4.59481111793905,-0.0193640861763133
+"Linear FE","log_output","Log output",4.59681441507503,-0.018833563267373
+"Linear FE","log_output","Log output",4.59881771221101,-0.018303040358433
+"Linear FE","log_output","Log output",4.60082100934699,-0.017772517449493
+"Linear FE","log_output","Log output",4.60282430648297,-0.0172419945405527
+"Linear FE","log_output","Log output",4.60482760361894,-0.0167114716316127
+"Linear FE","log_output","Log output",4.60683090075492,-0.0161809487226727
+"Linear FE","log_output","Log output",4.6088341978909,-0.0156504258137326
+"Linear FE","log_output","Log output",4.61083749502688,-0.0151199029047924
+"Linear FE","log_output","Log output",4.61284079216286,-0.0145893799958524
+"Linear FE","log_output","Log output",4.61484408929884,-0.0140588570869123
+"Linear FE","log_output","Log output",4.61684738643482,-0.0135283341779721
+"Linear FE","log_output","Log output",4.6188506835708,-0.0129978112690321
+"Linear FE","log_output","Log output",4.62085398070678,-0.012467288360092
+"Linear FE","log_output","Log output",4.62285727784276,-0.011936765451152
+"Linear FE","log_output","Log output",4.62486057497874,-0.0114062425422118
+"Linear FE","log_output","Log output",4.62686387211472,-0.0108757196332717
+"Linear FE","log_output","Log output",4.6288671692507,-0.0103451967243317
+"Linear FE","log_output","Log output",4.63087046638668,-0.00981467381539146
+"Linear FE","log_output","Log output",4.63287376352266,-0.00928415090645144
+"Linear FE","log_output","Log output",4.63487706065863,-0.00875362799751142
+"Linear FE","log_output","Log output",4.63688035779461,-0.00822310508857116
+"Linear FE","log_output","Log output",4.63888365493059,-0.00769258217963114
+"Linear FE","log_output","Log output",4.64088695206657,-0.00716205927069112
+"Linear FE","log_output","Log output",4.64289024920255,-0.0066315363617511
+"Linear FE","log_output","Log output",4.64489354633853,-0.00610101345281084
+"Linear FE","log_output","Log output",4.64689684347451,-0.00557049054387082
+"Linear FE","log_output","Log output",4.64890014061049,-0.0050399676349308
+"Linear FE","log_output","Log output",4.65090343774647,-0.00450944472599054
+"Linear FE","log_output","Log output",4.65290673488245,-0.00397892181705052
+"Linear FE","log_output","Log output",4.65491003201843,-0.0034483989081105
+"Linear FE","log_output","Log output",4.65691332915441,-0.00291787599917047
+"Linear FE","log_output","Log output",4.65891662629039,-0.00238735309023022
+"Linear FE","log_output","Log output",4.66091992342637,-0.00185683018129019
+"Linear FE","log_output","Log output",4.66292322056235,-0.00132630727235017
+"Linear FE","log_output","Log output",4.66492651769833,-0.000795784363409915
+"Linear FE","log_output","Log output",4.66692981483431,-0.000265261454469893
+"Linear FE","log_output","Log output",4.66893311197028,0.000265261454470129
+"Linear FE","log_output","Log output",4.67093640910626,0.00079578436341015
+"Linear FE","log_output","Log output",4.67293970624224,0.00132630727235041
+"Linear FE","log_output","Log output",4.67494300337822,0.00185683018129043
+"Linear FE","log_output","Log output",4.6769463005142,0.00238735309023045
+"Linear FE","log_output","Log output",4.67894959765018,0.00291787599917071
+"Linear FE","log_output","Log output",4.68095289478616,0.00344839890811073
+"Linear FE","log_output","Log output",4.68295619192214,0.00397892181705075
+"Linear FE","log_output","Log output",4.68495948905812,0.00450944472599077
+"Linear FE","log_output","Log output",4.6869627861941,0.00503996763493103
+"Linear FE","log_output","Log output",4.68896608333008,0.00557049054387105
+"Linear FE","log_output","Log output",4.69096938046606,0.00610101345281107
+"Linear FE","log_output","Log output",4.69297267760204,0.00663153636175133
+"Linear FE","log_output","Log output",4.69497597473802,0.00716205927069135
+"Linear FE","log_output","Log output",4.696979271874,0.00769258217963137
+"Linear FE","log_output","Log output",4.69898256900998,0.00822310508857163
+"Linear FE","log_output","Log output",4.70098586614596,0.00875362799751165
+"Linear FE","log_output","Log output",4.70298916328193,0.00928415090645168
+"Linear FE","log_output","Log output",4.70499246041791,0.0098146738153917
+"Linear FE","log_output","Log output",4.70699575755389,0.010345196724332
+"Linear FE","log_output","Log output",4.70899905468987,0.010875719633272
+"Linear FE","log_output","Log output",4.71100235182585,0.011406242542212
+"Linear FE","log_output","Log output",4.71300564896183,0.0119367654511523
+"Linear FE","log_output","Log output",4.71500894609781,0.0124672883600923
+"Linear FE","log_output","Log output",4.71701224323379,0.0129978112690323
+"Linear FE","log_output","Log output",4.71901554036977,0.0135283341779723
+"Linear FE","log_output","Log output",4.72101883750575,0.0140588570869126
+"Linear FE","log_output","Log output",4.72302213464173,0.0145893799958526
+"Linear FE","log_output","Log output",4.72502543177771,0.0151199029047926
+"Linear FE","log_output","Log output",4.72702872891369,0.0156504258137329
+"Linear FE","log_output","Log output",4.72903202604967,0.0161809487226729
+"Linear FE","log_output","Log output",4.73103532318565,0.0167114716316129
+"Linear FE","log_output","Log output",4.73303862032162,0.0172419945405529
+"Linear FE","log_output","Log output",4.7350419174576,0.0177725174494932
+"Linear FE","log_output","Log output",4.73704521459358,0.0183030403584332
+"Linear FE","log_output","Log output",4.73904851172956,0.0188335632673732
+"Linear FE","log_output","Log output",4.74105180886554,0.0193640861763135
+"Linear FE","log_output","Log output",4.74305510600152,0.0198946090852535
+"Linear FE","log_output","Log output",4.7450584031375,0.0204251319941935
+"Linear FE","log_output","Log output",4.74706170027348,0.0209556549031336
+"Linear FE","log_output","Log output",4.74906499740946,0.0214861778120738
+"Linear FE","log_output","Log output",4.75106829454544,0.0220167007210138
+"Linear FE","log_output","Log output",4.75307159168142,0.0225472236299539
+"Linear FE","log_output","Log output",4.7550748888174,0.0230777465388941
+"Linear FE","log_output","Log output",4.75707818595338,0.0236082694478341
+"Linear FE","log_output","Log output",4.75908148308936,0.0241387923567742
+"Linear FE","log_output","Log output",4.76108478022534,0.0246693152657144
+"Linear FE","log_output","Log output",4.76308807736132,0.0251998381746544
+"Linear FE","log_output","Log output",4.7650913744973,0.0257303610835945
+"Linear FE","log_output","Log output",4.76709467163327,0.0262608839925345
+"Linear FE","log_output","Log output",4.76909796876925,0.0267914069014747
+"Linear FE","log_output","Log output",4.77110126590523,0.0273219298104148
+"Linear FE","log_output","Log output",4.77310456304121,0.0278524527193548
+"Linear FE","log_output","Log output",4.77510786017719,0.028382975628295
+"Linear FE","log_output","Log output",4.77711115731317,0.0289134985372351
+"Linear FE","log_output","Log output",4.77911445444915,0.0294440214461751
+"Linear FE","log_output","Log output",4.78111775158513,0.0299745443551151
+"Linear FE","log_output","Log output",4.78312104872111,0.0305050672640554
+"Linear FE","log_output","Log output",4.78512434585709,0.0310355901729954
+"Linear FE","log_output","Log output",4.78712764299307,0.0315661130819354
+"Linear FE","log_output","Log output",4.78913094012905,0.0320966359908757
+"Linear FE","log_output","Log output",4.79113423726503,0.0326271588998157
+"Linear FE","log_output","Log output",4.79313753440101,0.0331576818087557
+"Linear FE","log_output","Log output",4.79514083153699,0.0336882047176957
+"Linear FE","log_output","Log output",4.79714412867297,0.034218727626636
+"Linear FE","log_output","Log output",4.79914742580895,0.034749250535576
+"Linear FE","log_output","Log output",4.80115072294492,0.035279773444516
+"Linear FE","log_output","Log output",4.8031540200809,0.0358102963534563
+"Linear FE","log_output","Log output",4.80515731721688,0.0363408192623963
+"Linear FE","log_output","Log output",4.80716061435286,0.0368713421713363
+"Linear FE","log_output","Log output",4.80916391148884,0.0374018650802764
+"Linear FE","log_output","Log output",4.81116720862482,0.0379323879892166
+"Linear FE","log_output","Log output",4.8131705057608,0.0384629108981566
+"Linear FE","log_output","Log output",4.81517380289678,0.0389934338070967
+"Linear FE","log_output","Log output",4.81717710003276,0.0395239567160369
+"Linear FE","log_output","Log output",4.81918039716874,0.0400544796249769
+"Linear FE","log_output","Log output",4.82118369430472,0.040585002533917
+"Linear FE","log_output","Log output",4.8231869914407,0.0411155254428572
+"Linear FE","log_output","Log output",4.82519028857668,0.0416460483517972
+"Linear FE","log_output","Log output",4.82719358571266,0.0421765712607373
+"Linear FE","log_output","Log output",4.82919688284864,0.0427070941696773
+"Linear FE","log_output","Log output",4.83120017998462,0.0432376170786175
+"Linear FE","log_output","Log output",4.8332034771206,0.0437681399875576
+"Linear FE","log_output","Log output",4.83520677425657,0.0442986628964976
+"Linear FE","log_output","Log output",4.83721007139255,0.0448291858054378
+"Linear FE","log_output","Log output",4.83921336852853,0.0453597087143779
+"Linear FE","log_output","Log output",4.84121666566451,0.0458902316233179
+"Linear FE","log_output","Log output",4.84321996280049,0.0464207545322579
+"Linear FE","log_output","Log output",4.84522325993647,0.0469512774411982
+"Linear FE","log_output","Log output",4.84722655707245,0.0474818003501382
+"Partially linear FE","log_output","Log output",4.48863636973214,-0.0663292569993904
+"Partially linear FE","log_output","Log output",4.49063966686812,-0.0652716732982514
+"Partially linear FE","log_output","Log output",4.4926429640041,-0.0642066265688291
+"Partially linear FE","log_output","Log output",4.49464626114008,-0.0631335391553193
+"Partially linear FE","log_output","Log output",4.49664955827606,-0.0620518334019159
+"Partially linear FE","log_output","Log output",4.49865285541204,-0.0609609316528135
+"Partially linear FE","log_output","Log output",4.50065615254802,-0.0598602562522062
+"Partially linear FE","log_output","Log output",4.502659449684,-0.0587492295442896
+"Partially linear FE","log_output","Log output",4.50466274681997,-0.0576272738732577
+"Partially linear FE","log_output","Log output",4.50666604395595,-0.0564940857662378
+"Partially linear FE","log_output","Log output",4.50866934109193,-0.0553506746121737
+"Partially linear FE","log_output","Log output",4.51067263822791,-0.0541984422902202
+"Partially linear FE","log_output","Log output",4.51267593536389,-0.0530387907502105
+"Partially linear FE","log_output","Log output",4.51467923249987,-0.0518731219419769
+"Partially linear FE","log_output","Log output",4.51668252963585,-0.0507028378153535
+"Partially linear FE","log_output","Log output",4.51868582677183,-0.0495293403201729
+"Partially linear FE","log_output","Log output",4.52068912390781,-0.0483540314062674
+"Partially linear FE","log_output","Log output",4.52269242104379,-0.0471783130234712
+"Partially linear FE","log_output","Log output",4.52469571817977,-0.0460034202095248
+"Partially linear FE","log_output","Log output",4.52669901531575,-0.0448296965691648
+"Partially linear FE","log_output","Log output",4.52870231245173,-0.0436571893249028
+"Partially linear FE","log_output","Log output",4.53070560958771,-0.0424859455004008
+"Partially linear FE","log_output","Log output",4.53270890672369,-0.041316012119321
+"Partially linear FE","log_output","Log output",4.53471220385967,-0.0401474362053251
+"Partially linear FE","log_output","Log output",4.53671550099565,-0.0389802647820766
+"Partially linear FE","log_output","Log output",4.53871879813162,-0.0378145448732373
+"Partially linear FE","log_output","Log output",4.5407220952676,-0.0366503235024688
+"Partially linear FE","log_output","Log output",4.54272539240358,-0.0354876712510037
+"Partially linear FE","log_output","Log output",4.54472868953956,-0.0343270040314749
+"Partially linear FE","log_output","Log output",4.54673198667554,-0.0331689999784658
+"Partially linear FE","log_output","Log output",4.54873528381152,-0.0320143437662874
+"Partially linear FE","log_output","Log output",4.5507385809475,-0.030863720069252
+"Partially linear FE","log_output","Log output",4.55274187808348,-0.0297178135616704
+"Partially linear FE","log_output","Log output",4.55474517521946,-0.0285772937825268
+"Partially linear FE","log_output","Log output",4.55674847235544,-0.0274427311476217
+"Partially linear FE","log_output","Log output",4.55875176949142,-0.0263146561817595
+"Partially linear FE","log_output","Log output",4.5607550666274,-0.0251935993006494
+"Partially linear FE","log_output","Log output",4.56275836376338,-0.0240800909200005
+"Partially linear FE","log_output","Log output",4.56476166089936,-0.022974661455523
+"Partially linear FE","log_output","Log output",4.56676495803534,-0.0218778413229259
+"Partially linear FE","log_output","Log output",4.56876825517132,-0.0207901609379181
+"Partially linear FE","log_output","Log output",4.5707715523073,-0.0197122004747489
+"Partially linear FE","log_output","Log output",4.57277484944327,-0.0186447466154267
+"Partially linear FE","log_output","Log output",4.57477814657925,-0.0175886396069273
+"Partially linear FE","log_output","Log output",4.57678144371523,-0.0165447196963238
+"Partially linear FE","log_output","Log output",4.57878474085121,-0.0155138257341039
+"Partially linear FE","log_output","Log output",4.58078803798719,-0.0144965906715512
+"Partially linear FE","log_output","Log output",4.58279133512317,-0.0134932259993689
+"Partially linear FE","log_output","Log output",4.58479463225915,-0.0125038916318668
+"Partially linear FE","log_output","Log output",4.58679792939513,-0.0115287474833533
+"Partially linear FE","log_output","Log output",4.58880122653111,-0.0105679534681367
+"Partially linear FE","log_output","Log output",4.59080452366709,-0.00962166861923026
+"Partially linear FE","log_output","Log output",4.59280782080307,-0.0086900287915411
+"Partially linear FE","log_output","Log output",4.59481111793905,-0.00777314492086557
+"Partially linear FE","log_output","Log output",4.59681441507503,-0.00687112671292937
+"Partially linear FE","log_output","Log output",4.59881771221101,-0.00598408391554132
+"Partially linear FE","log_output","Log output",4.60082100934699,-0.00511213085484534
+"Partially linear FE","log_output","Log output",4.60282430648297,-0.00425539048514284
+"Partially linear FE","log_output","Log output",4.60482760361894,-0.00341398671626288
+"Partially linear FE","log_output","Log output",4.60683090075492,-0.00258821673131494
+"Partially linear FE","log_output","Log output",4.6088341978909,-0.00177905836197257
+"Partially linear FE","log_output","Log output",4.61083749502688,-0.000987656546570492
+"Partially linear FE","log_output","Log output",4.61284079216286,-0.000215088259718838
+"Partially linear FE","log_output","Log output",4.61484408929884,0.00053818461801267
+"Partially linear FE","log_output","Log output",4.61684738643482,0.00127202718520467
+"Partially linear FE","log_output","Log output",4.6188506835708,0.00198630756477298
+"Partially linear FE","log_output","Log output",4.62085398070678,0.00268089387963438
+"Partially linear FE","log_output","Log output",4.62285727784276,0.00335565425270537
+"Partially linear FE","log_output","Log output",4.62486057497874,0.00401045688745756
+"Partially linear FE","log_output","Log output",4.62686387211472,0.00464529428412632
+"Partially linear FE","log_output","Log output",4.6288671692507,0.00526053411077246
+"Partially linear FE","log_output","Log output",4.63087046638668,0.00585661453946895
+"Partially linear FE","log_output","Log output",4.63287376352266,0.00643397374228802
+"Partially linear FE","log_output","Log output",4.63487706065863,0.00699304989130266
+"Partially linear FE","log_output","Log output",4.63688035779461,0.00753428115858587
+"Partially linear FE","log_output","Log output",4.63888365493059,0.00805810584207343
+"Partially linear FE","log_output","Log output",4.64088695206657,0.00856515845210938
+"Partially linear FE","log_output","Log output",4.64289024920255,0.00905666634483616
+"Partially linear FE","log_output","Log output",4.64489354633853,0.00953396840772541
+"Partially linear FE","log_output","Log output",4.64689684347451,0.00999840352824821
+"Partially linear FE","log_output","Log output",4.64890014061049,0.0104513105938762
+"Partially linear FE","log_output","Log output",4.65090343774647,0.0108940284920811
+"Partially linear FE","log_output","Log output",4.65290673488245,0.0113278961103339
+"Partially linear FE","log_output","Log output",4.65491003201843,0.0117542523361063
+"Partially linear FE","log_output","Log output",4.65691332915441,0.0121744360568697
+"Partially linear FE","log_output","Log output",4.65891662629039,0.0125897861600959
+"Partially linear FE","log_output","Log output",4.66091992342637,0.0130016415332558
+"Partially linear FE","log_output","Log output",4.66292322056235,0.0134113410638212
+"Partially linear FE","log_output","Log output",4.66492651769833,0.0138202228146308
+"Partially linear FE","log_output","Log output",4.66692981483431,0.0142292632070039
+"Partially linear FE","log_output","Log output",4.66893311197028,0.014638511740317
+"Partially linear FE","log_output","Log output",4.67093640910626,0.0150478714941809
+"Partially linear FE","log_output","Log output",4.67293970624224,0.0154572455482067
+"Partially linear FE","log_output","Log output",4.67494300337822,0.0158665369820048
+"Partially linear FE","log_output","Log output",4.6769463005142,0.0162756488751863
+"Partially linear FE","log_output","Log output",4.67894959765018,0.0166844843073622
+"Partially linear FE","log_output","Log output",4.68095289478616,0.017092946358143
+"Partially linear FE","log_output","Log output",4.68295619192214,0.0175009381071398
+"Partially linear FE","log_output","Log output",4.68495948905812,0.0179083635146585
+"Partially linear FE","log_output","Log output",4.6869627861941,0.0183152729276886
+"Partially linear FE","log_output","Log output",4.68896608333008,0.018722025424022
+"Partially linear FE","log_output","Log output",4.69096938046606,0.0191290192175327
+"Partially linear FE","log_output","Log output",4.69297267760204,0.0195366525220951
+"Partially linear FE","log_output","Log output",4.69497597473802,0.0199453235515829
+"Partially linear FE","log_output","Log output",4.696979271874,0.0203554305198703
+"Partially linear FE","log_output","Log output",4.69898256900998,0.0207673716408315
+"Partially linear FE","log_output","Log output",4.70098586614596,0.0211815450699472
+"Partially linear FE","log_output","Log output",4.70298916328193,0.0215979440612904
+"Partially linear FE","log_output","Log output",4.70499246041791,0.0220151892537542
+"Partially linear FE","log_output","Log output",4.70699575755389,0.0224316107033162
+"Partially linear FE","log_output","Log output",4.70899905468987,0.0228455384659532
+"Partially linear FE","log_output","Log output",4.71100235182585,0.0232553025976427
+"Partially linear FE","log_output","Log output",4.71300564896183,0.023659233154362
+"Partially linear FE","log_output","Log output",4.71500894609781,0.0240556601920882
+"Partially linear FE","log_output","Log output",4.71701224323379,0.0244429137667986
+"Partially linear FE","log_output","Log output",4.71901554036977,0.0248193467344009
+"Partially linear FE","log_output","Log output",4.72101883750575,0.0251835473679815
+"Partially linear FE","log_output","Log output",4.72302213464173,0.0255342428420922
+"Partially linear FE","log_output","Log output",4.72502543177771,0.0258701621272621
+"Partially linear FE","log_output","Log output",4.72702872891369,0.0261900341940196
+"Partially linear FE","log_output","Log output",4.72903202604967,0.0264925880128932
+"Partially linear FE","log_output","Log output",4.73103532318565,0.0267765525544115
+"Partially linear FE","log_output","Log output",4.73303862032162,0.0270406567891032
+"Partially linear FE","log_output","Log output",4.7350419174576,0.0272836296874968
+"Partially linear FE","log_output","Log output",4.73704521459358,0.0275042002201208
+"Partially linear FE","log_output","Log output",4.73904851172956,0.0277010973575038
+"Partially linear FE","log_output","Log output",4.74105180886554,0.0278730500701745
+"Partially linear FE","log_output","Log output",4.74305510600152,0.0280187873286613
+"Partially linear FE","log_output","Log output",4.7450584031375,0.0281370381034929
+"Partially linear FE","log_output","Log output",4.74706170027348,0.0282265313651978
+"Partially linear FE","log_output","Log output",4.74906499740946,0.0282859960843047
+"Partially linear FE","log_output","Log output",4.75106829454544,0.028314161231342
+"Partially linear FE","log_output","Log output",4.75307159168142,0.0283097557768383
+"Partially linear FE","log_output","Log output",4.7550748888174,0.0282715086913223
+"Partially linear FE","log_output","Log output",4.75707818595338,0.0281981489453224
+"Partially linear FE","log_output","Log output",4.75908148308936,0.0280884055093673
+"Partially linear FE","log_output","Log output",4.76108478022534,0.0279410073539856
+"Partially linear FE","log_output","Log output",4.76308807736132,0.0277547406294277
+"Partially linear FE","log_output","Log output",4.7650913744973,0.0275297273427349
+"Partially linear FE","log_output","Log output",4.76709467163327,0.0272674369730651
+"Partially linear FE","log_output","Log output",4.76909796876925,0.026969398502418
+"Partially linear FE","log_output","Log output",4.77110126590523,0.0266371409127937
+"Partially linear FE","log_output","Log output",4.77310456304121,0.026272193186192
+"Partially linear FE","log_output","Log output",4.77510786017719,0.0258760843046125
+"Partially linear FE","log_output","Log output",4.77711115731317,0.0254503432500554
+"Partially linear FE","log_output","Log output",4.77911445444915,0.0249964990045204
+"Partially linear FE","log_output","Log output",4.78111775158513,0.0245160805500074
+"Partially linear FE","log_output","Log output",4.78312104872111,0.0240106168685158
+"Partially linear FE","log_output","Log output",4.78512434585709,0.0234816369420462
+"Partially linear FE","log_output","Log output",4.78712764299307,0.022930669752598
+"Partially linear FE","log_output","Log output",4.78913094012905,0.0223592442821708
+"Partially linear FE","log_output","Log output",4.79113423726503,0.0217687833502243
+"Partially linear FE","log_output","Log output",4.79313753440101,0.0211600868411695
+"Partially linear FE","log_output","Log output",4.79514083153699,0.0205337281446227
+"Partially linear FE","log_output","Log output",4.79714412867297,0.0198902803272536
+"Partially linear FE","log_output","Log output",4.79914742580895,0.0192303164557327
+"Partially linear FE","log_output","Log output",4.80115072294492,0.0185544095967296
+"Partially linear FE","log_output","Log output",4.8031540200809,0.0178631328169139
+"Partially linear FE","log_output","Log output",4.80515731721688,0.0171570591829561
+"Partially linear FE","log_output","Log output",4.80716061435286,0.0164367617615259
+"Partially linear FE","log_output","Log output",4.80916391148884,0.0157028136192932
+"Partially linear FE","log_output","Log output",4.81116720862482,0.0149557878229275
+"Partially linear FE","log_output","Log output",4.8131705057608,0.0141962574390994
+"Partially linear FE","log_output","Log output",4.81517380289678,0.0134247955344785
+"Partially linear FE","log_output","Log output",4.81717710003276,0.0126419751757343
+"Partially linear FE","log_output","Log output",4.81918039716874,0.0118483694295375
+"Partially linear FE","log_output","Log output",4.82118369430472,0.0110445513625577
+"Partially linear FE","log_output","Log output",4.8231869914407,0.0102310940414643
+"Partially linear FE","log_output","Log output",4.82519028857668,0.00940857053292811
+"Partially linear FE","log_output","Log output",4.82719358571266,0.00857755390361854
+"Partially linear FE","log_output","Log output",4.82919688284864,0.00773861722020555
+"Partially linear FE","log_output","Log output",4.83120017998462,0.00689233354935869
+"Partially linear FE","log_output","Log output",4.8332034771206,0.00603927595774861
+"Partially linear FE","log_output","Log output",4.83520677425657,0.00518001751204485
+"Partially linear FE","log_output","Log output",4.83721007139255,0.00431513127891694
+"Partially linear FE","log_output","Log output",4.83921336852853,0.00344519032503556
+"Partially linear FE","log_output","Log output",4.84121666566451,0.00257076771707024
+"Partially linear FE","log_output","Log output",4.84321996280049,0.00169243652169089
+"Partially linear FE","log_output","Log output",4.84522325993647,0.000810769805567031
+"Partially linear FE","log_output","Log output",4.84722655707245,-7.36593646306393e-05
+"Additive GAM FE","log_output","Log output",4.48863636973214,-0.0707874577203128
+"Additive GAM FE","log_output","Log output",4.49063966686812,-0.0696958583852904
+"Additive GAM FE","log_output","Log output",4.4926429640041,-0.0686002348242154
+"Additive GAM FE","log_output","Log output",4.49464626114008,-0.0675002755526013
+"Additive GAM FE","log_output","Log output",4.49664955827606,-0.0663956690859597
+"Additive GAM FE","log_output","Log output",4.49865285541204,-0.0652861039398031
+"Additive GAM FE","log_output","Log output",4.50065615254802,-0.0641712686296432
+"Additive GAM FE","log_output","Log output",4.502659449684,-0.0630508516709933
+"Additive GAM FE","log_output","Log output",4.50466274681997,-0.0619245415793652
+"Additive GAM FE","log_output","Log output",4.50666604395595,-0.0607921897847269
+"Additive GAM FE","log_output","Log output",4.50866934109193,-0.0596544277953921
+"Additive GAM FE","log_output","Log output",4.51067263822791,-0.0585121203301386
+"Additive GAM FE","log_output","Log output",4.51267593536389,-0.0573661321497402
+"Additive GAM FE","log_output","Log output",4.51467923249987,-0.0562173280149701
+"Additive GAM FE","log_output","Log output",4.51668252963585,-0.0550665726866029
+"Additive GAM FE","log_output","Log output",4.51868582677183,-0.0539147309254119
+"Additive GAM FE","log_output","Log output",4.52068912390781,-0.0527626674921703
+"Additive GAM FE","log_output","Log output",4.52269242104379,-0.0516112471476528
+"Additive GAM FE","log_output","Log output",4.52469571817977,-0.0504612283479407
+"Additive GAM FE","log_output","Log output",4.52669901531575,-0.0493128018040836
+"Additive GAM FE","log_output","Log output",4.52870231245173,-0.0481659694641682
+"Additive GAM FE","log_output","Log output",4.53070560958771,-0.0470207331496354
+"Additive GAM FE","log_output","Log output",4.53270890672369,-0.0458770946819261
+"Additive GAM FE","log_output","Log output",4.53471220385967,-0.0447350558824809
+"Additive GAM FE","log_output","Log output",4.53671550099565,-0.0435946185727421
+"Additive GAM FE","log_output","Log output",4.53871879813162,-0.0424557845741503
+"Additive GAM FE","log_output","Log output",4.5407220952676,-0.0413185557081461
+"Additive GAM FE","log_output","Log output",4.54272539240358,-0.040182946684516
+"Additive GAM FE","log_output","Log output",4.54472868953956,-0.0390491611438317
+"Additive GAM FE","log_output","Log output",4.54673198667554,-0.0379175461882765
+"Additive GAM FE","log_output","Log output",4.54873528381152,-0.0367884524979176
+"Additive GAM FE","log_output","Log output",4.5507385809475,-0.035662230752824
+"Additive GAM FE","log_output","Log output",4.55274187808348,-0.034539231633063
+"Additive GAM FE","log_output","Log output",4.55474517521946,-0.0334198046875746
+"Additive GAM FE","log_output","Log output",4.55674847235544,-0.0323042920574024
+"Additive GAM FE","log_output","Log output",4.55875176949142,-0.0311930329023644
+"Additive GAM FE","log_output","Log output",4.5607550666274,-0.0300863663741261
+"Additive GAM FE","log_output","Log output",4.56275836376338,-0.0289846316243525
+"Additive GAM FE","log_output","Log output",4.56476166089936,-0.0278881678047101
+"Additive GAM FE","log_output","Log output",4.56676495803534,-0.0267973140668638
+"Additive GAM FE","log_output","Log output",4.56876825517132,-0.0257124095624785
+"Additive GAM FE","log_output","Log output",4.5707715523073,-0.0246338226643342
+"Additive GAM FE","log_output","Log output",4.57277484944327,-0.0235620430185993
+"Additive GAM FE","log_output","Log output",4.57477814657925,-0.0224975917279123
+"Additive GAM FE","log_output","Log output",4.57678144371523,-0.0214409898949694
+"Additive GAM FE","log_output","Log output",4.57878474085121,-0.0203927581325345
+"Additive GAM FE","log_output","Log output",4.58078803798719,-0.0193533448225915
+"Additive GAM FE","log_output","Log output",4.58279133512317,-0.0183230504960101
+"Additive GAM FE","log_output","Log output",4.58479463225915,-0.0173021575903266
+"Additive GAM FE","log_output","Log output",4.58679792939513,-0.0162909485430757
+"Additive GAM FE","log_output","Log output",4.58880122653111,-0.0152897057917923
+"Additive GAM FE","log_output","Log output",4.59080452366709,-0.014298713032009
+"Additive GAM FE","log_output","Log output",4.59280782080307,-0.0133182870445816
+"Additive GAM FE","log_output","Log output",4.59481111793905,-0.0123487801808704
+"Additive GAM FE","log_output","Log output",4.59681441507503,-0.0113905465480848
+"Additive GAM FE","log_output","Log output",4.59881771221101,-0.0104439396439708
+"Additive GAM FE","log_output","Log output",4.60082100934699,-0.00950924665896245
+"Additive GAM FE","log_output","Log output",4.60282430648297,-0.00858662982327503
+"Additive GAM FE","log_output","Log output",4.60482760361894,-0.00767623752894873
+"Additive GAM FE","log_output","Log output",4.60683090075492,-0.00677830304785695
+"Additive GAM FE","log_output","Log output",4.6088341978909,-0.0058933930751047
+"Additive GAM FE","log_output","Log output",4.61083749502688,-0.00502215616484396
+"Additive GAM FE","log_output","Log output",4.61284079216286,-0.00416521170609512
+"Additive GAM FE","log_output","Log output",4.61484408929884,-0.00332291513384679
+"Additive GAM FE","log_output","Log output",4.61684738643482,-0.00249548156720231
+"Additive GAM FE","log_output","Log output",4.6188506835708,-0.00168312482743906
+"Additive GAM FE","log_output","Log output",4.62085398070678,-0.000886058735833243
+"Additive GAM FE","log_output","Log output",4.62285727784276,-0.000104497113661458
+"Additive GAM FE","log_output","Log output",4.62486057497874,0.000661346248740683
+"Additive GAM FE","log_output","Log output",4.62686387211472,0.00141130530276016
+"Additive GAM FE","log_output","Log output",4.6288671692507,0.00214535809974295
+"Additive GAM FE","log_output","Log output",4.63087046638668,0.00286350977124958
+"Additive GAM FE","log_output","Log output",4.63287376352266,0.00356576544883966
+"Additive GAM FE","log_output","Log output",4.63487706065863,0.00425213026407372
+"Additive GAM FE","log_output","Log output",4.63688035779461,0.00492260934851231
+"Additive GAM FE","log_output","Log output",4.63888365493059,0.00557720794269312
+"Additive GAM FE","log_output","Log output",4.64088695206657,0.00621610117624642
+"Additive GAM FE","log_output","Log output",4.64289024920255,0.0068399774900425
+"Additive GAM FE","log_output","Log output",4.64489354633853,0.00744962189354526
+"Additive GAM FE","log_output","Log output",4.64689684347451,0.00804581939621777
+"Additive GAM FE","log_output","Log output",4.64890014061049,0.00862935500752396
+"Additive GAM FE","log_output","Log output",4.65090343774647,0.00920101373692766
+"Additive GAM FE","log_output","Log output",4.65290673488245,0.00976158059389201
+"Additive GAM FE","log_output","Log output",4.65491003201843,0.0103118405878809
+"Additive GAM FE","log_output","Log output",4.65691332915441,0.0108525787283579
+"Additive GAM FE","log_output","Log output",4.65891662629039,0.0113845800247869
+"Additive GAM FE","log_output","Log output",4.66091992342637,0.0119086294866311
+"Additive GAM FE","log_output","Log output",4.66292322056235,0.0124255121233543
+"Additive GAM FE","log_output","Log output",4.66492651769833,0.0129360125391404
+"Additive GAM FE","log_output","Log output",4.66692981483431,0.0134407376032337
+"Additive GAM FE","log_output","Log output",4.66893311197028,0.0139398386331621
+"Additive GAM FE","log_output","Log output",4.67093640910626,0.0144333949859435
+"Additive GAM FE","log_output","Log output",4.67293970624224,0.0149214860185962
+"Additive GAM FE","log_output","Log output",4.67494300337822,0.0154041910881376
+"Additive GAM FE","log_output","Log output",4.6769463005142,0.0158815895515858
+"Additive GAM FE","log_output","Log output",4.67894959765018,0.0163537607659589
+"Additive GAM FE","log_output","Log output",4.68095289478616,0.0168207840882746
+"Additive GAM FE","log_output","Log output",4.68295619192214,0.0172827388755509
+"Additive GAM FE","log_output","Log output",4.68495948905812,0.0177397047512773
+"Additive GAM FE","log_output","Log output",4.6869627861941,0.0181918056310866
+"Additive GAM FE","log_output","Log output",4.68896608333008,0.018639258843131
+"Additive GAM FE","log_output","Log output",4.69096938046606,0.0190822935569476
+"Additive GAM FE","log_output","Log output",4.69297267760204,0.0195211389420731
+"Additive GAM FE","log_output","Log output",4.69497597473802,0.0199560241680439
+"Additive GAM FE","log_output","Log output",4.696979271874,0.0203871784043969
+"Additive GAM FE","log_output","Log output",4.69898256900998,0.0208148308206691
+"Additive GAM FE","log_output","Log output",4.70098586614596,0.021239210553853
+"Additive GAM FE","log_output","Log output",4.70298916328193,0.021660321080649
+"Additive GAM FE","log_output","Log output",4.70499246041791,0.0220774008896952
+"Additive GAM FE","log_output","Log output",4.70699575755389,0.0224895265214998
+"Additive GAM FE","log_output","Log output",4.70899905468987,0.0228957745165705
+"Additive GAM FE","log_output","Log output",4.71100235182585,0.0232952214154156
+"Additive GAM FE","log_output","Log output",4.71300564896183,0.0236869437585432
+"Additive GAM FE","log_output","Log output",4.71500894609781,0.0240700180864611
+"Additive GAM FE","log_output","Log output",4.71701224323379,0.0244435209396776
+"Additive GAM FE","log_output","Log output",4.71901554036977,0.0248065493525377
+"Additive GAM FE","log_output","Log output",4.72101883750575,0.0251584119653539
+"Additive GAM FE","log_output","Log output",4.72302213464173,0.0254985422707501
+"Additive GAM FE","log_output","Log output",4.72502543177771,0.0258263753756736
+"Additive GAM FE","log_output","Log output",4.72702872891369,0.0261413463870714
+"Additive GAM FE","log_output","Log output",4.72903202604967,0.0264428904118903
+"Additive GAM FE","log_output","Log output",4.73103532318565,0.0267304425570775
+"Additive GAM FE","log_output","Log output",4.73303862032162,0.0270034379295798
+"Additive GAM FE","log_output","Log output",4.7350419174576,0.0272613116363445
+"Additive GAM FE","log_output","Log output",4.73704521459358,0.0275034987843183
+"Additive GAM FE","log_output","Log output",4.73904851172956,0.0277294344804483
+"Additive GAM FE","log_output","Log output",4.74105180886554,0.0279385538316815
+"Additive GAM FE","log_output","Log output",4.74305510600152,0.0281302919449649
+"Additive GAM FE","log_output","Log output",4.7450584031375,0.0283040839272455
+"Additive GAM FE","log_output","Log output",4.74706170027348,0.0284593648854703
+"Additive GAM FE","log_output","Log output",4.74906499740946,0.0285955699265863
+"Additive GAM FE","log_output","Log output",4.75106829454544,0.0287121341575404
+"Additive GAM FE","log_output","Log output",4.75307159168142,0.0288084926852798
+"Additive GAM FE","log_output","Log output",4.7550748888174,0.0288840806167513
+"Additive GAM FE","log_output","Log output",4.75707818595338,0.028938333058902
+"Additive GAM FE","log_output","Log output",4.75908148308936,0.0289706851186788
+"Additive GAM FE","log_output","Log output",4.76108478022534,0.0289805719030288
+"Additive GAM FE","log_output","Log output",4.76308807736132,0.0289674591068553
+"Additive GAM FE","log_output","Log output",4.7650913744973,0.0289315270338049
+"Additive GAM FE","log_output","Log output",4.76709467163327,0.0288736768098181
+"Additive GAM FE","log_output","Log output",4.76909796876925,0.0287948413915307
+"Additive GAM FE","log_output","Log output",4.77110126590523,0.0286959537355789
+"Additive GAM FE","log_output","Log output",4.77310456304121,0.0285779467985988
+"Additive GAM FE","log_output","Log output",4.77510786017719,0.0284417535372264
+"Additive GAM FE","log_output","Log output",4.77711115731317,0.0282883069080978
+"Additive GAM FE","log_output","Log output",4.77911445444915,0.0281185398678491
+"Additive GAM FE","log_output","Log output",4.78111775158513,0.0279333853731163
+"Additive GAM FE","log_output","Log output",4.78312104872111,0.0277337763805353
+"Additive GAM FE","log_output","Log output",4.78512434585709,0.0275206458467425
+"Additive GAM FE","log_output","Log output",4.78712764299307,0.0272949267283738
+"Additive GAM FE","log_output","Log output",4.78913094012905,0.0270575519820651
+"Additive GAM FE","log_output","Log output",4.79113423726503,0.0268093869746096
+"Additive GAM FE","log_output","Log output",4.79313753440101,0.0265509004726247
+"Additive GAM FE","log_output","Log output",4.79514083153699,0.0262824170416986
+"Additive GAM FE","log_output","Log output",4.79714412867297,0.0260042610418109
+"Additive GAM FE","log_output","Log output",4.79914742580895,0.0257167568329418
+"Additive GAM FE","log_output","Log output",4.80115072294492,0.0254202287750708
+"Additive GAM FE","log_output","Log output",4.8031540200809,0.0251150012281776
+"Additive GAM FE","log_output","Log output",4.80515731721688,0.0248013985522422
+"Additive GAM FE","log_output","Log output",4.80716061435286,0.0244797451072442
+"Additive GAM FE","log_output","Log output",4.80916391148884,0.0241503652531635
+"Additive GAM FE","log_output","Log output",4.81116720862482,0.0238135833499797
+"Additive GAM FE","log_output","Log output",4.8131705057608,0.0234697237576728
+"Additive GAM FE","log_output","Log output",4.81517380289678,0.0231191108362225
+"Additive GAM FE","log_output","Log output",4.81717710003276,0.0227620689456083
+"Additive GAM FE","log_output","Log output",4.81918039716874,0.0223989224458104
+"Additive GAM FE","log_output","Log output",4.82118369430472,0.0220299956968085
+"Additive GAM FE","log_output","Log output",4.8231869914407,0.021655613058582
+"Additive GAM FE","log_output","Log output",4.82519028857668,0.0212760988911112
+"Additive GAM FE","log_output","Log output",4.82719358571266,0.0208917775543755
+"Additive GAM FE","log_output","Log output",4.82919688284864,0.0205029734083549
+"Additive GAM FE","log_output","Log output",4.83120017998462,0.0201100108130289
+"Additive GAM FE","log_output","Log output",4.8332034771206,0.0197132141283776
+"Additive GAM FE","log_output","Log output",4.83520677425657,0.0193129077143806
+"Additive GAM FE","log_output","Log output",4.83721007139255,0.0189094159310175
+"Additive GAM FE","log_output","Log output",4.83921336852853,0.0185030631382685
+"Additive GAM FE","log_output","Log output",4.84121666566451,0.0180941736961132
+"Additive GAM FE","log_output","Log output",4.84321996280049,0.0176830719645313
+"Additive GAM FE","log_output","Log output",4.84522325993647,0.0172700823035024
+"Additive GAM FE","log_output","Log output",4.84722655707245,0.0168555290730067

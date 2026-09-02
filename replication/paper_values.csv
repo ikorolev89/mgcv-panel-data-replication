@@ -1,0 +1,58 @@
+table,row,values
+tab:estimation_rmse,1,1.035 & 0.772 & 0.641
+tab:estimation_rmse,2,0.982 & 0.680 & 0.632
+tab:estimation_rmse,3,2.378 & 1.704 & 1.489
+tab:estimation_rmse,4,2.247 & 1.504 & 1.433
+tab:estimation_rmse,5,1.182 & 0.807 & 0.757
+tab:estimation_rmse,6,1.186 & 0.882 & 0.744
+tab:estimation_rmse,7,1.213 & 0.884 & 0.795
+tab:estimation_rmse,8,5.985 & 5.906 & 5.892
+tab:estimation_rmse,9,5.986 & 5.895 & 5.888
+tab:estimation_rmse,10,2.369 & 1.713 & 1.499
+tab:estimation_rmse,11,2.255 & 1.511 & 1.425
+tab:estimation_rmse,12,1.713 & 1.204 & 1.136
+tab:estimation_rmse,13,1.767 & 1.320 & 1.169
+tab:estimation_rmse,14,1.781 & 1.325 & 1.211
+tab:estimation_rmse,15,48.076 & 47.996 & 47.951
+tab:estimation_rmse,16,48.122 & 48.015 & 47.968
+tab:estimation_rmse,17,2.366 & 1.723 & 1.510
+tab:estimation_rmse,18,2.270 & 1.541 & 1.450
+tab:estimation_rmse,19,2.625 & 1.904 & 1.807
+tab:estimation_rmse,20,2.678 & 2.052 & 1.834
+tab:estimation_rmse,21,2.692 & 2.056 & 1.862
+tab:beta_size,1,0.060 & 0.063 & 1.0003 & 0.0373 & 0.0372
+tab:beta_size,2,0.051 & 0.054 & 0.9999 & 0.0380 & 0.0385
+tab:beta_size,3,0.046 & 0.051 & 1.0037 & 0.0378 & 0.0381
+tab:beta_size,4,0.056 & 0.058 & 0.9994 & 0.0258 & 0.0250
+tab:beta_size,5,0.059 & 0.062 & 0.9992 & 0.0287 & 0.0278
+tab:beta_size,6,0.052 & 0.056 & 1.0012 & 0.0286 & 0.0277
+tab:beta_size,7,0.056 & 0.059 & 0.9999 & 0.0240 & 0.0236
+tab:beta_size,8,0.051 & 0.051 & 1.0006 & 0.0244 & 0.0244
+tab:beta_size,9,0.051 & 0.054 & 1.0043 & 0.0243 & 0.0242
+tab:beta_power,1,0.515 & 0.525 & 1.0753 & 0.0373 & 0.0372
+tab:beta_power,2,0.478 & 0.485 & 1.0749 & 0.0380 & 0.0385
+tab:beta_power,3,0.525 & 0.545 & 1.0787 & 0.0378 & 0.0381
+tab:beta_power,4,0.829 & 0.832 & 1.0744 & 0.0258 & 0.0250
+tab:beta_power,5,0.756 & 0.758 & 1.0742 & 0.0287 & 0.0278
+tab:beta_power,6,0.772 & 0.779 & 1.0762 & 0.0286 & 0.0277
+tab:beta_power,7,0.872 & 0.873 & 1.0749 & 0.0240 & 0.0236
+tab:beta_power,8,0.870 & 0.872 & 1.0756 & 0.0244 & 0.0244
+tab:beta_power,9,0.909 & 0.919 & 1.0793 & 0.0243 & 0.0242
+tab:g_coverage_pl_penalty,1,0.943 & 0.927 & 0.917 & 0.1785
+tab:g_coverage_pl_penalty,2,0.942 & 0.911 & 0.932 & 0.1814
+tab:g_coverage_pl_penalty,3,0.924 & 0.877 & 0.894 & 0.1779
+tab:g_coverage_pl_penalty,4,0.942 & 0.925 & 0.941 & 0.1294
+tab:g_coverage_pl_penalty,5,0.942 & 0.918 & 0.933 & 0.1386
+tab:g_coverage_pl_penalty,6,0.934 & 0.907 & 0.903 & 0.1376
+tab:g_coverage_pl_penalty,7,0.944 & 0.934 & 0.924 & 0.1235
+tab:g_coverage_pl_penalty,8,0.947 & 0.937 & 0.944 & 0.1252
+tab:g_coverage_pl_penalty,9,0.921 & 0.883 & 0.889 & 0.1230
+tab:g_coverage_np_penalty,1,0.939 & 0.924 & 0.914 & 0.1769
+tab:g_coverage_np_penalty,2,0.942 & 0.919 & 0.925 & 0.1811
+tab:g_coverage_np_penalty,3,0.925 & 0.894 & 0.884 & 0.1775
+tab:g_coverage_np_penalty,4,0.945 & 0.931 & 0.939 & 0.1279
+tab:g_coverage_np_penalty,5,0.943 & 0.930 & 0.938 & 0.1389
+tab:g_coverage_np_penalty,6,0.935 & 0.923 & 0.917 & 0.1378
+tab:g_coverage_np_penalty,7,0.947 & 0.932 & 0.934 & 0.1221
+tab:g_coverage_np_penalty,8,0.946 & 0.929 & 0.930 & 0.1248
+tab:g_coverage_np_penalty,9,0.920 & 0.880 & 0.871 & 0.1226

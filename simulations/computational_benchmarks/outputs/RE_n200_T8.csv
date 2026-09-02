@@ -1,0 +1,2 @@
+"method","n","T","observations","repetitions","median_fit_seconds","q25_fit_seconds","q75_fit_seconds","median_covariance_seconds","q25_covariance_seconds","q75_covariance_seconds"
+"RE",200,8,1600,10,0.0825000000000001,0.08025,0.085,0.0530000000000001,0.0529999999999999,0.054

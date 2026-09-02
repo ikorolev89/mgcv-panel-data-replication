@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: Please cite the associated paper when using these replication materials.
+title: Replication Materials for Estimating Semiparametric and Nonparametric Fixed Effects Panel Data Models with mgcv
+type: software
+authors:
+  - family-names: Korolev
+    given-names: Ivan
+    affiliation: Department of Economics, Binghamton University
+repository-code: https://github.com/ikorolev89/mgcv-panel-data-replication
+keywords:
+  - panel data
+  - fixed effects
+  - penalized splines
+  - generalized additive models
+  - reproducibility
+preferred-citation:
+  type: article
+  title: Estimating Semiparametric and Nonparametric Fixed Effects Panel Data Models with mgcv
+  authors:
+    - family-names: Korolev
+      given-names: Ivan
+  year: 2026

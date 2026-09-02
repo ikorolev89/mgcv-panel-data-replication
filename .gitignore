@@ -1,0 +1,12 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+*.log
+*.out
+*.time
+simulations/k_sensitivity/status/
+outputs/panel_fe_g_inference_grid_*.csv
+simulations/k_sensitivity/outputs/panel_fe_g_inference_grid_*.csv
+simulations/inference_diagnostics/outputs/panel_fe_g_diagnostics_grid_*.csv.gz

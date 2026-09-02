@@ -1,0 +1,1 @@
+Apple M5 Max, 18 cores (6 Super and 12 Performance), 48 GB, macOS 26.5.2, R version 4.6.0 (2026-04-24), mgcv 1.9.4

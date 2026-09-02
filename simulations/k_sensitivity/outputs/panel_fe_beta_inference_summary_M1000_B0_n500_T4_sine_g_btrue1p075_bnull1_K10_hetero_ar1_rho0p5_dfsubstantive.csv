@@ -1,0 +1,4 @@
+"method","n_success","rejection_classic_cluster","rejection_penalty_cluster","rejection_wild_boot","mean_beta_hat","sd_beta_hat","mean_se_classic_cluster","mean_se_penalty_cluster","mean_p_boot","min_boot_success","mean_boot_success","K_smooth","mean_edf","mean_edf_ceiling","mean_edf_ratio","fraction_binding_90","fraction_binding_95","error_design","rho","df_correction"
+"bam_fd",1000,0.877,0.877,NA,1.07487295196739,0.0239523154963267,0.0236150917368126,0.0235983155107758,NA,NA,NA,10,8.33803042942277,10,0.833803042942277,0,0,"hetero_ar1",0.5,"substantive"
+"bam_fe",1000,0.872,0.872,NA,1.07561006709378,0.0243289360110671,0.0244355241581463,0.0244189238175018,NA,NA,NA,10,8.20675540045118,9,0.911861711161242,0.988,0,"hetero_ar1",0.5,"substantive"
+"bam_re",1000,0.914,0.919,NA,1.07931385892711,0.0243317151390347,0.0244457779455609,0.0241851770103557,NA,NA,NA,10,8.20819454728763,9,0.912021616365292,0.986,0,"hetero_ar1",0.5,"substantive"
