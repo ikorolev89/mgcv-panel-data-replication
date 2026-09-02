@@ -103,6 +103,41 @@ for (path in g_paths) {
   }
 }
 cat("Verified all 18 coverage runs from compact records and point-specific summaries.\n")
+seed_dir <- "simulations/inference_diagnostics"
+seed_plan <- read(file.path(seed_dir, "seeded_g_schedule.csv"))
+stopifnot(nrow(seed_plan) == 8L, !anyDuplicated(seed_plan$mc_seed),
+          !anyDuplicated(seed_plan$chunk), all(seed_plan$M == 250L),
+          all(seed_plan$gaussian_seed == 20260506L))
+for (err in c("hetero", "hetero_ar1")) {
+  plan <- seed_plan[seed_plan$error_design == err, ]
+  records <- read(file.path(seed_dir, "outputs", paste0("seeded_g_manifest_", err, ".csv")))
+  stopifnot(nrow(records) == 4L, all(records$status == "complete"), all(records$exit_status == 0L))
+  for (column in names(plan)) stopifnot(identical(records[[column]], plan[[column]]))
+  for (spec in list(c("chunk_script_md5", "panel_fe_g_inference_diagnostics_chunk.R"),
+                    c("combine_script_md5", "combine_g_chunks.R"),
+                    c("schedule_md5", "seeded_g_schedule.csv"))) {
+    stopifnot(all(records[[spec[1]]] == unname(tools::md5sum(file.path(seed_dir, spec[2])))))
+  }
+  suffix <- paste0("M1000_n500_T4_sin_2pi_np_pl_J50_", if (err == "hetero") "hetero" else "hetero_ar1_rho0p5", "_dfsubstantive")
+  compact <- read(file.path("replication/compact", paste0("panel_fe_g_diagnostics_replications_", suffix, ".csv.gz")))
+  for (i in seq_len(nrow(plan))) {
+    chunk <- plan[i, ]
+    summary_path <- file.path(seed_dir, "outputs", paste0("panel_fe_g_diagnostics_summary_",
+      sub("M1000", "M250", suffix), "_chunk", chunk$chunk, ".csv"))
+    stopifnot(unname(tools::md5sum(summary_path)) == records$summary_md5[i])
+    d <- compact[compact$sim >= chunk$sim_first & compact$sim <= chunk$sim_last, ]
+    d$sim <- d$sim - chunk$sim_first + 1L
+    s <- read(summary_path)
+    stopifnot(nrow(d) == 250L * 30L, nrow(s) == 30L, all(s$n_success == 250L))
+    compare_groups(d, s, c("model", "method", "vcov_type"), list(
+      avg_pointwise_coverage = function(d) mean(d$point_covered),
+      avg_pointwise_width = function(d) mean(d$point_width),
+      uniform_coverage = function(d) mean(d$uniform_covered),
+      avg_uniform_width = function(d) mean(d$uniform_width),
+      avg_sup_crit = function(d) mean(d$sup_crit)))
+  }
+}
+cat("Verified the eight recorded chunk seeds, code fingerprints, and chunk-to-combined results.\n")
 manifest <- read("simulations/inference_diagnostics/outputs/combined/final_manifest_M1000.csv")
 stopifnot(nrow(manifest) == 18L, all(manifest$min_success == 1000L), all(manifest$max_success == 1000L))
 status <- system2(file.path(R.home("bin"), "Rscript"), c("replication/generate_main_tables.R", "--check"))

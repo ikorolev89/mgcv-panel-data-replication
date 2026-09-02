@@ -2,13 +2,17 @@
 # Retain the replication-level quantities needed for the reported coverage
 # summaries without distributing redundant 50-point interval endpoints.
 # Run after the simulation scripts when refreshing the replication package.
+# Optional arguments select explicit full trace paths; without them all 18
+# coverage runs are refreshed. This permits updating two runs independently.
 dir.create("replication/compact", recursive = TRUE, showWarnings = FALSE)
-paths <- c(
+args <- commandArgs(trailingOnly = TRUE)
+paths <- if (length(args)) args else c(
   list.files("outputs", "^panel_fe_g_inference_grid_M1000_.*_dfsubstantive.csv$", full.names = TRUE),
   list.files("simulations/k_sensitivity/outputs", "^panel_fe_g_inference_grid_M1000_.*_dfsubstantive.csv$", full.names = TRUE),
   list.files("simulations/inference_diagnostics/outputs", "^panel_fe_g_diagnostics_grid_M1000_.*_dfsubstantive.csv.gz$", full.names = TRUE)
 )
-if (length(paths) != 18L) stop("Expected 18 full coverage traces; found ", length(paths))
+if (!length(args) && length(paths) != 18L) stop("Expected 18 full coverage traces; found ", length(paths))
+if (any(!file.exists(paths))) stop("Missing full coverage trace.")
 for (path in paths) {
   message("Compacting ", basename(path))
   input <- if (grepl("\\.gz$", path)) gzfile(path, "rt") else file(path, "rt")
@@ -33,4 +37,4 @@ for (path in paths) {
   rm(d, out)
   gc(verbose = FALSE)
 }
-message("Wrote compact records for all 18 coverage runs.")
+message("Wrote compact records for ", length(paths), " coverage runs.")

@@ -42,6 +42,11 @@ chunk_results <- lapply(seq_along(chunk_paths), function(i) {
   if (length(unique(d$sim)) != 250L) {
     stop("Chunk does not contain 250 simulations: ", basename(chunk_paths[i]))
   }
+  keys <- c("sim", "model", "method", "vcov_type", "x")
+  if (nrow(d) != 250L * 2L * 3L * 5L * 50L || anyDuplicated(d[keys]) ||
+      !identical(sort(unique(as.integer(d$sim))), seq_len(250L))) {
+    stop("Chunk has missing or duplicate grid records: ", basename(chunk_paths[i]))
+  }
   d$sim <- d$sim + 250L * (i - 1L)
   d
 })

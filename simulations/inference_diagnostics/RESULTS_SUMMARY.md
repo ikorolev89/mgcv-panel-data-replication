@@ -7,7 +7,8 @@ and partially linear designs are included for inference on centered `g(x)`.
 
 All requested cells completed with 1,000 successful replications. The final
 pooled outputs contain 180 beta-summary rows, 180 function-summary rows, and
-9,000 point-specific diagnostic rows.
+9,000 point-specific diagnostic rows. The two `n=500,T=4` function designs use
+the seeded reruns documented in `SEEDED_RUNS.md`.
 
 ## Beta inference
 
@@ -38,24 +39,24 @@ sample configurations (12 cells per method).
 
 | Method | Covariance | Pointwise coverage | Uniform coverage | Mean SE / MC SD |
 |---|---|---:|---:|---:|
-| FE | Classic cluster | 0.996 | 1.000 | 1.586 |
-| FE | Penalty cluster | 0.945 | 0.934 | 0.988 |
-| FE | Penalty cluster + Delta | 0.971 | 0.985 | 1.124 |
-| FE | mgcv sandwich, frequentist | 0.947 | 0.943 | 0.991 |
-| FE | mgcv sandwich, default | 0.972 | 0.986 | 1.127 |
-| FD | Classic cluster | 0.996 | 1.000 | 1.545 |
-| FD | Penalty cluster | 0.945 | 0.928 | 0.984 |
-| FD | Penalty cluster + Delta | 0.966 | 0.978 | 1.092 |
-| FD | mgcv sandwich, frequentist | 0.914 | 0.855 | 0.878 |
-| FD | mgcv sandwich, default | 0.949 | 0.950 | 0.996 |
+| FE | Classic cluster | 0.996 | 0.999 | 1.586 |
+| FE | Penalty cluster | 0.945 | 0.933 | 0.989 |
+| FE | Penalty cluster + Delta | 0.971 | 0.985 | 1.125 |
+| FE | mgcv sandwich, frequentist | 0.947 | 0.942 | 0.992 |
+| FE | mgcv sandwich, default | 0.972 | 0.987 | 1.127 |
+| FD | Classic cluster | 0.996 | 1.000 | 1.548 |
+| FD | Penalty cluster | 0.945 | 0.926 | 0.986 |
+| FD | Penalty cluster + Delta | 0.967 | 0.976 | 1.093 |
+| FD | mgcv sandwich, frequentist | 0.914 | 0.856 | 0.879 |
+| FD | mgcv sandwich, default | 0.949 | 0.947 | 0.998 |
 
 The main patterns are:
 
 - The current penalty-adjusted cluster covariance is best calibrated for
   pointwise FE and FD inference. Its average coverage is about 0.945 and its
   reported standard errors are close to the Monte Carlo standard deviation.
-- Adding Delta raises average pointwise coverage to approximately 0.966--0.971
-  and uniform coverage to approximately 0.978--0.985. It is therefore a useful
+- Adding Delta raises average pointwise coverage to approximately 0.967--0.971
+  and uniform coverage to approximately 0.976--0.985. It is therefore a useful
   conservative sensitivity check, but it does not improve pointwise calibration
   relative to the 0.95 target in these designs.
 - The classic covariance that ignores penalization is much too conservative:
@@ -66,13 +67,13 @@ The main patterns are:
   still does not provide cluster-robust inference.
 - RE function estimates display appreciable bias when `n = 500` because the DGP
   correlates unit heterogeneity with the regressors. Their mean absolute bias is
-  about 0.016, compared with about 0.002 for FE and FD. The resulting RE coverage
+  about 0.017, compared with about 0.002 for FE and FD. The resulting RE coverage
   should not be interpreted as a pure covariance-estimator comparison.
 
 With 1,000 replications, the Monte Carlo standard error of a 0.95 coverage rate
 is approximately 0.007. Thus the roughly 0.945 pointwise coverage of the current
 FE/FD covariance is statistically compatible with the nominal target, whereas
-the systematic 0.966--0.971 coverage after adding Delta is conservative.
+the systematic 0.967--0.971 coverage after adding Delta is conservative.
 
 ## Practical implication
 

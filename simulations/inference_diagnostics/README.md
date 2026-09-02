@@ -40,14 +40,28 @@ Generate the four appendix tables from the consolidated output with:
 Rscript simulations/inference_diagnostics/generate_appendix_tables.R
 ```
 
-This writes `paper/inference_method_appendix.tex`, which is included by the
-revised manuscript.
+This writes `paper/inference_method_appendix.tex`, which supplies the numerical
+entries in the revised manuscript's inference appendix tables.
 
 The completed-run interpretation is recorded in `RESULTS_SUMMARY.md`. The
 machine-readable completion check is `outputs/combined/final_manifest_M1000.csv`.
 
 The original runner manifest records an interrupted initial attempt; the final
 completion manifest above describes the completed results. The public package
-includes only the final manifest. See the public root README for the historical
-chunk-seed limitation in the `n=500,T=4` function diagnostics. Full grid traces
-are omitted from Git; compact replication records are in `replication/compact/`.
+includes the final completion manifest and the execution manifests for the
+seeded `n=500,T=4` function diagnostics. Full grid traces are omitted from Git;
+compact replication records are in `replication/compact/`.
+
+The two `n=500,T=4` function-coverage designs use the versioned seed schedule in
+`seeded_g_schedule.csv`. The standard runner selects this schedule automatically
+for the full `M=1000` exercise. To rerun only those designs with eight concurrent
+chunks, use:
+
+```sh
+Rscript simulations/inference_diagnostics/run_seeded_g_diagnostics.R both 8
+```
+
+See `SEEDED_RUNS.md` for commands, seed conventions, execution manifests, and
+validation. The direct non-chunked function script remains available for other
+designs and exploratory runs; it uses a different random stream for these two
+particular configurations.

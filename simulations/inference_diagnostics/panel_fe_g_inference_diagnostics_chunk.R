@@ -109,6 +109,7 @@ selected_grid_idx <- vapply(
 
 ## Common Gaussian draws make the uniform critical-value approximation paired
 ## across covariance estimators without changing the Monte Carlo DGP stream.
+RNGkind("Mersenne-Twister", normal.kind = "Inversion", sample.kind = "Rejection")
 set.seed(20260506)
 sup_z <- matrix(rnorm(n_sup_draws * n_grid), nrow = n_sup_draws, ncol = n_grid)
 

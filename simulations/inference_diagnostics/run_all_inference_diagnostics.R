@@ -65,8 +65,13 @@ for (i in seq_len(nrow(configs))) {
     add_job(
       kind = "g",
       label = g_label,
-      script = file.path(script_dir, "panel_fe_g_inference_diagnostics.R"),
-      script_args = c(M, n_i, T_i, "sin_2pi", "both", 50, 499, err, 0.5, "substantive"),
+      script = file.path(script_dir, if (M == 1000L && n_i == 500L && T_i == 4L) {
+        "run_seeded_g_diagnostics.R"
+      } else "panel_fe_g_inference_diagnostics.R"),
+      script_args = if (M == 1000L && n_i == 500L && T_i == 4L) {
+        # Outer jobs already run concurrently; keep each inner chunk sequence serial.
+        c(err, 1L)
+      } else c(M, n_i, T_i, "sin_2pi", "both", 50, 499, err, 0.5, "substantive"),
       expected = file.path(out_dir, paste0("panel_fe_g_diagnostics_summary_", g_suffix, ".csv"))
     )
 

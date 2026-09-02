@@ -24,17 +24,19 @@ Check the saved simulation results without rerunning the experiments:
 Rscript replication/verify_replication.R
 ```
 
+This checks 66 simulation runs, verifies 1,000 replications in every retained
+design-method cell, recomputes reported statistics from replication records and
+point-specific summaries, and compares all 225 numerical entries in main Tables
+1--5 with the revision. It also checks the recorded seeds and code fingerprints
+for the two chunked appendix designs and matches each chunk's statistics to the
+combined records. It does not refit the original simulations.
+
 For a small execution check of the nine simulation scripts, using temporary
 outputs and two draws per case:
 
 ```sh
 Rscript replication/smoke_test.R
 ```
-
-This checks 66 simulation runs, verifies 1,000 replications in every retained
-design-method cell, recomputes reported statistics from replication records and
-point-specific summaries, and compares all 225 numerical entries in main Tables
-1--5 with the revision. It does not refit the original simulations.
 
 Regenerate the main and appendix simulation tables:
 
@@ -103,16 +105,27 @@ Main and sensitivity scripts set RNG seeds internally: 20260503 for estimation,
 diagnostics additionally use seed 20260506 for common Gaussian critical-value
 draws. Simulation order matters because these are sequential RNG streams.
 
-**Historical inference runs:** the saved `n=500,T=4` function diagnostics were
-assembled from four 250-replication chunks for each error design. The chunk and
-combination scripts are included, but the individual chunk seeds were not saved
-in the available run metadata. The standard runner reproduces the design with
-its documented seed, not necessarily those historical numerical realizations.
-The saved compact records and summaries preserve the reported results. The main
-tables and the basis-dimension exercise use their original sequential runners.
+The `n=500,T=4` appendix function diagnostics use four 250-replication chunks per
+error design. Their eight Monte Carlo seeds and the common Gaussian seed are
+recorded in `simulations/inference_diagnostics/seeded_g_schedule.csv`. The standard
+inference runner above uses this schedule automatically. To rerun only these two
+designs, allowing eight concurrent chunks:
+
+```sh
+Rscript simulations/inference_diagnostics/run_seeded_g_diagnostics.R both 8
+```
+
+This command always refits the requested chunks and combines them in the fixed
+order recorded in the schedule, so changing the worker count does not change the
+results. Execution manifests in `simulations/inference_diagnostics/outputs/`
+record commands, RNG type, R/package versions, start/end times, code fingerprints,
+and output checksums. See `simulations/inference_diagnostics/SEEDED_RUNS.md` for
+the details. The main tables and basis-dimension exercise retain their original
+sequential runners and seeds.
 
 After a full rerun, `Rscript replication/compact_g_results.R` refreshes the compact
-coverage records. This requires the full traces from all three simulation blocks.
+coverage records. With no arguments it requires the full traces from all three
+simulation blocks; explicit trace-file arguments refresh only those runs.
 Table comparisons intentionally fail if new numerical results differ from the
 revision snapshot; inspect the differences before changing that snapshot.
 
