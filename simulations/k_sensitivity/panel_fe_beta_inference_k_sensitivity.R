@@ -362,7 +362,8 @@ wild_cluster_test <- function(df, method) {
   target_smooth <- unrestricted$fit$smooth[[1L]]
   smooth_cols <- target_smooth$first.para:target_smooth$last.para
   smooth_edf <- sum(unrestricted$fit$edf[smooth_cols])
-  edf_ceiling <- length(smooth_cols)
+  R <- model.matrix(unrestricted$fit)
+  edf_ceiling <- qr(R[, smooth_cols, drop = FALSE])$rank
   edf_ratio <- smooth_edf / edf_ceiling
 
   if (B == 0L) {

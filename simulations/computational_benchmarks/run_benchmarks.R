@@ -218,8 +218,13 @@ write_latex_table <- function(results, metadata) {
     rows <- c(
       rows,
       sprintf(
-        "\\multicolumn{4}{l}{\\textit{Panel: $n=%d$, $T=%d$ (%s observations)}} \\\\",
-        n_i, T_i, format(n_i * T_i, big.mark = ",", scientific = FALSE)
+        paste0(
+          "\\multicolumn{4}{l}{\\textit{Panel: $n=%d$, $T=%d$ ",
+          "(%s levels; %s FD observations)}} \\\\"
+        ),
+        n_i, T_i,
+        format(n_i * T_i, big.mark = ",", scientific = FALSE),
+        format(n_i * (T_i - 1L), big.mark = ",", scientific = FALSE)
       ),
       "\\midrule"
     )
@@ -255,7 +260,7 @@ write_latex_table <- function(results, metadata) {
     "\\end{tabular}",
     "\\begin{minipage}{0.94\\textwidth}",
     paste0(
-      "\\footnotesize \\tablenote\\ Each entry is based on 10 independently simulated ",
+      "\\tablenote\\ Each entry is based on 10 independently simulated ",
       "panels from the $g(x)=\\sin(2\\pi x)$ heteroskedastic AR(1) design with ",
       "$\\rho=0.5$ and $K=20$. Fit and covariance columns report median elapsed ",
       "(wall-clock) time across the 10 draws. Covariance time covers construction of the penalty-adjusted ",

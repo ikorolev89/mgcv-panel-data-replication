@@ -439,17 +439,17 @@ fit_bam_method <- function(df, model_type, method) {
 evaluate_fit <- function(fit_info, model_type, method, se_type) {
   grid <- make_grid_lpmatrix(fit_info, model_type, method)
   fit <- fit_info$fit
+  R <- model.matrix(fit)
   target_smooth <- fit$smooth[[1L]]
   target_cols <- target_smooth$first.para:target_smooth$last.para
   smooth_edf <- sum(fit$edf[target_cols])
-  edf_ceiling <- length(target_cols)
+  edf_ceiling <- qr(R[, target_cols, drop = FALSE])$rank
   edf_ratio <- smooth_edf / edf_ceiling
 
   estimate <- as.numeric(grid$L_full %*% coef(fit))
 
   if (se_type == "penalty") {
-    V <- cluster_vcov_penalty(fit, fit_info$cluster)
-    C <- grid$L_full %*% V %*% t(grid$L_full)
+    C <- cluster_projected_cov(fit, fit_info$cluster, grid$L_full)
   } else {
     V_smooth <- cluster_vcov_classic_smooth(fit, fit_info$cluster, grid$smooth_cols)
     C <- grid$L_smooth %*% V_smooth %*% t(grid$L_smooth)
@@ -493,12 +493,14 @@ evaluate_fit <- function(fit_info, model_type, method, se_type) {
 }
 
 one_draw <- function(sim_id) {
+  begin_g_replication(sim_id)
   df <- simulate_panel()
   out <- list()
   idx <- 0L
 
   for (model_type in model_list) {
     for (method in methods) {
+      set_g_fit_stream(model_type, method)
       fit_info <- fit_bam_method(df, model_type, method)
       for (se_type in se_types) {
         idx <- idx + 1L
@@ -512,7 +514,14 @@ one_draw <- function(sim_id) {
   do.call(rbind, out)
 }
 
-set.seed(20260505)
+if (!exists("g_source_file", inherits = FALSE)) {
+  file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+  g_source_file <- normalizePath(sub("^--file=", "", file_arg))
+}
+source(file.path(dirname(g_source_file), "../g_coverage_shared.R"), local = TRUE)
+initialize_g_streams(M)
+
+# G_COVERAGE_EXECUTION_START
 results <- vector("list", M)
 
 for (m in seq_len(M)) {
@@ -522,8 +531,7 @@ for (m in seq_len(M)) {
 
   ans <- try(one_draw(m), silent = TRUE)
   if (inherits(ans, "try-error")) {
-    warning("Draw ", m, " failed: ", conditionMessage(attr(ans, "condition")))
-    ans <- NULL
+    stop("Draw ", m, " failed: ", conditionMessage(attr(ans, "condition")))
   }
   results[[m]] <- ans
 }

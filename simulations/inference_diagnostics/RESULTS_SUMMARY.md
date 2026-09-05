@@ -7,8 +7,8 @@ and partially linear designs are included for inference on centered `g(x)`.
 
 All requested cells completed with 1,000 successful replications. The final
 pooled outputs contain 180 beta-summary rows, 180 function-summary rows, and
-9,000 point-specific diagnostic rows. The two `n=500,T=4` function designs use
-the seeded reruns documented in `SEEDED_RUNS.md`.
+9,000 point-specific diagnostic rows. The function designs use the paired,
+replication-keyed reruns documented in `../../replication/PAIRED_G_RUNS.md`.
 
 ## Beta inference
 
@@ -39,41 +39,42 @@ sample configurations (12 cells per method).
 
 | Method | Covariance | Pointwise coverage | Uniform coverage | Mean SE / MC SD |
 |---|---|---:|---:|---:|
-| FE | Classic cluster | 0.996 | 0.999 | 1.586 |
-| FE | Penalty cluster | 0.945 | 0.933 | 0.989 |
-| FE | Penalty cluster + Delta | 0.971 | 0.985 | 1.125 |
-| FE | mgcv sandwich, frequentist | 0.947 | 0.942 | 0.992 |
-| FE | mgcv sandwich, default | 0.972 | 0.987 | 1.127 |
-| FD | Classic cluster | 0.996 | 1.000 | 1.548 |
-| FD | Penalty cluster | 0.945 | 0.926 | 0.986 |
-| FD | Penalty cluster + Delta | 0.967 | 0.976 | 1.093 |
-| FD | mgcv sandwich, frequentist | 0.914 | 0.856 | 0.879 |
-| FD | mgcv sandwich, default | 0.949 | 0.947 | 0.998 |
+| FE | Classic cluster | 0.997 | 1.000 | 1.574 |
+| FE | Penalty cluster | 0.944 | 0.929 | 0.981 |
+| FE | Penalty cluster + Delta | 0.970 | 0.983 | 1.116 |
+| FE | mgcv sandwich, frequentist | 0.946 | 0.937 | 0.984 |
+| FE | mgcv sandwich, default | 0.971 | 0.986 | 1.119 |
+| FD | Classic cluster | 0.995 | 0.999 | 1.534 |
+| FD | Penalty cluster | 0.943 | 0.924 | 0.978 |
+| FD | Penalty cluster + Delta | 0.965 | 0.975 | 1.084 |
+| FD | mgcv sandwich, frequentist | 0.912 | 0.845 | 0.873 |
+| FD | mgcv sandwich, default | 0.947 | 0.945 | 0.990 |
 
 The main patterns are:
 
-- The current penalty-adjusted cluster covariance is best calibrated for
-  pointwise FE and FD inference. Its average coverage is about 0.945 and its
-  reported standard errors are close to the Monte Carlo standard deviation.
-- Adding Delta raises average pointwise coverage to approximately 0.967--0.971
-  and uniform coverage to approximately 0.976--0.985. It is therefore a useful
+- The current penalty-adjusted cluster covariance yields reasonably calibrated
+  pointwise FE and FD inference while retaining unit clustering. Its average
+  coverage is about 0.943--0.944, and its reported standard errors are close to
+  the Monte Carlo standard deviation.
+- Adding Delta raises average pointwise coverage to approximately 0.965--0.970
+  and uniform coverage to approximately 0.975--0.983. It is therefore a useful
   conservative sensitivity check, but it does not improve pointwise calibration
   relative to the 0.95 target in these designs.
 - The classic covariance that ignores penalization is much too conservative:
-  its standard errors are roughly 55--59 percent larger than the empirical
+  its standard errors are roughly 53--57 percent larger than the empirical
   standard deviation and its coverage is essentially one.
 - The observation-level frequentist `mgcv` sandwich undercovers for FD. The
   default `mgcv` sandwich adds the same Delta term and performs better, but it
   still does not provide cluster-robust inference.
 - RE function estimates display appreciable bias when `n = 500` because the DGP
   correlates unit heterogeneity with the regressors. Their mean absolute bias is
-  about 0.017, compared with about 0.002 for FE and FD. The resulting RE coverage
+  about 0.015, compared with about 0.002--0.003 for FE and FD. The resulting RE coverage
   should not be interpreted as a pure covariance-estimator comparison.
 
-With 1,000 replications, the Monte Carlo standard error of a 0.95 coverage rate
-is approximately 0.007. Thus the roughly 0.945 pointwise coverage of the current
-FE/FD covariance is statistically compatible with the nominal target, whereas
-the systematic 0.967--0.971 coverage after adding Delta is conservative.
+With 1,000 replications, the Monte Carlo standard error of an individual 0.95
+coverage rate is approximately 0.007. This is a rough scale for individual
+cells, not the standard error of the averages across grid points and designs.
+The persistent 0.965--0.970 pointwise coverage after adding Delta is conservative.
 
 ## Practical implication
 

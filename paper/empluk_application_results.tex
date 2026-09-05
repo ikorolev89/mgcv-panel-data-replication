@@ -18,25 +18,31 @@ Log output & 0.265 & --- & --- \\
 \bottomrule
 \end{tabular}
 \begin{minipage}{0.92\textwidth}
-\footnotesize \tablenote\ The dependent variable is log employment in the levels specifications and its first difference in the FD specification. All models include year effects; the levels models also include firm effects. The levels sample has 1,031 observations and the consecutive-pair FD sample has 891 observations. Standard errors clustered by firm are reported in parentheses. In the partially linear models, log output enters through a smooth function and therefore has no scalar coefficient; its estimated EDF is 2.87 in the factor fixed-effects specification and 0.96 in the first-difference specification.
+\tablenote\ The dependent variable is log employment in the levels specifications and its first difference in the FD specification. All specifications include year effects; the levels models also include firm effects. Standard errors clustered by firm are reported in parentheses. In the partially linear models, log output enters through a smooth function and therefore has no scalar coefficient; its estimated EDF is 2.87 in the factor fixed-effects specification and 0.96 in the first-difference specification.
 \end{minipage}
 \end{table}
 
 \begin{table}[H]
 \centering
 \footnotesize
-\caption{Comparison of levels specifications in the EmplUK application}
+\caption{Comparison of specifications in the EmplUK application}
 \label{tab:empluk_model_comparison}
 \begin{tabular}{lrrrrrrr}
 \toprule
 Model & Wage EDF & Capital EDF & Output EDF & Model df & RMSE & AIC & BIC \\
 \midrule
+\multicolumn{8}{l}{\textit{Panel A: levels}} \\
+\midrule
 Linear FE & 1.00 & 1.00 & 1.00 & 152.00 & 0.1180 & -1177.4 & -426.8 \\
 Partially linear FE & 1.00 & 1.00 & 2.87 & 154.68 & 0.1172 & -1185.5 & -421.6 \\
 Additive GAM FE & 8.84 & 11.61 & 2.51 & 175.68 & 0.1111 & -1252.9 & -385.3 \\
+\midrule
+\multicolumn{8}{l}{\textit{Panel B: first differences}} \\
+\midrule
+Partially linear FD & 1.00 & 1.00 & 0.96 & 12.00 & 0.1074 & -1424.1 & -1366.6 \\
 \bottomrule
 \end{tabular}
 \begin{minipage}{0.94\textwidth}
-\scriptsize \tablenote\ Linear components are assigned one degree of freedom. Model df includes the firm and year effects and the estimated scale parameter. AIC and BIC are reported descriptively; the smoothing parameters in the partially linear and additive models are selected by fREML. RMSE is calculated in sample.
+\tablenote\ Linear components are assigned one degree of freedom. Model df is the effective parameter count returned by \code{logLik(fit)} and used in AIC and BIC; when available, it uses \code{mgcv}'s corrected EDF and therefore need not equal a simple sum of the displayed component EDFs. It includes year effects, the estimated scale parameter, and firm effects in the levels models. RMSE is calculated for log employment in Panel A and its first difference in Panel B. AIC and BIC are reported descriptively; fREML selects the smoothing parameters. RMSE, AIC, and BIC should not be compared across panels because the dependent variables, estimation samples, and objectives differ.
 \end{minipage}
 \end{table}

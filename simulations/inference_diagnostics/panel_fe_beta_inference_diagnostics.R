@@ -333,7 +333,10 @@ mgcv_projected_cov <- function(fit, L, freq, R = NULL) {
 }
 
 delta_hat <- function(fit) {
-  symmetrize(vcov(fit, freq = FALSE) - vcov(fit, freq = TRUE))
+  symmetrize(
+    vcov(fit, sandwich = FALSE, freq = FALSE) -
+      vcov(fit, sandwich = FALSE, freq = TRUE)
+  )
 }
 
 beta_diagnostic_results <- function(fit, beta_name, cluster) {

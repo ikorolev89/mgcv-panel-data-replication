@@ -28,10 +28,10 @@ This checks 66 simulation runs, verifies 1,000 replications in every retained
 design-method cell, recomputes reported statistics from replication records and
 point-specific summaries, and compares all 225 numerical entries in main Tables
 1--5 with the revision. It also checks the recorded seeds and code fingerprints
-for the two chunked appendix designs and matches each chunk's statistics to the
-combined records. It does not refit the original simulations.
+for the paired smooth-coverage run and verifies exact replication-level agreement
+between the main, inference-appendix, and K=20 sensitivity results. It does not refit the original simulations.
 
-For a small execution check of the nine simulation scripts, using temporary
+For a small execution check of the eight simulation scripts, using temporary
 outputs and two draws per case:
 
 ```sh
@@ -57,8 +57,13 @@ Rscript empirical_application_empluk/run_manuscript_application.R
 
 The empirical application includes linear factor fixed effects, partially linear
 factor fixed effects and first differences, and an additive diagnostic model.
-The estimates describe conditional relationships; the exercise does not address
-endogeneity or identify structural labor-demand effects.
+The levels models use all 1,031 observations. Each firm's observed years are
+consecutive, so first differencing naturally leaves 891 observations after
+removing the first observed year for each of the 140 firms. The estimates
+describe conditional relationships; the exercise does not address endogeneity
+or identify structural labor-demand effects. The application bounds its simulated
+uniform cutoff below by the corresponding pointwise normal cutoff; the bands
+essentially coincide for the nearly linear first-difference output smooth.
 
 ## Result map
 
@@ -93,35 +98,35 @@ Rscript simulations/k_sensitivity/run_all_k_sensitivity.R 2
 Rscript simulations/inference_diagnostics/run_all_inference_diagnostics.R 1000 2
 ```
 
-The sensitivity runner resumes jobs with local `.done` markers. The inference
-runner skips existing summary files. For a full inference rerun, first move its
+The sensitivity runner resumes non-coverage jobs with local `.done` markers.
+The inference runner skips existing beta summary files. Coverage jobs always
+rerun under these legacy full-exercise runners; the paired driver below offers
+validated chunk-level resume for coverage. For a full inference rerun, first move its
 `outputs/` directory aside. Supplied results contain no sensitivity `.done`
 markers. Lower concurrency reduces memory use; on Windows the runners execute
 serially. The recorded sensitivity run took about 23.3 summed job-hours under
 concurrent execution; wall time depends on hardware and worker count.
 
-Main and sensitivity scripts set RNG seeds internally: 20260503 for estimation,
-20260504 for beta inference, and 20260505 for function coverage. Inference
-diagnostics additionally use seed 20260506 for common Gaussian critical-value
-draws. Simulation order matters because these are sequential RNG streams.
+Estimation and beta inference retain seeds 20260503 and 20260504. All function
+coverage uses the shared `paired-replication-v1` scheme (master seed 20260903):
+fresh Gaussian draws for each replication, common draws across methods within
+a replication, and separate data-generation, integration, and fitting streams.
+The main, K=20 sensitivity, and matching diagnostic results use identical
+replications. Worker count and execution order do not affect their RNG keys.
 
-The `n=500,T=4` appendix function diagnostics use four 250-replication chunks per
-error design. Their eight Monte Carlo seeds and the common Gaussian seed are
-recorded in `simulations/inference_diagnostics/seeded_g_schedule.csv`. The standard
-inference runner above uses this schedule automatically. To rerun only these two
-designs, allowing eight concurrent chunks:
+To rerun all affected smooth-coverage designs together, use:
 
 ```sh
-Rscript simulations/inference_diagnostics/run_seeded_g_diagnostics.R both 8
+Rscript replication/run_paired_g_simulations.R --test
+Rscript replication/run_paired_g_simulations.R --run 6
+Rscript replication/run_paired_g_simulations.R --summarize
+Rscript replication/run_paired_g_simulations.R --promote
 ```
 
-This command always refits the requested chunks and combines them in the fixed
-order recorded in the schedule, so changing the worker count does not change the
-results. Execution manifests in `simulations/inference_diagnostics/outputs/`
-record commands, RNG type, R/package versions, start/end times, code fingerprints,
-and output checksums. See `simulations/inference_diagnostics/SEEDED_RUNS.md` for
-the details. The main tables and basis-dimension exercise retain their original
-sequential runners and seeds.
+See `replication/PAIRED_G_RUNS.md` for the stream convention, provenance files,
+staging/backup locations, and complete refresh and verification commands.
+Earlier fixed-Gaussian-matrix results and September 2 chunk schedules have been
+superseded and are not included in this export.
 
 After a full rerun, `Rscript replication/compact_g_results.R` refreshes the compact
 coverage records. With no arguments it requires the full traces from all three

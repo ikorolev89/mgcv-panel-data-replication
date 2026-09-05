@@ -8,19 +8,21 @@ configurations: `(n,T) = (200,4), (200,8), (500,4)`. The error design is the
 reported heteroskedastic AR(1) process with `rho = 0.5`. The unpenalized spline
 benchmarks in the RMSE design remain at `K = 7`.
 
-All 36 jobs completed. All beta summaries have `n_success = 1000`; all nine
-coverage files contain the expected 1,000 simulations and 600,000 grid-level
-rows. The non-bam RMSE results are exactly equal across the three runs, which
-confirms that the K comparisons use paired Monte Carlo draws.
-The `K = 20` summaries reproduce the manuscript's reported entries to their
-displayed precision.
+All 36 saved result sets are complete. The nine function-coverage sets were
+refreshed under the paired scheme; the RMSE and beta results retain their earlier
+runs. All beta summaries have `n_success = 1000`, and all nine coverage files
+contain the expected 1,000 simulations and 600,000 grid-level rows. The non-bam
+RMSE results are exactly equal across the three runs. At `K = 20`, the coverage
+records agree exactly at the replication level with the coincident main and
+inference-method results.
 
 ## EDF and binding definitions
 
 For the substantive smooth, `smooth_edf` is the sum of the coefficient-level
-EDF entries in its parameter block. `edf_ceiling` is the number of coefficients
-in that block: normally `K - 1` for a centered levels smooth and `K` for the
-first-difference linear-functional smooth. The diagnostics use
+EDF entries in its parameter block. `edf_ceiling` is the rank of the fitted
+design block: normally `K - 1` for a centered levels smooth and also `K - 1`
+for the first-difference linear-functional smooth, because differencing
+annihilates the constant basis direction. The diagnostics use
 
 - `binding_90 = 1{smooth_edf / edf_ceiling >= 0.90}`;
 - `binding_95 = 1{smooth_edf / edf_ceiling >= 0.95}`.
@@ -38,9 +40,9 @@ The results are very stable when the baseline basis is doubled.
   sine DGP, the largest change is 0.73%; for the quadratic DGP it is 0.22%.
 - Penalty-adjusted beta rejection frequencies differ by at most 0.2 percentage
   points. Mean beta estimates differ by at most `5.4e-6`.
-- Average pointwise coverage differs by at most 0.068 percentage points,
-  minimum pointwise coverage by at most 0.4 points, and uniform coverage by at
-  most 0.7 points.
+- Average pointwise coverage differs by at most 0.062 percentage points,
+  minimum pointwise coverage by at most 0.3 points, and uniform coverage by at
+  most 0.6 points.
 - The 90% and 95% binding fractions are zero in every RMSE, beta, and coverage
   cell at both `K = 20` and `K = 40`.
 
@@ -59,17 +61,21 @@ reported performance measures.
   additional regularization; the result is not invariance to K.
 - Beta rejection frequencies differ by at most 0.6 percentage points and mean
   beta estimates by at most `4.4e-5`.
-- Average pointwise coverage differs by at most 0.458 percentage points,
-  minimum pointwise coverage by at most 1.2 points, and uniform coverage by at
-  most 1.3 points.
+- Average pointwise coverage differs by at most 0.352 percentage points,
+  minimum pointwise coverage by at most 1.3 points, and uniform coverage by at
+  most 1.1 points.
 
 The EDF diagnostics flag why the RMSE comparison changes. In the sine RMSE
 design, the levels FE/RE smooths at `K = 10` cross the 90% threshold in nearly
 every draw. They cross the stricter 95% threshold in about 0.6% of draws for
 `(200,4)`, and in roughly 98--100% of draws for `(200,8)` and `(500,4)`. The FD
-smooth does not bind under either rule. In the beta and coverage designs, the
-levels smooths at `K = 10` cross the 90% rule in about 26--29% of draws for
-`(200,8)` and about 99% for `(500,4)`, but never cross the 95% rule.
+smooth crosses the 90% threshold in every draw in all three RMSE configurations;
+its 95% binding frequency is 38.3% for `(200,4)` and 100% for both larger
+configurations. In the beta and coverage designs, 90% binding is rare at
+`(200,4)` (0--0.9% across estimators). At `(200,8)`, levels smooths cross the
+90% rule in about 26--29% of draws, while FD crosses it in every draw. At
+`(500,4)`, the levels frequencies are about 99% and FD again crosses it in
+every draw. No beta or coverage design crosses the 95% rule at `K = 10`.
 
 Consequently, a binding diagnostic should be read as evidence that enlarging
 the basis can change the fitted complexity, not as evidence that the smaller
@@ -110,4 +116,4 @@ regularization and alter finite-sample RMSE even when inference changes little.
 - `logs/`, `status/`, and `run_manifest.csv`: reproducibility and completion
   records.
 
-No manuscript file was changed as part of this exercise.
+The refreshed coverage and EDF entries feed Appendix Tables A7--A8.

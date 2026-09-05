@@ -8,7 +8,8 @@ The five estimators are:
 1. `classic_cluster`: unit-cluster sandwich that ignores the smoothing penalty.
 2. `penalty_cluster`: penalty-adjusted unit-cluster sandwich currently used in the paper.
 3. `penalty_cluster_delta`: the preceding estimator plus
-   `vcov(fit, freq = FALSE) - vcov(fit, freq = TRUE)`.
+   `vcov(fit, sandwich = FALSE, freq = FALSE) -`
+   `vcov(fit, sandwich = FALSE, freq = TRUE)`.
 4. `mgcv_sandwich_freq`: `vcov(fit, sandwich = TRUE, freq = TRUE)`.
 5. `mgcv_sandwich_default`: `vcov(fit, sandwich = TRUE, freq = FALSE)`.
 
@@ -46,22 +47,15 @@ entries in the revised manuscript's inference appendix tables.
 The completed-run interpretation is recorded in `RESULTS_SUMMARY.md`. The
 machine-readable completion check is `outputs/combined/final_manifest_M1000.csv`.
 
-The original runner manifest records an interrupted initial attempt; the final
-completion manifest above describes the completed results. The public package
-includes the final completion manifest and the execution manifests for the
-seeded `n=500,T=4` function diagnostics. Full grid traces are omitted from Git;
-compact replication records are in `replication/compact/`.
+All function-coverage designs use the paired, replication-keyed scheme described
+in `../../replication/PAIRED_G_RUNS.md`: fresh Gaussian draws per replication,
+common draws across covariance methods, and separate data and integration RNG
+streams. Main and K=20 sensitivity outputs share the matching replications.
+The direct script uses the same stream keys as the parallel rerun driver.
 
-The two `n=500,T=4` function-coverage designs use the versioned seed schedule in
-`seeded_g_schedule.csv`. The standard runner selects this schedule automatically
-for the full `M=1000` exercise. To rerun only those designs with eight concurrent
-chunks, use:
-
-```sh
-Rscript simulations/inference_diagnostics/run_seeded_g_diagnostics.R both 8
-```
-
-See `SEEDED_RUNS.md` for commands, seed conventions, execution manifests, and
-validation. The direct non-chunked function script remains available for other
-designs and exploratory runs; it uses a different random stream for these two
-particular configurations.
+Full grid traces are omitted from Git; compact replication records are in
+`replication/compact/`. The paired manifest, code fingerprints, and output
+checksums are in `replication/paired_g_*.csv`. The earlier seeded chunk schedules
+and original interrupted-run manifests are historical and are not used by the
+current tables. The general runner above resumes beta results but reruns
+function coverage; use the paired driver for validated chunk-level resume.

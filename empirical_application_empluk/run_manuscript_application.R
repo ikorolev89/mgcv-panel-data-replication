@@ -127,19 +127,32 @@ pl_fd <- mgcv::bam(
   select = TRUE
 )
 
+fit_sizes <- c(
+  linear_fe = stats::nobs(linear_fe),
+  pl_fe = stats::nobs(pl_fe),
+  gam_fe = stats::nobs(gam_fe),
+  pl_fd = stats::nobs(pl_fd)
+)
+if (any(fit_sizes[c("linear_fe", "pl_fe", "gam_fe")] != nrow(df)) ||
+    fit_sizes[["pl_fd"]] != nrow(df_fd)) {
+  stop("Unexpected empirical estimation samples: ",
+       paste(names(fit_sizes), fit_sizes, sep = "=", collapse = ", "))
+}
+
 symmetrize <- function(A) (A + t(A)) / 2
 rmse <- function(actual, fitted) sqrt(mean((actual - fitted)^2))
 
-is_firm_effect_coef <- function(coef_names) {
-  startsWith(coef_names, "firm_fe")
+is_unit_effect_coef <- function(coef_names, unit_var) {
+  startsWith(coef_names, unit_var) |
+    startsWith(coef_names, paste0("s(", unit_var, ")."))
 }
 
-substantive_edf <- function(fit) {
+substantive_edf <- function(fit, unit_var) {
   coef_names <- names(fit$edf)
-  sum(fit$edf[!is_firm_effect_coef(coef_names)])
+  sum(fit$edf[!is_unit_effect_coef(coef_names, unit_var)])
 }
 
-cluster_vcov_penalty <- function(fit, cluster) {
+cluster_vcov_penalty <- function(fit, cluster, unit_var = "firm_fe") {
   R <- predict(fit, type = "lpmatrix")
   u <- residuals(fit, type = "response")
   bread_inv <- vcov(fit, freq = FALSE) / summary(fit)$scale
@@ -151,12 +164,12 @@ cluster_vcov_penalty <- function(fit, cluster) {
   meat <- crossprod(score_g)
   G <- nrow(score_g)
   N <- nrow(R)
-  d <- substantive_edf(fit)
+  d <- substantive_edf(fit, unit_var)
   correction <- (G / (G - 1)) * ((N - 1) / max(N - d, 1))
   symmetrize(correction * bread_inv %*% meat %*% bread_inv)
 }
 
-cluster_vcov_linear <- function(fit, cluster) {
+cluster_vcov_linear <- function(fit, cluster, unit_var = "firm_fe") {
   R <- model.matrix(fit)
   u <- residuals(fit)
   bread_inv <- solve(crossprod(R))
@@ -168,7 +181,7 @@ cluster_vcov_linear <- function(fit, cluster) {
   meat <- crossprod(score_g)
   G <- nrow(score_g)
   N <- nrow(R)
-  keep <- !is_firm_effect_coef(colnames(R))
+  keep <- !is_unit_effect_coef(colnames(R), unit_var)
   d <- qr(R[, keep, drop = FALSE])$rank
   correction <- (G / (G - 1)) * ((N - 1) / max(N - d, 1))
   symmetrize(correction * bread_inv %*% meat %*% bread_inv)
@@ -222,26 +235,29 @@ smooth_edf <- function(fit, variable) {
 fd_output_edf <- unname(as.data.frame(summary(pl_fd)$s.table)[1, "edf"])
 
 model_comparison <- data.frame(
-  model = c("Linear FE", "Partially linear FE", "Additive GAM FE"),
-  wage_edf = c(1, 1, smooth_edf(gam_fe, "log_wage")),
-  capital_edf = c(1, 1, smooth_edf(gam_fe, "log_capital")),
+  model = c("Linear FE", "Partially linear FE", "Additive GAM FE", "Partially linear FD"),
+  wage_edf = c(1, 1, smooth_edf(gam_fe, "log_wage"), 1),
+  capital_edf = c(1, 1, smooth_edf(gam_fe, "log_capital"), 1),
   output_edf = c(
     1,
     smooth_edf(pl_fe, "log_output"),
-    smooth_edf(gam_fe, "log_output")
+    smooth_edf(gam_fe, "log_output"),
+    fd_output_edf
   ),
   model_df = c(
     attr(logLik(linear_fe), "df"),
     attr(logLik(pl_fe), "df"),
-    attr(logLik(gam_fe), "df")
+    attr(logLik(gam_fe), "df"),
+    attr(logLik(pl_fd), "df")
   ),
   RMSE = c(
     rmse(df$log_emp, fitted(linear_fe)),
     rmse(df$log_emp, fitted(pl_fe)),
-    rmse(df$log_emp, fitted(gam_fe))
+    rmse(df$log_emp, fitted(gam_fe)),
+    rmse(df_fd$d_log_emp, fitted(pl_fd))
   ),
-  AIC = c(AIC(linear_fe), AIC(pl_fe), AIC(gam_fe)),
-  BIC = c(BIC(linear_fe), BIC(pl_fe), BIC(gam_fe)),
+  AIC = c(AIC(linear_fe), AIC(pl_fe), AIC(gam_fe), AIC(pl_fd)),
+  BIC = c(BIC(linear_fe), BIC(pl_fe), BIC(gam_fe), BIC(pl_fd)),
   stringsAsFactors = FALSE
 )
 write.csv(
@@ -345,8 +361,14 @@ reference_data <- data.frame(
   log_wage = median(df$log_wage),
   log_capital = median(df$log_capital),
   log_output = median(df$log_output),
-  firm_fe = factor(levels(df$firm_fe)[1], levels = levels(df$firm_fe)),
-  year_fe = factor(levels(df$year_fe)[1], levels = levels(df$year_fe))
+  firm_fe = factor(
+    levels(df$firm_fe)[1],
+    levels = levels(df$firm_fe)
+  ),
+  year_fe = factor(
+    levels(df$year_fe)[1],
+    levels = levels(df$year_fe)
+  )
 )
 
 make_grid <- function(variable, n = 180L) {
@@ -384,7 +406,12 @@ uniform_critical_value <- function(C, draws = 9999L) {
     diag(sqrt(pmax(eig$values, 0)), nrow = length(eig$values))
   z <- matrix(rnorm(draws * nrow(A)), nrow = draws)
   sim <- z %*% t(A)
-  as.numeric(quantile(apply(abs(sim), 1, max), 0.95, names = FALSE))
+  simulated_cutoff <- as.numeric(
+    quantile(apply(abs(sim), 1, max), 0.95, names = FALSE)
+  )
+  # The Gaussian maximum's cutoff cannot be below a marginal normal cutoff.
+  # Enforce that bound when simulation error matters for a nearly linear smooth.
+  max(qnorm(0.975), simulated_cutoff)
 }
 
 output_grid <- make_grid("log_output")
@@ -587,7 +614,28 @@ output_plot <- ggplot() +
   ) +
   geom_hline(yintercept = 0, color = "grey65", linewidth = 0.45) +
   geom_rug(
-    data = data.frame(log_output = df$log_output),
+    data = rbind(
+      data.frame(
+        estimator = factor(
+          "Factor fixed effects",
+          levels = levels(output_inference_both$estimator)
+        ),
+        log_output = df$log_output[
+          df$log_output >= min(output_grid) &
+            df$log_output <= max(output_grid)
+        ]
+      ),
+      data.frame(
+        estimator = factor(
+          "First differences",
+          levels = levels(output_inference_both$estimator)
+        ),
+        log_output = df_fd$log_output[
+          df_fd$log_output >= min(output_grid) &
+            df_fd$log_output <= max(output_grid)
+        ]
+      )
+    ),
     aes(x = log_output),
     alpha = 0.10,
     sides = "b"
@@ -686,33 +734,48 @@ table_tex <- c(
   "\\bottomrule",
   "\\end{tabular}",
   "\\begin{minipage}{0.92\\textwidth}",
-  "\\footnotesize \\tablenote\\ The dependent variable is log employment in the levels specifications and its first difference in the FD specification. All models include year effects; the levels models also include firm effects. The levels sample has 1,031 observations and the consecutive-pair FD sample has 891 observations. Standard errors clustered by firm are reported in parentheses. In the partially linear models, log output enters through a smooth function and therefore has no scalar coefficient; its estimated EDF is 2.87 in the factor fixed-effects specification and 0.96 in the first-difference specification.",
+  sprintf(
+    paste0(
+      "\\tablenote\\ The dependent variable is log employment in the levels specifications and its first difference in the FD specification. ",
+      "All specifications include year effects; the levels models also include firm effects. ",
+      "Standard errors clustered by firm are reported in parentheses. In the partially linear models, log output enters through a smooth function and therefore has no scalar coefficient; ",
+      "its estimated EDF is %.2f in the factor fixed-effects specification and %.2f in the first-difference specification."
+    ),
+    smooth_edf(pl_fe, "log_output"), fd_output_edf
+  ),
   "\\end{minipage}",
   "\\end{table}",
   "",
   "\\begin{table}[H]",
   "\\centering",
   "\\footnotesize",
-  "\\caption{Comparison of levels specifications in the EmplUK application}",
+  "\\caption{Comparison of specifications in the EmplUK application}",
   "\\label{tab:empluk_model_comparison}",
   "\\begin{tabular}{lrrrrrrr}",
   "\\toprule",
   "Model & Wage EDF & Capital EDF & Output EDF & Model df & RMSE & AIC & BIC \\\\",
   "\\midrule",
-  comparison_lines,
+  "\\multicolumn{8}{l}{\\textit{Panel A: levels}} \\\\",
+  "\\midrule",
+  comparison_lines[1:3],
+  "\\midrule",
+  "\\multicolumn{8}{l}{\\textit{Panel B: first differences}} \\\\",
+  "\\midrule",
+  comparison_lines[4],
   "\\bottomrule",
   "\\end{tabular}",
   "\\begin{minipage}{0.94\\textwidth}",
-  "\\scriptsize \\tablenote\\ Linear components are assigned one degree of freedom. Model df includes the firm and year effects and the estimated scale parameter. AIC and BIC are reported descriptively; the smoothing parameters in the partially linear and additive models are selected by fREML. RMSE is calculated in sample.",
+  "\\tablenote\\ Linear components are assigned one degree of freedom. Model df is the effective parameter count returned by \\code{logLik(fit)} and used in AIC and BIC; when available, it uses \\code{mgcv}'s corrected EDF and therefore need not equal a simple sum of the displayed component EDFs. It includes year effects, the estimated scale parameter, and firm effects in the levels models. RMSE is calculated for log employment in Panel A and its first difference in Panel B. AIC and BIC are reported descriptively; fREML selects the smoothing parameters. RMSE, AIC, and BIC should not be compared across panels because the dependent variables, estimation samples, and objectives differ.",
   "\\end{minipage}",
   "\\end{table}"
 )
 writeLines(table_tex, file.path(paper_dir, "empluk_application_results.tex"))
 
 summary_lines <- c(
-  paste("Observations:", nrow(df)),
+  paste("Original observations:", nrow(df)),
+  paste("Levels observations:", nrow(df)),
   paste("Firms:", nlevels(df$firm_fe)),
-  paste("Years:", paste(range(df$year), collapse = "--")),
+  paste("Levels years:", paste(range(df$year), collapse = "--")),
   paste("Partially linear output EDF:", format_num(smooth_edf(pl_fe, "log_output"))),
   paste("First-difference observations:", nrow(df_fd)),
   paste("First-difference output EDF:", format_num(fd_output_edf)),
@@ -740,6 +803,7 @@ summary_lines <- c(
   "Session information:",
   capture.output(print(sessionInfo()))
 )
+summary_lines <- sub("[[:space:]]+$", "", summary_lines)
 writeLines(summary_lines, file.path(output_dir, "manuscript_summary.txt"))
 
 message("Completed manuscript EmplUK application.")

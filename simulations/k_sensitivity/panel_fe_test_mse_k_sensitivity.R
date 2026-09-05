@@ -377,7 +377,8 @@ fit_one_draw <- function(sim_id, dgp) {
     sm <- fit$smooth[[1L]]
     cols <- sm$first.para:sm$last.para
     edf <- sum(fit$edf[cols])
-    ceiling <- length(cols)
+    smooth_design <- model.matrix(fit)[, cols, drop = FALSE]
+    ceiling <- qr(smooth_design)$rank
     ratio <- edf / ceiling
     c(
       smooth_edf = edf,

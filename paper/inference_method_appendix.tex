@@ -51,7 +51,7 @@ Method & Classic & Penalty & Penalty $+\widehat{\Delta}$ & \code{mgcv}-F & \code
 \end{tabular}
 \begin{minipage}{0.94\textwidth}
 \singlespacing
-\scriptsize \tablenote\ Entries report empirical rejection frequencies based on 1,000 Monte Carlo replications. Classic is the unit-cluster sandwich that ignores the penalty; Penalty is the penalty-adjusted unit-cluster sandwich; and Penalty $+\widehat{\Delta}$ adds $\widehat{\Delta}=\code{vcov}(\widehat m,\code{freq=FALSE})-\code{vcov}(\widehat m,\code{freq=TRUE})$. The columns \code{mgcv}-F and \code{mgcv}-B use \code{vcov}$(\widehat m,\code{sandwich=TRUE})$ with \code{freq=TRUE} and \code{freq=FALSE}, respectively; these are observation-level rather than unit-clustered sandwich estimators. The Monte Carlo standard error of a rejection frequency near 0.05 is approximately 0.007.
+\tablenote\ Entries are empirical rejection frequencies from 1,000 Monte Carlo replications. Classic is the unit-cluster sandwich without the penalty; Penalty includes it; and Penalty $+\widehat{\Delta}$ also adds the model-based Bayesian-minus-frequentist covariance difference, computed with \code{sandwich=FALSE}. The \code{mgcv}-F and \code{mgcv}-B columns use \code{vcov}$(\widehat m,\code{sandwich=TRUE})$ with \code{freq=TRUE} and \code{freq=FALSE}, respectively; they aggregate scores by observation rather than by unit. The Monte Carlo standard error of a rejection frequency near 0.05 is approximately 0.007.
 \end{minipage}
 \end{table}
 
@@ -105,7 +105,7 @@ Method & Classic & Penalty & Penalty $+\widehat{\Delta}$ & \code{mgcv}-F & \code
 \end{tabular}
 \begin{minipage}{0.94\textwidth}
 \singlespacing
-\scriptsize \tablenote\ Entries report empirical rejection frequencies based on 1,000 Monte Carlo replications. Classic is the unit-cluster sandwich that ignores the penalty; Penalty is the penalty-adjusted unit-cluster sandwich; and Penalty $+\widehat{\Delta}$ adds $\widehat{\Delta}=\code{vcov}(\widehat m,\code{freq=FALSE})-\code{vcov}(\widehat m,\code{freq=TRUE})$. The columns \code{mgcv}-F and \code{mgcv}-B use \code{vcov}$(\widehat m,\code{sandwich=TRUE})$ with \code{freq=TRUE} and \code{freq=FALSE}, respectively; these are observation-level rather than unit-clustered sandwich estimators. The Monte Carlo standard error is at most approximately 0.016.
+\tablenote\ Entries are empirical rejection frequencies from 1,000 Monte Carlo replications. Classic is the unit-cluster sandwich without the penalty; Penalty includes it; and Penalty $+\widehat{\Delta}$ also adds the model-based Bayesian-minus-frequentist covariance difference, computed with \code{sandwich=FALSE}. The \code{mgcv}-F and \code{mgcv}-B columns use \code{vcov}$(\widehat m,\code{sandwich=TRUE})$ with \code{freq=TRUE} and \code{freq=FALSE}, respectively; they aggregate scores by observation rather than by unit. The Monte Carlo standard error is at most approximately 0.016.
 \end{minipage}
 \end{table}
 
@@ -125,44 +125,44 @@ Method & Avg. point. & Uniform & Avg. point. & Uniform & Avg. point. & Uniform &
 \midrule
 \multicolumn{11}{l}{\textit{Panel A: heteroskedastic AR(1), $\rho=0.5$; $n=200$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.996 & 0.999 & 0.943 & 0.911 & 0.967 & 0.977 & 0.924 & 0.884 & 0.957 & 0.963 \\
-\code{bam} FE & 0.997 & 1.000 & 0.943 & 0.937 & 0.971 & 0.989 & 0.945 & 0.942 & 0.972 & 0.989 \\
-\code{bam} RE & 0.996 & 1.000 & 0.927 & 0.908 & 0.962 & 0.976 & 0.930 & 0.922 & 0.964 & 0.980 \\
+\code{bam} FD & 0.996 & 0.999 & 0.945 & 0.921 & 0.969 & 0.979 & 0.927 & 0.888 & 0.960 & 0.967 \\
+\code{bam} FE & 0.998 & 1.000 & 0.944 & 0.921 & 0.973 & 0.985 & 0.946 & 0.927 & 0.973 & 0.987 \\
+\code{bam} RE & 0.997 & 1.000 & 0.929 & 0.907 & 0.963 & 0.980 & 0.933 & 0.910 & 0.964 & 0.986 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel B: heteroskedastic AR(1), $\rho=0.5$; $n=200$, $T=8$}} \\
 \midrule
-\code{bam} FD & 0.994 & 0.999 & 0.946 & 0.933 & 0.967 & 0.976 & 0.923 & 0.882 & 0.954 & 0.959 \\
-\code{bam} FE & 0.996 & 0.999 & 0.945 & 0.932 & 0.970 & 0.985 & 0.947 & 0.940 & 0.971 & 0.989 \\
-\code{bam} RE & 0.995 & 0.999 & 0.937 & 0.925 & 0.967 & 0.977 & 0.940 & 0.932 & 0.968 & 0.979 \\
+\code{bam} FD & 0.994 & 0.997 & 0.943 & 0.931 & 0.966 & 0.976 & 0.919 & 0.854 & 0.951 & 0.951 \\
+\code{bam} FE & 0.996 & 1.000 & 0.946 & 0.924 & 0.971 & 0.981 & 0.948 & 0.939 & 0.971 & 0.986 \\
+\code{bam} RE & 0.995 & 1.000 & 0.937 & 0.914 & 0.966 & 0.978 & 0.939 & 0.924 & 0.968 & 0.983 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel C: heteroskedastic AR(1), $\rho=0.5$; $n=500$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.994 & 0.999 & 0.944 & 0.923 & 0.967 & 0.979 & 0.926 & 0.878 & 0.956 & 0.956 \\
-\code{bam} FE & 0.996 & 0.999 & 0.945 & 0.937 & 0.971 & 0.986 & 0.945 & 0.939 & 0.972 & 0.988 \\
-\code{bam} RE & 0.992 & 0.998 & 0.920 & 0.893 & 0.956 & 0.970 & 0.921 & 0.900 & 0.957 & 0.972 \\
+\code{bam} FD & 0.994 & 1.000 & 0.946 & 0.932 & 0.968 & 0.977 & 0.927 & 0.888 & 0.957 & 0.968 \\
+\code{bam} FE & 0.996 & 0.999 & 0.946 & 0.936 & 0.972 & 0.988 & 0.948 & 0.939 & 0.972 & 0.988 \\
+\code{bam} RE & 0.993 & 0.997 & 0.922 & 0.899 & 0.958 & 0.972 & 0.924 & 0.905 & 0.959 & 0.969 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel D: heteroskedastic serially independent errors; $n=200$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.997 & 1.000 & 0.942 & 0.926 & 0.964 & 0.972 & 0.903 & 0.821 & 0.943 & 0.942 \\
-\code{bam} FE & 0.998 & 0.999 & 0.944 & 0.934 & 0.970 & 0.980 & 0.945 & 0.945 & 0.971 & 0.987 \\
-\code{bam} RE & 0.996 & 0.999 & 0.918 & 0.888 & 0.957 & 0.967 & 0.920 & 0.900 & 0.959 & 0.975 \\
+\code{bam} FD & 0.997 & 1.000 & 0.941 & 0.923 & 0.965 & 0.972 & 0.904 & 0.829 & 0.942 & 0.941 \\
+\code{bam} FE & 0.997 & 1.000 & 0.946 & 0.932 & 0.972 & 0.980 & 0.947 & 0.940 & 0.973 & 0.981 \\
+\code{bam} RE & 0.996 & 1.000 & 0.916 & 0.865 & 0.955 & 0.967 & 0.919 & 0.878 & 0.957 & 0.968 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel E: heteroskedastic serially independent errors; $n=200$, $T=8$}} \\
 \midrule
-\code{bam} FD & 0.996 & 1.000 & 0.947 & 0.934 & 0.967 & 0.970 & 0.899 & 0.825 & 0.938 & 0.928 \\
-\code{bam} FE & 0.996 & 1.000 & 0.944 & 0.930 & 0.971 & 0.988 & 0.947 & 0.946 & 0.973 & 0.987 \\
-\code{bam} RE & 0.996 & 1.000 & 0.934 & 0.908 & 0.965 & 0.983 & 0.937 & 0.928 & 0.966 & 0.981 \\
+\code{bam} FD & 0.994 & 0.998 & 0.942 & 0.903 & 0.961 & 0.967 & 0.895 & 0.782 & 0.933 & 0.910 \\
+\code{bam} FE & 0.996 & 1.000 & 0.943 & 0.935 & 0.969 & 0.984 & 0.945 & 0.949 & 0.970 & 0.985 \\
+\code{bam} RE & 0.995 & 0.999 & 0.932 & 0.904 & 0.963 & 0.978 & 0.935 & 0.922 & 0.964 & 0.979 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel F: heteroskedastic serially independent errors; $n=500$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.995 & 1.000 & 0.949 & 0.924 & 0.968 & 0.976 & 0.910 & 0.828 & 0.946 & 0.934 \\
-\code{bam} FE & 0.997 & 1.000 & 0.946 & 0.947 & 0.971 & 0.990 & 0.947 & 0.954 & 0.972 & 0.990 \\
-\code{bam} RE & 0.992 & 0.999 & 0.904 & 0.865 & 0.950 & 0.962 & 0.906 & 0.869 & 0.950 & 0.961 \\
+\code{bam} FD & 0.996 & 0.999 & 0.943 & 0.931 & 0.964 & 0.978 & 0.904 & 0.832 & 0.940 & 0.933 \\
+\code{bam} FE & 0.997 & 0.999 & 0.945 & 0.940 & 0.971 & 0.987 & 0.946 & 0.940 & 0.971 & 0.986 \\
+\code{bam} RE & 0.993 & 0.999 & 0.907 & 0.871 & 0.949 & 0.964 & 0.910 & 0.875 & 0.950 & 0.967 \\
 \bottomrule
 \end{tabular}
 \begin{minipage}{0.92\linewidth}
 \singlespacing
-\tiny \tablenote\ Entries report coverage probabilities based on 1,000 Monte Carlo replications. ``Avg. point.'' averages coverage over the 50 evaluation points; ``Uniform'' is coverage of the entire curve by a sup-$t$ band based on 499 Gaussian draws. The five inference methods are defined in the notes to Appendix Table~\ref{tab:beta_size_methods_appendix}. The Monte Carlo standard error near 0.95 is approximately 0.007.
+\tablenote\ Entries report coverage probabilities based on 1,000 Monte Carlo replications. ``Avg. point.'' averages coverage over the 50 evaluation points; ``Uniform'' is coverage of the entire curve by a sup-$t$ band based on 499 Gaussian draws. The five inference methods are defined in the notes to Appendix Table~\ref{tab:beta_size_methods_appendix}. For single-point or uniform coverage near 0.95, the Monte Carlo standard error is approximately 0.007.
 \end{minipage}
 \end{table}
 \end{landscape}
@@ -183,44 +183,44 @@ Method & Avg. point. & Uniform & Avg. point. & Uniform & Avg. point. & Uniform &
 \midrule
 \multicolumn{11}{l}{\textit{Panel A: heteroskedastic AR(1), $\rho=0.5$; $n=200$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.996 & 1.000 & 0.942 & 0.918 & 0.966 & 0.974 & 0.926 & 0.892 & 0.958 & 0.964 \\
-\code{bam} FE & 0.997 & 0.999 & 0.942 & 0.923 & 0.968 & 0.980 & 0.944 & 0.937 & 0.969 & 0.982 \\
-\code{bam} RE & 0.995 & 0.997 & 0.927 & 0.892 & 0.960 & 0.973 & 0.930 & 0.901 & 0.961 & 0.979 \\
+\code{bam} FD & 0.996 & 1.000 & 0.941 & 0.914 & 0.965 & 0.972 & 0.923 & 0.872 & 0.956 & 0.957 \\
+\code{bam} FE & 0.996 & 1.000 & 0.938 & 0.918 & 0.967 & 0.980 & 0.941 & 0.919 & 0.968 & 0.983 \\
+\code{bam} RE & 0.995 & 0.999 & 0.923 & 0.880 & 0.960 & 0.971 & 0.925 & 0.900 & 0.961 & 0.974 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel B: heteroskedastic AR(1), $\rho=0.5$; $n=200$, $T=8$}} \\
 \midrule
-\code{bam} FD & 0.994 & 0.999 & 0.948 & 0.931 & 0.969 & 0.979 & 0.926 & 0.882 & 0.955 & 0.961 \\
-\code{bam} FE & 0.995 & 0.999 & 0.947 & 0.926 & 0.970 & 0.984 & 0.949 & 0.937 & 0.971 & 0.983 \\
-\code{bam} RE & 0.994 & 0.999 & 0.937 & 0.906 & 0.965 & 0.977 & 0.939 & 0.908 & 0.966 & 0.978 \\
+\code{bam} FD & 0.994 & 1.000 & 0.945 & 0.937 & 0.966 & 0.980 & 0.922 & 0.885 & 0.953 & 0.965 \\
+\code{bam} FE & 0.996 & 1.000 & 0.945 & 0.926 & 0.971 & 0.982 & 0.947 & 0.937 & 0.972 & 0.991 \\
+\code{bam} RE & 0.995 & 1.000 & 0.936 & 0.908 & 0.966 & 0.981 & 0.938 & 0.918 & 0.967 & 0.987 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel C: heteroskedastic AR(1), $\rho=0.5$; $n=500$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.995 & 1.000 & 0.948 & 0.938 & 0.968 & 0.981 & 0.930 & 0.900 & 0.958 & 0.966 \\
-\code{bam} FE & 0.995 & 1.000 & 0.948 & 0.935 & 0.971 & 0.983 & 0.949 & 0.942 & 0.972 & 0.984 \\
-\code{bam} RE & 0.993 & 1.000 & 0.923 & 0.898 & 0.958 & 0.973 & 0.924 & 0.910 & 0.959 & 0.973 \\
+\code{bam} FD & 0.994 & 1.000 & 0.947 & 0.931 & 0.967 & 0.980 & 0.929 & 0.889 & 0.958 & 0.960 \\
+\code{bam} FE & 0.995 & 1.000 & 0.945 & 0.939 & 0.970 & 0.986 & 0.945 & 0.946 & 0.971 & 0.988 \\
+\code{bam} RE & 0.993 & 0.999 & 0.922 & 0.887 & 0.956 & 0.970 & 0.923 & 0.892 & 0.957 & 0.968 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel D: heteroskedastic serially independent errors; $n=200$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.997 & 1.000 & 0.943 & 0.903 & 0.965 & 0.972 & 0.903 & 0.818 & 0.944 & 0.932 \\
-\code{bam} FE & 0.998 & 0.999 & 0.943 & 0.915 & 0.969 & 0.984 & 0.945 & 0.925 & 0.970 & 0.987 \\
-\code{bam} RE & 0.995 & 0.999 & 0.916 & 0.869 & 0.955 & 0.968 & 0.919 & 0.877 & 0.957 & 0.973 \\
+\code{bam} FD & 0.997 & 0.999 & 0.941 & 0.919 & 0.963 & 0.976 & 0.903 & 0.822 & 0.942 & 0.933 \\
+\code{bam} FE & 0.998 & 1.000 & 0.941 & 0.918 & 0.969 & 0.980 & 0.944 & 0.929 & 0.970 & 0.983 \\
+\code{bam} RE & 0.997 & 1.000 & 0.916 & 0.873 & 0.957 & 0.969 & 0.918 & 0.895 & 0.958 & 0.968 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel E: heteroskedastic serially independent errors; $n=200$, $T=8$}} \\
 \midrule
-\code{bam} FD & 0.996 & 1.000 & 0.948 & 0.933 & 0.966 & 0.976 & 0.899 & 0.804 & 0.937 & 0.924 \\
-\code{bam} FE & 0.996 & 0.999 & 0.946 & 0.932 & 0.971 & 0.987 & 0.949 & 0.937 & 0.972 & 0.988 \\
-\code{bam} RE & 0.996 & 0.999 & 0.933 & 0.908 & 0.963 & 0.973 & 0.935 & 0.930 & 0.964 & 0.978 \\
+\code{bam} FD & 0.995 & 1.000 & 0.942 & 0.918 & 0.961 & 0.971 & 0.889 & 0.774 & 0.930 & 0.912 \\
+\code{bam} FE & 0.996 & 1.000 & 0.944 & 0.931 & 0.969 & 0.983 & 0.946 & 0.942 & 0.971 & 0.986 \\
+\code{bam} RE & 0.995 & 1.000 & 0.933 & 0.902 & 0.963 & 0.977 & 0.935 & 0.914 & 0.964 & 0.979 \\
 \midrule
 \multicolumn{11}{l}{\textit{Panel F: heteroskedastic serially independent errors; $n=500$, $T=4$}} \\
 \midrule
-\code{bam} FD & 0.996 & 1.000 & 0.944 & 0.938 & 0.967 & 0.977 & 0.903 & 0.857 & 0.941 & 0.931 \\
-\code{bam} FE & 0.997 & 1.000 & 0.950 & 0.947 & 0.975 & 0.989 & 0.951 & 0.955 & 0.975 & 0.987 \\
-\code{bam} RE & 0.993 & 1.000 & 0.905 & 0.861 & 0.948 & 0.961 & 0.906 & 0.870 & 0.949 & 0.965 \\
+\code{bam} FD & 0.996 & 1.000 & 0.942 & 0.932 & 0.963 & 0.974 & 0.903 & 0.825 & 0.939 & 0.943 \\
+\code{bam} FE & 0.997 & 1.000 & 0.944 & 0.930 & 0.970 & 0.985 & 0.945 & 0.932 & 0.971 & 0.986 \\
+\code{bam} RE & 0.992 & 1.000 & 0.899 & 0.834 & 0.943 & 0.962 & 0.901 & 0.841 & 0.945 & 0.967 \\
 \bottomrule
 \end{tabular}
 \begin{minipage}{0.92\linewidth}
 \singlespacing
-\tiny \tablenote\ Entries report coverage probabilities based on 1,000 Monte Carlo replications. ``Avg. point.'' averages coverage over the 50 evaluation points; ``Uniform'' is coverage of the entire curve by a sup-$t$ band based on 499 Gaussian draws. The five inference methods are defined in the notes to Appendix Table~\ref{tab:beta_size_methods_appendix}. The Monte Carlo standard error near 0.95 is approximately 0.007.
+\tablenote\ Entries report coverage probabilities based on 1,000 Monte Carlo replications. ``Avg. point.'' averages coverage over the 50 evaluation points; ``Uniform'' is coverage of the entire curve by a sup-$t$ band based on 499 Gaussian draws. The five inference methods are defined in the notes to Appendix Table~\ref{tab:beta_size_methods_appendix}. For single-point or uniform coverage near 0.95, the Monte Carlo standard error is approximately 0.007.
 \end{minipage}
 \end{table}
 \end{landscape}

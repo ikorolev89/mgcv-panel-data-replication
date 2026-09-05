@@ -2,6 +2,8 @@
 # Regenerate Tables 1--5 from the saved main-run summaries.
 # --check compares numerical cells with the revision snapshot without writing.
 check <- "--check" %in% commandArgs(trailingOnly = TRUE)
+refresh <- "--refresh-coverage-snapshot" %in% commandArgs(trailingOnly = TRUE)
+if (check && refresh) stop("Choose checking or deliberate snapshot refresh, not both.")
 configs <- data.frame(n = c(200, 200, 500), T = c(4, 8, 4))
 methods <- c("bam_fd", "bam_fe", "bam_re")
 labels <- c(bam_fd = "\\code{bam} FD", bam_fe = "\\code{bam} FE", bam_re = "\\code{bam} RE")
@@ -70,6 +72,12 @@ for (model in c("pl", "np")) {
 }
 actual <- do.call(rbind, values); row.names(actual) <- NULL
 reference <- read.csv("replication/paper_values.csv", check.names = FALSE)
+if (refresh) {
+  unaffected <- !grepl("^tab:g_coverage_", actual$table)
+  stopifnot(identical(actual[unaffected, ], reference[unaffected, ]))
+  write.csv(actual, "replication/paper_values.csv", row.names = FALSE)
+  reference <- actual
+}
 if (!identical(actual, reference)) stop("Generated numerical cells differ from the September 2026 revision snapshot.")
 if (!check) {
   dir.create("paper", showWarnings = FALSE)

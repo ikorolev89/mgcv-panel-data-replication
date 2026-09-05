@@ -135,7 +135,7 @@ for (configuration in config_order) {
 
 add(
   "\\end{longtable}",
-  "{\\scriptsize\\noindent \\tablenote\\ RMSE entries report $100$ times the root mean squared error. EDF/ceiling reports the mean fitted effective degrees of freedom and its attainable ceiling. Bind reports, respectively, the fractions of Monte Carlo draws in which EDF is at least 90\\% and 95\\% of that ceiling. The ceiling is $K-1$ for the centered levels smooths used by FE and RE and $K$ for the first-difference linear-functional smooth.\\par}",
+  "{\\noindent \\tablenote\\ RMSE entries report $100$ times the root mean squared error. EDF/ceiling reports the mean fitted effective degrees of freedom and its attainable ceiling. Bind is reported as 90\\%/95\\%: the first number is the fraction of Monte Carlo draws in which EDF is at least 90\\% of the ceiling, and the second is the fraction in which EDF is at least 95\\% of the ceiling. The ceiling is $K-1$ for the centered levels smooths and for the first-difference linear-functional smooth, whose contrast design annihilates the constant basis direction.\\par}",
   "\\end{landscape}",
   ""
 )
@@ -189,7 +189,7 @@ add(
   "\\bottomrule",
   "\\end{tabular}",
   "\\begin{minipage}{0.92\\textwidth}",
-  "\\footnotesize \\tablenote\\ Entries report rejection frequencies based on the penalty-adjusted cluster sandwich. Size uses $\\beta=1$ and tests $H_0:\\beta=1$. Power uses $\\beta=1.075$ and tests the same null.",
+  "\\tablenote\\ Entries report rejection frequencies based on the penalty-adjusted cluster sandwich. Size uses $\\beta=1$ and tests $H_0:\\beta=1$. Power uses $\\beta=1.075$ and tests the same null.",
   "\\end{minipage}",
   "\\end{table}",
   ""
@@ -256,7 +256,7 @@ for (configuration in config_order) {
 
 add(
   "\\end{longtable}",
-  "{\\scriptsize\\noindent \\tablenote\\ Entries report average pointwise, minimum pointwise, and uniform coverage for penalty-adjusted bands; PL and NP denote partially linear and nonparametric models.\\par}",
+  "{\\noindent \\tablenote\\ Entries report average pointwise, minimum pointwise, and uniform coverage for penalty-adjusted bands; PL and NP denote partially linear and nonparametric models.\\par}",
   "\\end{landscape}",
   ""
 )
@@ -327,7 +327,7 @@ for (configuration in config_order) {
 
 add(
   "\\end{longtable}",
-  "{\\scriptsize\\noindent \\tablenote\\ EDF/ceiling reports the mean fitted effective degrees of freedom and its attainable ceiling. Bind reports, respectively, the fractions of draws in which EDF is at least 90\\% and 95\\% of the ceiling. The $\\beta$ rows use the null design; its EDF diagnostics are numerically indistinguishable from those under the fixed alternative.\\par}",
+  "{\\noindent \\tablenote\\ EDF/ceiling reports the mean fitted effective degrees of freedom and its attainable ceiling. Bind is reported as 90\\%/95\\%: the first number is the fraction of draws in which EDF is at least 90\\% of the ceiling, and the second is the fraction in which EDF is at least 95\\% of the ceiling. The $\\beta$ rows use the null design; its EDF diagnostics are numerically indistinguishable from those under the fixed alternative.\\par}",
   "\\end{landscape}",
   ""
 )

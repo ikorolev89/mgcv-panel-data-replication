@@ -101,11 +101,6 @@ selected_grid_idx <- vapply(
   integer(1)
 )
 
-## Common Gaussian draws make the uniform critical-value approximation paired
-## across covariance estimators without changing the Monte Carlo DGP stream.
-set.seed(20260506)
-sup_z <- matrix(rnorm(n_sup_draws * n_grid), nrow = n_sup_draws, ncol = n_grid)
-
 out_dir <- file.path(getwd(), "simulations", "inference_diagnostics", "outputs")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
@@ -403,7 +398,10 @@ mgcv_projected_cov <- function(fit, L, freq, R = NULL) {
 }
 
 delta_hat <- function(fit) {
-  symmetrize(vcov(fit, freq = FALSE) - vcov(fit, freq = TRUE))
+  symmetrize(
+    vcov(fit, sandwich = FALSE, freq = FALSE) -
+      vcov(fit, sandwich = FALSE, freq = TRUE)
+  )
 }
 
 grid_cov_to_supcrit <- function(C, draws = n_sup_draws) {
@@ -539,6 +537,9 @@ evaluate_fit_all <- function(fit_info, model_type, method) {
   R <- model.matrix(fit)
 
   estimate <- as.numeric(grid$L_full %*% coef(fit))
+  smooth_edf <- sum(fit$edf[grid$smooth_cols])
+  edf_ceiling <- qr(R[, grid$smooth_cols, drop = FALSE])$rank
+  edf_ratio <- smooth_edf / edf_ceiling
 
   Delta <- delta_hat(fit)
   V_smooth_classic <- cluster_vcov_classic_smooth(
@@ -601,18 +602,26 @@ evaluate_fit_all <- function(fit_info, model_type, method) {
       point_width = point_upper - point_lower,
       sup_crit = sup_crit,
       uniform_covered = as.integer(uniform_covered),
-      uniform_width = uniform_upper - uniform_lower
+      uniform_width = uniform_upper - uniform_lower,
+      point_lower = point_lower, point_upper = point_upper,
+      uniform_lower = uniform_lower, uniform_upper = uniform_upper,
+      K_smooth = k_smooth, smooth_edf = smooth_edf,
+      edf_ceiling = edf_ceiling, edf_ratio = edf_ratio,
+      binding_90 = as.integer(edf_ratio >= 0.90),
+      binding_95 = as.integer(edf_ratio >= 0.95)
     )
   }))
 }
 
 one_draw <- function(sim_id) {
+  begin_g_replication(sim_id)
   df <- simulate_panel()
   out <- list()
   idx <- 0L
 
   for (model_type in model_list) {
     for (method in methods) {
+      set_g_fit_stream(model_type, method)
       fit_info <- fit_bam_method(df, model_type, method)
       idx <- idx + 1L
       ans <- evaluate_fit_all(fit_info, model_type, method)
@@ -624,7 +633,14 @@ one_draw <- function(sim_id) {
   do.call(rbind, out)
 }
 
-set.seed(20260505)
+if (!exists("g_source_file", inherits = FALSE)) {
+  file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+  g_source_file <- normalizePath(sub("^--file=", "", file_arg))
+}
+source(file.path(dirname(g_source_file), "../g_coverage_shared.R"), local = TRUE)
+initialize_g_streams(M)
+
+# G_COVERAGE_EXECUTION_START
 results <- vector("list", M)
 
 for (m in seq_len(M)) {
@@ -634,8 +650,7 @@ for (m in seq_len(M)) {
 
   ans <- try(one_draw(m), silent = TRUE)
   if (inherits(ans, "try-error")) {
-    warning("Draw ", m, " failed: ", conditionMessage(attr(ans, "condition")))
-    ans <- NULL
+    stop("Draw ", m, " failed: ", conditionMessage(attr(ans, "condition")))
   }
   results[[m]] <- ans
 }

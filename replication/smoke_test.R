@@ -15,8 +15,7 @@ main <- function() {
     list("simulations/k_sensitivity/panel_fe_beta_inference_k_sensitivity.R", c(2, 0, 40, 4, "sine_g", 1, 1, "hetero_ar1", 0.5, "substantive", 10)),
     list("simulations/k_sensitivity/panel_fe_g_inference_k_sensitivity.R", c(2, 40, 4, "sin_2pi", "both", 10, 99, "hetero_ar1", 0.5, "substantive", 10)),
     list("simulations/inference_diagnostics/panel_fe_beta_inference_diagnostics.R", c(2, 0, 40, 4, "baseline", 1, 1, "hetero_ar1", 0.5, "substantive")),
-    list("simulations/inference_diagnostics/panel_fe_g_inference_diagnostics.R", c(2, 40, 4, "sin_2pi", "both", 10, 99, "hetero_ar1", 0.5, "substantive")),
-    list("simulations/inference_diagnostics/panel_fe_g_inference_diagnostics_chunk.R", c(2, 40, 4, "sin_2pi", "both", 10, 99, "hetero_ar1", 0.5, "substantive", 20260505, "smoke"))
+    list("simulations/inference_diagnostics/panel_fe_g_inference_diagnostics.R", c(2, 40, 4, "sin_2pi", "both", 10, 99, "hetero_ar1", 0.5, "substantive"))
   )
   for (i in seq_along(cases)) {
     case <- cases[[i]]
@@ -28,6 +27,6 @@ main <- function() {
     if (status != 0L) stop(paste(readLines(logfile, warn = FALSE), collapse = "\n"))
     cat("PASS", case[[1]], "\n")
   }
-  cat("All nine simulation smoke cases passed.\n")
+  cat("All eight simulation smoke cases passed.\n")
 }
 main()

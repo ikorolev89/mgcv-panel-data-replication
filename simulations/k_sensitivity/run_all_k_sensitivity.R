@@ -73,7 +73,7 @@ run_job <- function(job) {
   failed_path <- file.path("status", paste0(job$id, ".failed"))
   log_path <- file.path("logs", paste0(job$id, ".log"))
 
-  if (file.exists(done_path)) {
+  if (file.exists(done_path) && job$block != "coverage") {
     cat(sprintf("SKIP  %s (already complete)\n", job$id))
     return(data.frame(
       id = job$id, block = job$block, status = "skipped_complete",
@@ -145,4 +145,3 @@ print(run_results, row.names = FALSE)
 if (any(startsWith(run_results$status, "failed"))) {
   quit(status = 1L)
 }
-

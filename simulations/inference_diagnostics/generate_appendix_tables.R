@@ -117,7 +117,7 @@ beta_table <- function(beta_true, caption, label, mc_note) {
     "\\end{tabular}",
     "\\begin{minipage}{0.94\\textwidth}",
     "\\singlespacing",
-    sprintf("\\scriptsize \\tablenote\\ Entries report empirical rejection frequencies based on 1,000 Monte Carlo replications. Classic is the unit-cluster sandwich that ignores the penalty; Penalty is the penalty-adjusted unit-cluster sandwich; and Penalty $+\\widehat{\\Delta}$ adds $\\widehat{\\Delta}=\\code{vcov}(\\widehat m,\\code{freq=FALSE})-\\code{vcov}(\\widehat m,\\code{freq=TRUE})$. The columns \\code{mgcv}-F and \\code{mgcv}-B use \\code{vcov}$(\\widehat m,\\code{sandwich=TRUE})$ with \\code{freq=TRUE} and \\code{freq=FALSE}, respectively; these are observation-level rather than unit-clustered sandwich estimators. %s", mc_note),
+    sprintf("\\tablenote\\ Entries are empirical rejection frequencies from 1,000 Monte Carlo replications. Classic is the unit-cluster sandwich without the penalty; Penalty includes it; and Penalty $+\\widehat{\\Delta}$ also adds the model-based Bayesian-minus-frequentist covariance difference, computed with \\code{sandwich=FALSE}. The \\code{mgcv}-F and \\code{mgcv}-B columns use \\code{vcov}$(\\widehat m,\\code{sandwich=TRUE})$ with \\code{freq=TRUE} and \\code{freq=FALSE}, respectively; they aggregate scores by observation rather than by unit. %s", mc_note),
     "\\end{minipage}",
     "\\end{table}"
   )
@@ -180,7 +180,7 @@ g_table <- function(model, caption, label) {
     "\\end{tabular}",
     "\\begin{minipage}{0.92\\linewidth}",
     "\\singlespacing",
-    "\\tiny \\tablenote\\ Entries report coverage probabilities based on 1,000 Monte Carlo replications. ``Avg. point.'' averages coverage over the 50 evaluation points; ``Uniform'' is coverage of the entire curve by a sup-$t$ band based on 499 Gaussian draws. The five inference methods are defined in the notes to Appendix Table~\\ref{tab:beta_size_methods_appendix}. The Monte Carlo standard error near 0.95 is approximately 0.007.",
+    "\\tablenote\\ Entries report coverage probabilities based on 1,000 Monte Carlo replications. ``Avg. point.'' averages coverage over the 50 evaluation points; ``Uniform'' is coverage of the entire curve by a sup-$t$ band based on 499 Gaussian draws. The five inference methods are defined in the notes to Appendix Table~\\ref{tab:beta_size_methods_appendix}. For single-point or uniform coverage near 0.95, the Monte Carlo standard error is approximately 0.007.",
     "\\end{minipage}",
     "\\end{table}",
     "\\end{landscape}"

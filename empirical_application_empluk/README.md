@@ -25,8 +25,12 @@ Semiparametric:
 The manuscript application also estimates a partially linear specification
 that is linear in log wages and log capital and smooth in log output.
 
-The original unbalanced panel is retained. Sector is omitted because it is
-time-invariant and therefore absorbed by the firm effects.
+The levels specifications in both scripts use all 1,031 observations in the
+original unbalanced panel. Each firm's observed years form a consecutive
+sequence, so the manuscript's first-difference specification naturally contains
+891 observations after losing the first observed year for each of the 140
+firms. Sector is omitted because it is time-invariant and therefore absorbed by
+the firm effects.
 
 ## Run
 
@@ -41,6 +45,12 @@ To regenerate the manuscript tables and figures:
 ```r
 Rscript empirical_application_empluk/run_manuscript_application.R
 ```
+
+The manuscript application constructs pointwise and uniform firm-clustered
+bands. Its simulated uniform cutoff is bounded below by `qnorm(0.975)`, the
+known marginal cutoff, so Gaussian simulation error cannot make a uniform
+band narrower than a pointwise interval. The two bands essentially coincide
+for the nearly linear first-difference output smooth.
 
 The exercise is descriptive. The original Arellano--Bond application treats
 employment dynamically and is concerned with predetermined or endogenous
@@ -67,9 +77,11 @@ relationships rather than causal or structural effects.
 - `figures/model_fit_diagnostics.png` and `.pdf`: residual comparisons.
 - `manuscript_outputs/`: numerical results and summaries for the paper.
 - `manuscript_figures/`: publication-ready comparison and inference figures.
-- `../paper/empluk_application_results.tex`: generated LaTeX tables.
+- `../paper/empluk_application_results.tex`: generated LaTeX table fragment;
+  the journal-facing manuscript contains the same tables inline.
 
 The exploratory plots show the 1st--99th percentile of each logged covariate
 with pointwise model-based intervals. The manuscript script constructs
 penalty-adjusted firm-clustered pointwise and grid-uniform confidence bands,
-conditional on the selected smoothing parameters. Models use all observations.
+conditional on the selected smoothing parameters, using each estimator's
+natural sample.
