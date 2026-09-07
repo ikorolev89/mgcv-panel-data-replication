@@ -144,7 +144,7 @@ all 225 numerical cells in main Tables 1--5, paired RNG provenance, and the
 54 saved-result checksums. Simulation code and results are unchanged from
 the previous public release.
 
-The final abstract was subsequently shortened to 91 words (99 when hyphenated
-components are counted separately) to satisfy the 100-word limit. Both
-manuscript PDFs were rebuilt and their title pages visually checked. Only
+The final abstract contains 96 words when hyphenated compounds are counted as
+one. The author's locally compiled clean and marked manuscript PDFs were
+checked against the source and their title pages visually inspected. Only
 page 1 changed; all later pages and reference page numbers remain unchanged.
