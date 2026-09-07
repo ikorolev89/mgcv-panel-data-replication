@@ -3,6 +3,8 @@
 Code and saved results for **Estimating Semiparametric and Nonparametric Fixed
 Effects Panel Data Models with mgcv**, by Ivan Korolev (September 2026 revision).
 
+[Read the paper (PDF)](paper/mgcv_panel_data_R1_unmarked.pdf).
+
 The materials cover the main Monte Carlo experiments, the inference-method and
 basis-dimension appendices, computational benchmarks, and the `EmplUK` empirical
 application. An additional `Snmesp` example is provided as an exploratory exercise.
@@ -79,8 +81,9 @@ essentially coincide for the nearly linear first-difference output smooth.
 
 The first five tables are regenerated together as `paper/main_simulation_tables.tex`.
 `replication/paper_values.csv` records their numerical entries from the revision.
-Table assets are LaTeX fragments; the working manuscript and journal correspondence
-are maintained separately. Citation metadata are in `CITATION.cff`.
+Table assets are LaTeX fragments. The unmarked manuscript PDF is included in
+`paper/`; manuscript source, marked revisions, and journal correspondence are
+maintained separately. Citation metadata are in `CITATION.cff`.
 
 ## Full simulation runs
 

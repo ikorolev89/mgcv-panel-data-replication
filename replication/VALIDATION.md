@@ -122,3 +122,24 @@ The affected code examples, binding discussion, empirical figures, and response
 passages were rendered and visually checked in the clean and marked documents.
 The marked and clean PDFs have identical extracted content, and the response's
 page references remain accurate.
+
+## Final manuscript publication checks, 7 September 2026
+
+The public export now includes the finalized unmarked manuscript PDF, linked
+from the root README and covered by the SHA-256 file manifest. The export
+contains 239 allowlisted files plus the manifest (240 files, approximately
+98.8 MB). Manuscript source, marked revisions, and referee correspondence remain
+outside the public export.
+
+The final LaTeX passes completed with no unresolved references or overfull
+boxes. The clean and marked manuscripts each contain 60 pages and have
+identical extracted text; the response contains 14 pages. The rebuilt PDFs
+preserve the author's finalized text. The referee acknowledgment and affected
+page breaks were rendered and visually checked, and the response's manuscript
+page references remain correct. The numerical manuscript/response
+synchronization check passed.
+
+A fresh public export passed verification of all 66 saved simulation runs,
+all 225 numerical cells in main Tables 1--5, paired RNG provenance, and the
+54 saved-result checksums. Simulation code and results are unchanged from
+the previous public release.
